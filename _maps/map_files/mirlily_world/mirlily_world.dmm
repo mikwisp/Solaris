@@ -8,6 +8,12 @@
 "az" = (
 /turf/closed/wall/mineral/rogue/decostone,
 /area/rogue)
+"aS" = (
+/obj/effect/decal/wood/herringbone2{
+	dir = 8
+	},
+/turf/open/floor/rogue/cobble,
+/area/rogue/indoors/town/manor)
 "aZ" = (
 /obj/structure/table/wood{
 	dir = 10;
@@ -185,6 +191,12 @@
 "ll" = (
 /turf/open/floor/rogue/carpet/lord/right,
 /area/rogue)
+"lp" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/turf/open/floor/carpet/royalblack,
+/area/rogue/indoors/town/manor)
 "lv" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/glass/cup/golden{
@@ -203,6 +215,14 @@
 	name = "Dressing Room"
 	},
 /turf/open/floor/rogue/cobble,
+/area/rogue/indoors/town/manor)
+"nk" = (
+/obj/structure/roguemachine/scomm,
+/obj/structure/chair/bench/couch,
+/obj/structure/fluff/railing/border{
+	dir = 10
+	},
+/turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/town/manor)
 "nJ" = (
 /obj/structure/mineral_door/wood/fancywood{
@@ -332,6 +352,11 @@
 /obj/effect/decal/wood/herringbone,
 /turf/open/floor/rogue/wood/herringbone,
 /area/rogue/indoors/town/manor)
+"tV" = (
+/obj/structure/closet/crate/roguecloset,
+/obj/item/flashlight/flare/torch/metal,
+/turf/open/floor/rogue/wood/herringbone,
+/area/rogue/indoors/town/manor)
 "ui" = (
 /obj/structure/table/wood,
 /turf/open/floor/rogue/tile/masonic{
@@ -346,6 +371,15 @@
 /obj/structure/table/wood,
 /obj/item/natural/feather,
 /turf/open/floor/carpet/royalblack,
+/area/rogue/indoors/town/manor)
+"uM" = (
+/obj/effect/decal/wood/herringbone{
+	dir = 8
+	},
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/turf/open/floor/rogue/wood/herringbone,
 /area/rogue/indoors/town/manor)
 "uR" = (
 /turf/open/floor/rogue/wood,
@@ -398,6 +432,10 @@
 /obj/structure/fermenting_barrel/water,
 /turf/open/floor/rogue/wood,
 /area/rogue/indoors/town/manor)
+"wM" = (
+/obj/structure/stairs,
+/turf/open/floor/rogue/wood,
+/area/rogue/indoors/town/manor)
 "xs" = (
 /obj/structure/table/wood{
 	icon_state = "longtable"
@@ -434,7 +472,8 @@
 /area/rogue/indoors/town/manor)
 "zy" = (
 /obj/machinery/light/rogue/wallfire/candle,
-/turf/open/floor/rogue/cobble,
+/obj/structure/chair/bench/couch/r,
+/turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/town/manor)
 "zC" = (
 /obj/effect/decal/wood/herringbone{
@@ -624,7 +663,14 @@
 /turf/open/floor/rogue/tile/masonic/inverted,
 /area/rogue/under/town/basement/keep)
 "Lc" = (
-/turf/open/floor/rogue/cobble,
+/obj/structure/fluff/clock,
+/turf/open/floor/carpet/royalblack,
+/area/rogue/indoors/town/manor)
+"Mb" = (
+/obj/effect/decal/wood/herringbone{
+	dir = 1
+	},
+/turf/open/floor/rogue/wood/herringbone,
 /area/rogue/indoors/town/manor)
 "Mf" = (
 /turf/open/floor/rogue/carpet/lord/right,
@@ -695,6 +741,15 @@
 /obj/machinery/light/rogue/wallfire/candle,
 /turf/open/floor/rogue/wood,
 /area/rogue/indoors/town/manor)
+"OO" = (
+/obj/effect/decal/wood/herringbone{
+	dir = 9
+	},
+/obj/structure/fluff/railing/border{
+	dir = 9
+	},
+/turf/open/floor/rogue/wood/herringbone,
+/area/rogue/indoors/town/manor)
 "Pq" = (
 /obj/structure/fluff/walldeco/bigpainting,
 /turf/open/floor/rogue/wood,
@@ -709,6 +764,12 @@
 	mailtag = "Throne Room"
 	},
 /turf/open/floor/rogue/wood,
+/area/rogue/indoors/town/manor)
+"QB" = (
+/obj/effect/decal/wood/herringbone2{
+	dir = 1
+	},
+/turf/open/floor/rogue/cobble,
 /area/rogue/indoors/town/manor)
 "Ry" = (
 /obj/structure/chair/wood/rogue{
@@ -95457,9 +95518,9 @@ Fm
 Fm
 gS
 gS
-uR
-uR
-uR
+He
+wM
+Mb
 gS
 gS
 gS
@@ -95713,14 +95774,14 @@ Fm
 Fm
 Fm
 gS
-Lc
-Lc
-Lc
-Lc
-Lc
-Lc
-Lc
-Lc
+nk
+lp
+uM
+OO
+kQ
+kQ
+kQ
+kQ
 gS
 Fm
 Fm
@@ -95971,13 +96032,13 @@ Fm
 Fm
 rK
 zy
-Lc
-Lc
-Lc
-Lc
-Lc
-Lc
-Lc
+vs
+aS
+aS
+aS
+aS
+aS
+aS
 gS
 Fm
 Fm
@@ -96228,7 +96289,7 @@ Fm
 Fm
 gS
 Lc
-Lc
+vs
 gS
 gS
 gS
@@ -96484,8 +96545,8 @@ Fm
 Fm
 Fm
 gS
-Lc
-Lc
+tV
+QB
 gS
 Tv
 jV
