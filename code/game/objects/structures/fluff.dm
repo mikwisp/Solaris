@@ -618,7 +618,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/fluff/wallclock/vampire, 32)
 	if(!user.is_literate())
 		. += "I have no idea what it says."
 	else
-		. += "It says \"AZURE PEAK\""
+		. += "It says \"SOLARIS RIDGE\""
 
 /obj/structure/fluff/buysign
 	icon_state = "signwrote"
