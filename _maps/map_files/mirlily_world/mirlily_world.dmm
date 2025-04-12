@@ -74,7 +74,7 @@
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/town/manor)
 "ej" = (
-/obj/machinery/light/rogue/torchholder/l,
+/obj/machinery/light/rogue/torchholder/directional/west,
 /turf/open/floor/rogue/tile/masonic{
 	dir = 4
 	},
@@ -190,10 +190,17 @@
 /turf/open/floor/rogue/wood,
 /area/rogue/indoors/town/manor)
 "hR" = (
-/obj/machinery/light/rogue/torchholder/r,
+/obj/machinery/light/rogue/torchholder/directional/east,
 /turf/open/floor/rogue/tile/masonic{
 	dir = 8
 	},
+/area/rogue/indoors/town/manor)
+"hT" = (
+/obj/effect/decal/herringbone{
+	dir = 8
+	},
+/obj/effect/decal/herringbone,
+/turf/open/floor/rogue/tile,
 /area/rogue/indoors/town/manor)
 "ib" = (
 /turf/open/floor/rogue/tile/masonic{
@@ -203,6 +210,16 @@
 "ic" = (
 /turf/closed/wall/mineral/rogue/stone/moss,
 /area/rogue/under/town/basement/keep)
+"in" = (
+/obj/effect/decal/herringbone{
+	dir = 1
+	},
+/obj/effect/decal/herringbone{
+	dir = 8
+	},
+/obj/structure/closet/crate/roguecloset/inn,
+/turf/open/floor/rogue/tile,
+/area/rogue/indoors/town/manor)
 "ip" = (
 /obj/structure/table/wood,
 /obj/effect/decal/herringbone{
@@ -269,6 +286,7 @@
 /area/rogue/indoors/town/manor)
 "kS" = (
 /obj/structure/roguethrone,
+/obj/structure/roguemachine/titan,
 /turf/open/floor/rogue/carpet/lord/center,
 /area/rogue/indoors/town/manor)
 "lc" = (
@@ -326,7 +344,7 @@
 /turf/open/floor/rogue/hexstone,
 /area/rogue/indoors/town/manor)
 "nk" = (
-/obj/structure/roguemachine/scomm,
+/obj/structure/roguemachine/scomm/directional/north,
 /obj/structure/chair/bench/couch,
 /obj/structure/fluff/railing/border{
 	dir = 10
@@ -362,8 +380,19 @@
 /obj/effect/landmark/start/servant,
 /turf/open/floor/rogue/hexstone,
 /area/rogue/indoors/town/manor)
+"oW" = (
+/obj/effect/decal/herringbone{
+	dir = 1
+	},
+/obj/effect/decal/herringbone{
+	dir = 4
+	},
+/obj/structure/bed/rogue/inn/wool,
+/obj/item/bedsheet/rogue/pelt,
+/turf/open/floor/rogue/tile,
+/area/rogue/indoors/town/manor)
 "pm" = (
-/obj/structure/roguemachine/scomm,
+/obj/structure/roguemachine/scomm/directional/north,
 /turf/open/floor/rogue/wood,
 /area/rogue/indoors/town/manor)
 "py" = (
@@ -413,7 +442,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 1
 	},
-/obj/machinery/light/rogue/wallfire/candle/r,
+/obj/machinery/light/rogue/wallfire/candle/directional/east,
 /turf/open/floor/carpet/inn,
 /area/rogue/under/town/basement/keep)
 "qo" = (
@@ -434,7 +463,7 @@
 	},
 /area/rogue/indoors/town/manor)
 "rt" = (
-/obj/machinery/light/rogue/torchholder/r{
+/obj/machinery/light/rogue/torchholder/directional/east{
 	dir = 4
 	},
 /turf/open/floor/rogue/tile/masonic{
@@ -537,13 +566,23 @@
 	},
 /area/rogue/indoors/town/manor)
 "uo" = (
-/obj/machinery/light/rogue/wallfire/candle/r,
+/obj/machinery/light/rogue/wallfire/candle/directional/east,
 /turf/open/floor/rogue/carpet,
 /area/rogue/indoors/town/manor)
 "uI" = (
 /obj/structure/table/wood,
 /obj/item/natural/feather,
 /turf/open/floor/carpet/royalblack,
+/area/rogue/indoors/town/manor)
+"uK" = (
+/obj/effect/decal/herringbone{
+	dir = 4
+	},
+/obj/structure/mineral_door/wood/deadbolt{
+	dir = 4;
+	locked = 1
+	},
+/turf/open/floor/rogue/wood,
 /area/rogue/indoors/town/manor)
 "uM" = (
 /obj/effect/decal/wood/herringbone{
@@ -600,7 +639,7 @@
 /turf/open/floor/rogue/wood/nosmooth,
 /area/rogue/indoors/town/manor)
 "wr" = (
-/obj/structure/roguemachine/atm{
+/obj/structure/roguemachine/atm/directional/north{
 	location_tag = "Keep Front Gate"
 	},
 /obj/effect/decal/herringbone{
@@ -634,7 +673,7 @@
 	},
 /area/rogue/indoors/town/manor)
 "wF" = (
-/obj/machinery/light/rogue/wallfire/candle,
+/obj/machinery/light/rogue/wallfire/candle/directional/north,
 /obj/structure/fermenting_barrel/water,
 /turf/open/floor/rogue/wood,
 /area/rogue/indoors/town/manor)
@@ -669,7 +708,7 @@
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/town/basement/keep)
 "ys" = (
-/obj/structure/roguemachine/scomm,
+/obj/structure/roguemachine/scomm/directional/north,
 /turf/open/floor/carpet/red,
 /area/rogue/under/town/basement/keep)
 "yB" = (
@@ -696,7 +735,7 @@
 /turf/open/floor/rogue/tile/masonic/single,
 /area/rogue/indoors/town/manor)
 "zy" = (
-/obj/machinery/light/rogue/wallfire/candle,
+/obj/machinery/light/rogue/wallfire/candle/directional/north,
 /obj/structure/chair/bench/couch/r,
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/town/manor)
@@ -722,7 +761,7 @@
 /area/rogue/indoors/town/manor)
 "Ah" = (
 /obj/structure/toilet,
-/obj/machinery/light/rogue/wallfire/candle/r,
+/obj/machinery/light/rogue/wallfire/candle/directional/east,
 /turf/open/floor/rogue/tile/masonic/inverted,
 /area/rogue/under/town/basement/keep)
 "Ai" = (
@@ -844,8 +883,15 @@
 "Hj" = (
 /obj/machinery/light/rogue/hearth,
 /obj/item/reagent_containers/glass/bucket/pot,
-/obj/machinery/light/rogue/wallfire/candle/l,
+/obj/machinery/light/rogue/wallfire/candle/directional/west,
 /turf/open/floor/rogue/blocks,
+/area/rogue/indoors/town/manor)
+"HO" = (
+/obj/effect/decal/herringbone{
+	dir = 4
+	},
+/obj/effect/decal/herringbone,
+/turf/open/floor/rogue/tile,
 /area/rogue/indoors/town/manor)
 "Ic" = (
 /obj/structure/table/wood{
@@ -855,7 +901,7 @@
 /area/rogue/indoors/town/manor)
 "Iv" = (
 /obj/structure/closet/crate/chest,
-/obj/machinery/light/rogue/wallfire/candle,
+/obj/machinery/light/rogue/wallfire/candle/directional/north,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/town/manor)
 "IF" = (
@@ -922,7 +968,7 @@
 /area/rogue/indoors/town/manor)
 "Kv" = (
 /obj/structure/closet/crate/roguecloset/dark,
-/obj/machinery/light/rogue/wallfire/candle,
+/obj/machinery/light/rogue/wallfire/candle/directional/north,
 /turf/open/floor/rogue/tile/masonic/inverted,
 /area/rogue/under/town/basement/keep)
 "Ky" = (
@@ -981,7 +1027,7 @@
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors/town/manor)
 "No" = (
-/obj/machinery/light/rogue/torchholder/r,
+/obj/machinery/light/rogue/torchholder/directional/east,
 /obj/effect/decal/herringbone{
 	dir = 1
 	},
@@ -1008,7 +1054,7 @@
 /obj/item/clothing/cloak/stabard/surcoat/councillor,
 /obj/item/clothing/cloak/stabard/surcoat/councillor,
 /obj/effect/decal/wood/herringbone2,
-/obj/machinery/light/rogue/wallfire/candle,
+/obj/machinery/light/rogue/wallfire/candle/directional/north,
 /turf/open/floor/rogue/wood/nosmooth,
 /area/rogue/indoors/town/manor)
 "Om" = (
@@ -1018,7 +1064,7 @@
 /turf/open/floor/rogue/carpet/lord/center,
 /area/rogue/indoors/town/manor)
 "OE" = (
-/obj/machinery/light/rogue/wallfire/candle,
+/obj/machinery/light/rogue/wallfire/candle/directional/north,
 /turf/open/floor/rogue/wood,
 /area/rogue/indoors/town/manor)
 "OO" = (
@@ -1034,7 +1080,7 @@
 /obj/effect/decal/herringbone{
 	dir = 1
 	},
-/obj/structure/roguemachine/withdraw{
+/obj/structure/roguemachine/withdraw/directional/north{
 	pixel_y = 0;
 	pixel_x = 32
 	},
@@ -1055,7 +1101,7 @@
 /turf/open/floor/rogue/hexstone,
 /area/rogue/indoors/town/manor)
 "PT" = (
-/obj/structure/roguemachine/mail{
+/obj/structure/roguemachine/mail/directional/north{
 	mailtag = "Throne Room"
 	},
 /turf/open/floor/rogue/wood,
@@ -1155,7 +1201,7 @@
 	pixel_x = 6;
 	pixel_y = 11
 	},
-/obj/structure/fluff/wallclock/l,
+/obj/structure/fluff/wallclock/directional/west,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/town/manor)
 "TQ" = (
@@ -1232,7 +1278,7 @@
 /turf/open/floor/rogue/hexstone,
 /area/rogue/indoors/town/manor)
 "Xb" = (
-/obj/structure/roguemachine/atm{
+/obj/structure/roguemachine/atm/directional/north{
 	location_tag = "Throne Room"
 	},
 /turf/open/floor/rogue/wood,
@@ -1240,7 +1286,7 @@
 "Xp" = (
 /obj/machinery/light/rogue/oven/north,
 /obj/effect/decal/herringbone,
-/obj/structure/roguemachine/scomm/r,
+/obj/structure/roguemachine/scomm/directional/east,
 /obj/effect/landmark/start/servant,
 /turf/open/floor/rogue/blocks,
 /area/rogue/indoors/town/manor)
@@ -94381,16 +94427,16 @@ Fm
 Fm
 Fm
 Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
 Fm
 Fm
 Fm
@@ -94638,16 +94684,16 @@ Fm
 Fm
 Fm
 Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
+az
+uR
+uR
+az
+uR
+uR
+az
+uR
+uR
+az
 Fm
 Fm
 Fm
@@ -94895,16 +94941,16 @@ Fm
 Fm
 Fm
 Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
+az
+uR
+uR
+az
+uR
+uR
+az
+uR
+uR
+az
 Fm
 Fm
 Fm
@@ -95152,15 +95198,15 @@ Fm
 Fm
 Fm
 Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
+az
+uR
+az
+az
+uR
+az
+az
+uR
+az
 az
 Fm
 Fm
@@ -95409,7 +95455,7 @@ Fm
 Fm
 Fm
 Fm
-Fm
+az
 uR
 uR
 uR
@@ -95666,7 +95712,7 @@ Fm
 Fm
 Fm
 Fm
-Fm
+az
 uR
 uR
 uR
@@ -103890,7 +103936,7 @@ Fm
 Fm
 Fm
 Fm
-Fm
+az
 uR
 uR
 uR
@@ -104147,7 +104193,7 @@ Fm
 Fm
 Fm
 Fm
-Fm
+az
 uR
 uR
 uR
@@ -104404,15 +104450,15 @@ Fm
 Fm
 Fm
 Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
+az
+uK
+az
+az
+uK
+az
+az
+uK
+az
 az
 Fm
 Fm
@@ -104661,16 +104707,16 @@ Fm
 Fm
 Fm
 Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
+az
+hT
+in
+az
+hT
+in
+az
+hT
+in
+az
 Fm
 Fm
 Fm
@@ -104918,16 +104964,16 @@ Fm
 Fm
 Fm
 Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
+az
+HO
+oW
+az
+HO
+oW
+az
+HO
+oW
+az
 Fm
 Fm
 Fm
@@ -105175,16 +105221,16 @@ Fm
 Fm
 Fm
 Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
+az
+az
+az
+az
+az
+az
+az
+az
+az
+az
 Fm
 Fm
 Fm
