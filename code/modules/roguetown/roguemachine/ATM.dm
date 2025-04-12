@@ -1,16 +1,17 @@
 /obj/structure/roguemachine/atm
 	name = "MEISTER"
-	desc = "Stores and withdraws currency for accounts managed by the Grand Duchy of Azuria."
+	desc = "Stores and withdraws currency for accounts managed by the Grand Duchy of Solaria."
 	icon = 'icons/roguetown/misc/machines.dmi'
 	icon_state = "atm"
 	density = FALSE
 	blade_dulling = DULLING_BASH
-	pixel_y = 32
 	var/mammonsiphoned = 0
 	var/drilling = FALSE
 	var/drilled = FALSE
 	var/has_reported = FALSE
 	var/location_tag
+
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/roguemachine/atm, 32)
 	
 /obj/structure/roguemachine/atm/attack_hand(mob/user)
 	if(!ishuman(user))
