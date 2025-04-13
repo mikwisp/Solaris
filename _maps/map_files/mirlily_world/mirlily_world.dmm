@@ -218,6 +218,8 @@
 	dir = 8
 	},
 /obj/structure/closet/crate/roguecloset/inn,
+/obj/item/natural/cloth,
+/obj/item/candle/yellow,
 /turf/open/floor/rogue/tile,
 /area/rogue/indoors/town/manor)
 "ip" = (
@@ -389,6 +391,9 @@
 	},
 /obj/structure/bed/rogue/inn/wool,
 /obj/item/bedsheet/rogue/pelt,
+/obj/effect/landmark/start/servant{
+	dir = 1
+	},
 /turf/open/floor/rogue/tile,
 /area/rogue/indoors/town/manor)
 "pm" = (
@@ -806,6 +811,17 @@
 "Cw" = (
 /turf/open/floor/carpet/red,
 /area/rogue/under/town/basement/keep)
+"CK" = (
+/obj/structure/table/wood,
+/obj/item/candle/yellow/lit{
+	pixel_x = -6;
+	pixel_y = 12
+	},
+/obj/item/book/rogue/yeoldecookingmanual{
+	pixel_x = 10
+	},
+/turf/open/floor/rogue/wood,
+/area/rogue/indoors/town/manor)
 "CW" = (
 /turf/open/floor/rogue/carpet,
 /area/rogue/indoors/town/manor)
@@ -825,6 +841,14 @@
 "Dy" = (
 /obj/structure/table/wood,
 /turf/open/floor/rogue/tile/masonic/single,
+/area/rogue/indoors/town/manor)
+"DA" = (
+/obj/item/roguebin/water,
+/obj/item/reagent_containers/glass/bucket/wooden{
+	pixel_x = 9;
+	pixel_y = -1
+	},
+/turf/open/floor/rogue/wood,
 /area/rogue/indoors/town/manor)
 "Ed" = (
 /turf/open/floor/rogue/carpet/lord/left,
@@ -1242,6 +1266,18 @@
 	dir = 8
 	},
 /turf/open/floor/rogue/hexstone,
+/area/rogue/indoors/town/manor)
+"Vg" = (
+/obj/structure/table/wood,
+/obj/item/rogueweapon/huntingknife/chefknife{
+	pixel_y = 4;
+	pixel_x = -2
+	},
+/obj/item/flint{
+	pixel_x = 8;
+	pixel_y = 2
+	},
+/turf/open/floor/rogue/wood,
 /area/rogue/indoors/town/manor)
 "Vx" = (
 /obj/effect/decal/wood/herringbone2{
@@ -102909,7 +102945,7 @@ gS
 ll
 ll
 az
-uR
+CK
 uR
 az
 uR
@@ -103166,7 +103202,7 @@ gS
 ll
 ll
 az
-uR
+Vg
 uR
 az
 uR
@@ -103944,7 +103980,7 @@ uR
 uR
 uR
 uR
-uR
+DA
 az
 Fm
 Fm
