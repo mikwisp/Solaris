@@ -48,6 +48,14 @@
 	icon_state = "weird1"
 	},
 /area/rogue/indoors/town/manor)
+"bK" = (
+/obj/effect/decal/herringbone{
+	dir = 6
+	},
+/turf/open/floor/rogue/ruinedwood{
+	icon_state = "weird1"
+	},
+/area/rogue/indoors/town/manor)
 "bV" = (
 /obj/structure/mirror,
 /turf/open/floor/carpet/inn,
@@ -60,6 +68,21 @@
 "cy" = (
 /obj/structure/table/wood,
 /turf/open/floor/rogue/tile/masonic,
+/area/rogue/indoors/town/manor)
+"cA" = (
+/obj/structure/bars/passage{
+	redstone_id = "keepgate_inner"
+	},
+/turf/open/floor/rogue/cobble,
+/area/rogue/outdoors/exposed/town/keep)
+"cC" = (
+/obj/effect/decal/cobbleedge{
+	dir = 8
+	},
+/obj/effect/decal/herringbone,
+/turf/open/floor/rogue/ruinedwood{
+	icon_state = "weird1"
+	},
 /area/rogue/indoors/town/manor)
 "cF" = (
 /obj/item/roguebin/water,
@@ -181,9 +204,7 @@
 /turf/open/floor/rogue/wood,
 /area/rogue/indoors/town/manor)
 "gM" = (
-/obj/effect/decal/herringbone{
-	dir = 8
-	},
+/obj/structure/fluff/statue/knight/interior/r,
 /turf/open/floor/rogue/tile{
 	icon_state = "bfloorz"
 	},
@@ -320,13 +341,8 @@
 	},
 /area/rogue/indoors/town/manor)
 "kE" = (
-/obj/effect/decal/herringbone{
-	dir = 4
-	},
-/turf/open/floor/rogue/tile{
-	icon_state = "bfloorz"
-	},
-/area/rogue/indoors/town/manor)
+/turf/open/floor/rogue/cobble,
+/area/rogue/outdoors/exposed/town/keep)
 "kQ" = (
 /turf/open/floor/rogue/wood/herringbone,
 /area/rogue/indoors/town/manor)
@@ -444,6 +460,17 @@
 /obj/structure/roguemachine/scomm/directional/north,
 /turf/open/floor/rogue/wood,
 /area/rogue/indoors/town/manor)
+"pv" = (
+/obj/structure/flora/roguegrass/bush,
+/obj/effect/decal/herringbone,
+/obj/effect/decal/herringbone{
+	dir = 8
+	},
+/obj/effect/decal/herringbone{
+	dir = 1
+	},
+/turf/open/floor/rogue/grass,
+/area/rogue/indoors/town/manor)
 "py" = (
 /obj/structure/fluff/railing/border{
 	dir = 1
@@ -452,6 +479,7 @@
 /area/rogue/indoors/town/manor)
 "pJ" = (
 /obj/item/roguebin/water,
+/obj/machinery/light/rogue/wallfire/candle/directional/west,
 /turf/open/floor/rogue/tile{
 	icon_state = "bfloorz"
 	},
@@ -484,6 +512,10 @@
 /obj/item/reagent_containers/powder/salt,
 /turf/open/floor/rogue/churchmarble,
 /area/rogue/indoors/town/manor)
+"pT" = (
+/obj/structure/flora/roguegrass/bush/wall,
+/turf/open/floor/rogue/grass,
+/area/rogue/outdoors/exposed/town/keep)
 "qn" = (
 /obj/structure/closet/crate/drawer/random{
 	pixel_y = 0
@@ -512,13 +544,8 @@
 	},
 /area/rogue/indoors/town/manor)
 "rt" = (
-/obj/machinery/light/rogue/torchholder/directional/east{
-	dir = 4
-	},
-/turf/open/floor/rogue/tile/masonic{
-	dir = 4
-	},
-/area/rogue/indoors/town/manor)
+/turf/open/floor/rogue/grass,
+/area/rogue/outdoors/exposed/town/keep)
 "rE" = (
 /obj/structure/fluff/walldeco/painting/seraphina{
 	pixel_y = 32
@@ -595,6 +622,12 @@
 	},
 /turf/open/floor/rogue/hexstone,
 /area/rogue/indoors/town/manor)
+"tK" = (
+/obj/structure/roguemachine/atm/directional/north{
+	location_tag = "Keep Eastern Wing"
+	},
+/turf/open/floor/rogue/cobble,
+/area/rogue/indoors/town/manor)
 "tV" = (
 /obj/structure/closet/crate/roguecloset,
 /obj/item/flashlight/flare/torch/metal,
@@ -644,6 +677,17 @@
 "uR" = (
 /turf/open/floor/rogue/wood,
 /area/rogue/indoors/town/manor)
+"vb" = (
+/obj/effect/decal/cobbleedge{
+	dir = 8
+	},
+/obj/effect/decal/herringbone{
+	dir = 1
+	},
+/turf/open/floor/rogue/ruinedwood{
+	icon_state = "weird1"
+	},
+/area/rogue/indoors/town/manor)
 "vs" = (
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/town/manor)
@@ -655,9 +699,6 @@
 /area/rogue/indoors/town/manor)
 "vD" = (
 /obj/structure/chair/stool/rogue,
-/obj/effect/decal/herringbone{
-	dir = 4
-	},
 /turf/open/floor/rogue/tile{
 	icon_state = "bfloorz"
 	},
@@ -689,9 +730,6 @@
 "wr" = (
 /obj/structure/roguemachine/atm/directional/north{
 	location_tag = "Keep Front Gate"
-	},
-/obj/effect/decal/herringbone{
-	dir = 8
 	},
 /turf/open/floor/rogue/tile{
 	icon_state = "bfloorz"
@@ -733,7 +771,6 @@
 /obj/structure/table/wood{
 	icon_state = "longtable"
 	},
-/obj/item/candle,
 /turf/open/floor/rogue/tile{
 	icon_state = "bfloorz"
 	},
@@ -839,6 +876,10 @@
 	},
 /turf/open/floor/carpet/inn,
 /area/rogue/under/town/basement/keep)
+"Al" = (
+/obj/structure/flora/roguegrass/bush,
+/turf/open/floor/rogue/grass,
+/area/rogue/outdoors/exposed/town/keep)
 "As" = (
 /obj/structure/chair/bench/couchablack/r,
 /obj/structure/fluff/railing/border{
@@ -852,10 +893,26 @@
 	dir = 8
 	},
 /area/rogue/indoors/town/manor)
+"AH" = (
+/obj/effect/decal/herringbone{
+	dir = 5
+	},
+/turf/open/floor/rogue/ruinedwood{
+	icon_state = "weird1"
+	},
+/area/rogue/indoors/town/manor)
 "AR" = (
 /obj/structure/mineral_door/wood/deadbolt,
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/town/basement/keep)
+"Be" = (
+/obj/effect/decal/herringbone{
+	dir = 4
+	},
+/turf/open/floor/rogue/ruinedwood{
+	icon_state = "weird1"
+	},
+/area/rogue/indoors/town/manor)
 "Bi" = (
 /obj/effect/decal/wood/herringbone2{
 	dir = 4
@@ -869,6 +926,12 @@
 	icon_state = "longtable"
 	},
 /turf/open/floor/rogue/wood,
+/area/rogue/indoors/town/manor)
+"BB" = (
+/obj/structure/roguemachine/scomm/directional/north,
+/turf/open/floor/rogue/ruinedwood{
+	icon_state = "weird1"
+	},
 /area/rogue/indoors/town/manor)
 "Cw" = (
 /turf/open/floor/carpet/red,
@@ -975,6 +1038,18 @@
 "Fs" = (
 /turf/open/floor/rogue/tile/masonic/single,
 /area/rogue/indoors/town/manor)
+"FG" = (
+/obj/structure/fluff/statue/knight/interior,
+/turf/open/floor/rogue/tile{
+	icon_state = "bfloorz"
+	},
+/area/rogue/indoors/town/manor)
+"FT" = (
+/obj/structure/roguemachine/atm/directional/north{
+	location_tag = "Keep Western Wing"
+	},
+/turf/open/floor/rogue/cobble,
+/area/rogue/indoors/town/manor)
 "Gz" = (
 /turf/closed/wall/mineral/rogue/craftstone,
 /area/rogue/under/town/basement/keep)
@@ -1004,6 +1079,14 @@
 /obj/machinery/light/rogue/wallfire/candle/directional/east,
 /turf/open/floor/rogue/tile,
 /area/rogue/indoors/town/manor)
+"HQ" = (
+/obj/structure/mineral_door/wood{
+	icon_state = "wcv";
+	locked = 1;
+	lockid = "manor"
+	},
+/turf/open/floor/rogue/cobble,
+/area/rogue/indoors/town/manor)
 "Ic" = (
 /obj/structure/table/wood{
 	icon_state = "longtable"
@@ -1018,6 +1101,10 @@
 	icon_state = "weird1"
 	},
 /area/rogue/indoors/town/manor)
+"Ip" = (
+/obj/machinery/light/rogue/torchholder/directional/north,
+/turf/open/floor/rogue/grass,
+/area/rogue/outdoors/exposed/town/keep)
 "Iv" = (
 /obj/structure/closet/crate/chest,
 /obj/machinery/light/rogue/wallfire/candle/directional/north,
@@ -1028,6 +1115,11 @@
 	dir = 6
 	},
 /turf/open/floor/rogue/hexstone,
+/area/rogue/indoors/town/manor)
+"II" = (
+/turf/closed/wall/mineral/rogue/decostone/long{
+	dir = 1
+	},
 /area/rogue/indoors/town/manor)
 "IK" = (
 /obj/structure/fluff/railing/border{
@@ -1183,6 +1275,9 @@
 /obj/structure/mirror,
 /turf/open/floor/rogue/carpet,
 /area/rogue/indoors/town/manor)
+"NO" = (
+/turf/closed/wall/mineral/rogue/stone,
+/area/rogue/outdoors/exposed/town/keep)
 "NQ" = (
 /obj/effect/landmark/start/servant{
 	dir = 8
@@ -1353,11 +1448,9 @@
 	dir = 1;
 	icon_state = "longtable"
 	},
-/obj/item/candle/skull{
+/obj/machinery/light/rogue/wallfire/candle/directional/north,
+/obj/item/clothing/cloak/raincloak/furcloak{
 	pixel_y = 6
-	},
-/obj/effect/decal/herringbone{
-	dir = 4
 	},
 /turf/open/floor/rogue/tile{
 	icon_state = "bfloorz"
@@ -1432,6 +1525,12 @@
 /obj/effect/decal/herringbone,
 /turf/open/floor/rogue/churchmarble,
 /area/rogue/indoors/town/manor)
+"Wr" = (
+/obj/machinery/light/rogue/wallfire/candle/directional/east,
+/turf/open/floor/rogue/tile{
+	icon_state = "bfloorz"
+	},
+/area/rogue/indoors/town/manor)
 "Wx" = (
 /turf/open/floor/rogue/tile{
 	icon_state = "bfloorz"
@@ -1500,10 +1599,10 @@
 /turf/open/floor/rogue/churchmarble,
 /area/rogue/indoors/town/manor)
 "Yx" = (
-/obj/structure/table/wood{
-	icon_state = "longtable"
+/obj/machinery/light/rogue/wallfire/candle/directional/west,
+/turf/open/floor/rogue/tile{
+	icon_state = "bfloorz"
 	},
-/turf/closed/wall/mineral/rogue/decostone,
 /area/rogue/indoors/town/manor)
 "Yz" = (
 /obj/structure/chair/bench/couchablack,
@@ -94883,7 +94982,7 @@ Fm
 Fm
 Fm
 Fm
-az
+gS
 Od
 Od
 az
@@ -95137,10 +95236,10 @@ Fm
 Fm
 Fm
 Fm
-Fm
-Fm
-Fm
-az
+gS
+HQ
+gS
+gS
 Od
 Od
 az
@@ -95393,10 +95492,10 @@ Fm
 Fm
 Fm
 Fm
-Fm
-Fm
-Fm
-Fm
+gS
+gS
+ll
+ll
 az
 tY
 az
@@ -95650,17 +95749,17 @@ Fm
 Fm
 Fm
 Fm
-Fm
-Fm
-Fm
-Fm
+II
+eC
+Ed
+Ed
 az
 tY
 tY
 tY
-tY
-tY
-tY
+bK
+Be
+AH
 tY
 tY
 tY
@@ -95907,17 +96006,17 @@ gS
 gS
 Fm
 Fm
-Fm
-Fm
-Fm
-Fm
+II
+gp
+Mf
+Mf
 az
 tY
 zF
 ef
-ef
-ef
-ef
+vb
+pv
+cC
 ef
 ef
 az
@@ -96166,8 +96265,8 @@ gS
 gS
 gS
 gS
-Fm
-Fm
+ll
+ll
 az
 tY
 xw
@@ -96423,7 +96522,7 @@ kQ
 kQ
 kQ
 gS
-ll
+FT
 ll
 tY
 tY
@@ -97702,11 +97801,11 @@ rK
 wF
 uR
 gS
-gS
-gS
-gS
+Hw
+Hw
+Hw
 mt
-gS
+Hw
 gS
 ll
 ll
@@ -97960,11 +98059,11 @@ uR
 uR
 gS
 yB
-rt
+ej
 Nv
 Fs
 Ye
-gS
+II
 ll
 ll
 az
@@ -98221,7 +98320,7 @@ Zm
 WH
 Nv
 Fs
-gS
+II
 ll
 ll
 ll
@@ -98478,7 +98577,7 @@ ui
 Dy
 qo
 Nv
-gS
+II
 ll
 ll
 ll
@@ -98735,7 +98834,7 @@ Fk
 fq
 Fs
 wx
-Yx
+gS
 gS
 ll
 ll
@@ -99003,7 +99102,7 @@ az
 az
 az
 az
-Fm
+pT
 Fm
 Fm
 Fm
@@ -99255,12 +99354,12 @@ gS
 xs
 pJ
 Wx
-Wx
-Wx
-Wx
-Wx
-Fm
-Fm
+Yx
+FG
+az
+Al
+Al
+pT
 Fm
 Fm
 Fm
@@ -99508,14 +99607,16 @@ Fs
 ej
 Nv
 Fs
-gS
+rK
 TQ
 vD
-kE
-kE
-kE
-kE
-kE
+Wx
+Wx
+Wx
+az
+az
+Ip
+rt
 Fm
 Fm
 Fm
@@ -99527,9 +99628,7 @@ Fm
 Fm
 Fm
 Fm
-Fm
-Fm
-Fm
+NO
 Fm
 Fm
 Fm
@@ -99772,21 +99871,21 @@ Ed
 Ed
 Ed
 Ed
-Ed
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
+nJ
+kE
+kE
+kE
+kE
+kE
+kE
+kE
+kE
+kE
+kE
+kE
+kE
+kE
+cA
 Fm
 Fm
 Fm
@@ -100025,25 +100124,25 @@ nR
 nR
 nR
 nR
+YS
 nR
 nR
 nR
-nR
-nR
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
+az
+kE
+kE
+kE
+kE
+kE
+kE
+kE
+kE
+kE
+kE
+kE
+kE
+kE
+cA
 Fm
 Fm
 Fm
@@ -100286,21 +100385,21 @@ Mf
 Mf
 Mf
 Mf
-Mf
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
-Fm
+nJ
+kE
+kE
+kE
+kE
+kE
+kE
+kE
+kE
+kE
+kE
+kE
+kE
+kE
+cA
 Fm
 Fm
 Fm
@@ -100536,14 +100635,16 @@ Fs
 hR
 fg
 Fs
-gS
+rK
 wr
-gM
-gM
-gM
-gM
-gM
-gM
+Wx
+Wx
+Wx
+Wx
+az
+az
+Ip
+rt
 Fm
 Fm
 Fm
@@ -100555,9 +100656,7 @@ Fm
 Fm
 Fm
 Fm
-Fm
-Fm
-Fm
+NO
 Fm
 Fm
 Fm
@@ -100795,14 +100894,14 @@ Zi
 ib
 zS
 Wx
+Wr
 Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Fm
-Fm
+Wr
+gM
+az
+Al
+Al
+pT
 Fm
 Fm
 Fm
@@ -101059,7 +101158,7 @@ az
 az
 az
 az
-Fm
+pT
 Fm
 Fm
 Fm
@@ -101562,7 +101661,7 @@ cy
 Dy
 gb
 fg
-gS
+II
 ll
 ll
 ll
@@ -101819,7 +101918,7 @@ zv
 Ry
 fg
 Fs
-gS
+II
 ll
 ll
 ll
@@ -102076,7 +102175,7 @@ hR
 fg
 Fs
 an
-gS
+II
 ll
 ll
 az
@@ -102328,11 +102427,11 @@ rK
 OE
 uR
 gS
-gS
-gS
-gS
+Hw
+Hw
+Hw
 ES
-gS
+Hw
 gS
 ll
 ll
@@ -103619,7 +103718,7 @@ py
 lh
 lh
 gS
-ll
+tK
 ll
 dx
 tY
@@ -103876,8 +103975,8 @@ gS
 gS
 gS
 gS
-Fm
-Fm
+ll
+ll
 az
 tY
 xw
@@ -104131,12 +104230,12 @@ gS
 gS
 Fm
 Fm
-Fm
-Fm
-Fm
-Fm
+II
+eC
+Ed
+Ed
 az
-tY
+BB
 WX
 Ig
 Dk
@@ -104388,10 +104487,10 @@ Fm
 Fm
 Fm
 Fm
-Fm
-Fm
-Fm
-Fm
+II
+gp
+Mf
+Mf
 az
 tY
 tY
@@ -104645,10 +104744,10 @@ Fm
 Fm
 Fm
 Fm
-Fm
-Fm
-Fm
-Fm
+gS
+gS
+ll
+ll
 az
 uK
 az
@@ -104903,10 +105002,10 @@ Fm
 Fm
 Fm
 Fm
-Fm
-Fm
-Fm
-az
+gS
+HQ
+gS
+gS
 hT
 in
 az
@@ -105163,7 +105262,7 @@ Fm
 Fm
 Fm
 Fm
-az
+gS
 HO
 oW
 az
