@@ -3,7 +3,7 @@
 
 /obj/structure/flora/roguetree
 	name = "old tree"
-	desc = "An old, wicked tree that not even elves could love."
+	desc = "An old, decrepit tree that lines the nothings of the world."
 	icon = 'icons/roguetown/misc/foliagetall.dmi'
 	icon_state = "t1"
 	opacity = 1
@@ -150,6 +150,19 @@
 /obj/structure/flora/roguetree/underworld/Initialize()
 	. = ..()
 	icon_state = "screaming[rand(1,3)]"
+
+/obj/structure/flora/roguetree/lush
+	name = /obj/structure/flora/tree/jungle::name
+	desc = "A tree, lush and full."
+	icon = /obj/structure/flora/tree/jungle::icon
+	icon_state = /obj/structure/flora/tree/jungle::icon_state
+	pixel_x = /obj/structure/flora/tree/jungle::pixel_x
+	pixel_y = /obj/structure/flora/tree/jungle::pixel_y
+
+/obj/structure/flora/roguetree/lush/Initialize()
+	. = ..()
+	icon_state = "[icon_state][rand(1, 6)]"
+	. = ..()
 
 /obj/structure/flora/roguetree/stump
 	name = "tree stump"
