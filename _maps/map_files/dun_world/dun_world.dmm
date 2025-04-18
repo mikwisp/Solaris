@@ -33744,7 +33744,7 @@
 /area/rogue/indoors/town/magician)
 "nXK" = (
 /obj/structure/fluff/walldeco/goblet{
-	name = "Solarian Pints Inn and Bath"
+	name = "Rasurian Pints Inn and Bath"
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/mountains/decap/stepbelow)
@@ -34347,7 +34347,7 @@
 /area/rogue/indoors/town/manor)
 "okN" = (
 /obj/structure/fluff/walldeco/goblet{
-	name = "Solarian Pints Inn and Bath"
+	name = "Rasurian Pints Inn and Bath"
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/town/tavern)

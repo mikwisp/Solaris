@@ -30035,7 +30035,7 @@
 /area/rogue/indoors/town/manor)
 "uXm" = (
 /obj/structure/fluff/walldeco/goblet{
-	name = "Solarian Pints Inn and Bath"
+	name = "Rasurian Pints Inn and Bath"
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/town/tavern)
