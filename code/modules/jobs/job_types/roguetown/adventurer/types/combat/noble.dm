@@ -57,7 +57,7 @@
 			H.set_blindness(0)
 
 		if("Knight Errant")
-			to_chat(H, span_warning("You are a knight from a distant land, a scion of a noble house visiting Solaria for one reason or another."))
+			to_chat(H, span_warning("You are a knight from a distant land, a scion of a noble house visiting Sunmarch for one reason or another."))
 			var/helmets = list(
 				"Pigface Bascinet" 	= /obj/item/clothing/head/roguetown/helmet/bascinet/pigface,
 				"Guard Helmet"		= /obj/item/clothing/head/roguetown/helmet/heavy/guard,

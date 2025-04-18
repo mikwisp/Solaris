@@ -6,7 +6,7 @@
 	total_positions = 75
 	spawn_positions = 75
 	allowed_races = RACES_ALL_KINDS
-	tutorial = "You've lived in this shithole for effectively all your life. You are not an explorer, nor exactly a warrior in many cases. You're just some average poor bastard who thinks they'll be something someday."
+	tutorial = "Solaris Ridge is your home, through all it's faults. You are not an explorer; nor most likely a warrior - but you are one with it; all the same."
 	advclass_cat_rolls = list(CTAG_TOWNER = 20)
 	outfit = null
 	outfit_female = null

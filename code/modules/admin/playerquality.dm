@@ -15,7 +15,7 @@
 		return the_pq
 	else
 		if(the_pq >= 100)
-			return "<span style='color: #74cde0;'>TRUE SOLARIAN</span>"
+			return "<span style='color: #74cde0;'>TRUE NOBLE</span>" // collect your minikit at the giftshop
 		if(the_pq >= 70)
 			return "<span style='color: #00ff00;'>Magnificent!</span>"
 		if(the_pq >= 50)
