@@ -72,7 +72,7 @@
 
 /datum/special_trait/night_owl
 	name = "Night Owl"
-	greet_text = span_notice("I've always preferred Noc over his other half.")
+	greet_text = span_notice("The night beckons, where others would shirk it.")
 	weight = 100
 
 /datum/special_trait/night_owl/on_apply(mob/living/carbon/human/character, silent)
@@ -80,7 +80,7 @@
 
 /datum/special_trait/beautiful
 	name = "Beautiful"
-	greet_text = span_notice("My face is a work of art")
+	greet_text = span_notice("My face is a work of art.")
 	weight = 100
 
 /datum/special_trait/beautiful/on_apply(mob/living/carbon/human/character, silent)
@@ -196,7 +196,6 @@
 	name = "Psydon's Drunkest Rider"
 	greet_text = span_notice("I ride! None of the laws shall stop me for that is Psydon's divine will!")
 	req_text = "Worship Psydon"
-	allowed_patrons = list(/datum/patron/old_god)
 	weight = 100
 
 /datum/special_trait/psydons_rider/on_apply(mob/living/carbon/human/character, silent)
@@ -313,9 +312,9 @@
 
 /datum/special_trait/lucky
 	name = "Fortune's Grace"
-	greet_text = span_notice("Xylix favor me, I am extremely lucky.")
-	req_text = "Have Xylix as your Patron"
-	allowed_patrons = list(/datum/patron/divine/xylix)
+	greet_text = span_notice("Kasmidian favor me, I am extremely lucky.")
+	req_text = "Have Kasmidian as your Patron"
+	allowed_patrons = list(/datum/patron/chaos/kasmidian)
 	weight = 7
 
 /datum/special_trait/lucky/on_apply(mob/living/carbon/human/character, silent)

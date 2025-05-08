@@ -292,7 +292,8 @@
 	throwforce = 35
 	resistance_flags = FLAMMABLE
 
-/obj/item/rogueweapon/fishspear/depthseek //DO NOT ADD RECIPE. MEANT TO BE AN ABYSSORITE RELIC. IDEA COURTESY OF LORDINQPLAS
+/// Depthseeker; a Cinellian Relic. Don't add a recipe for this; and craftable weaponry verse uncraftable should really be split apart filewise, bleh.
+/obj/item/rogueweapon/fishspear/depthseek
 	force = 45
 	name = "blessed depthseeker"
 	desc = "A beautifully crafted weapon, with handle carved of some beast's bone, inlaid with smooth seaglass at pommel and head, with two prongs smithed of fine dwarven steel. The seaglass carving at the head is a masterwork in and of itself, you can feel an abyssal energy radiating off it."
@@ -516,7 +517,7 @@
 
 /obj/item/rogueweapon/halberd/holysee
 	name = "eclipsum halberd"
-	desc = "A mutual effort of Noc and Astrata's followers, this halberd was forged with both Silver and Gold alike. Blessed to hold strength and bring hope. Whether dae or nite. The reinforced shaft provides greater durability."
+	desc = "A mutual effort of Zira and Aeternus's followers, this halberd was forged with both Silver and Gold alike. Blessed to hold strength and bring hope. Whether dae or nite. The reinforced shaft provides greater durability."
 	icon_state = "gsspear"
 	max_integrity = 600
 	force = 20

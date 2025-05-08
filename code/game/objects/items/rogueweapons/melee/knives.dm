@@ -213,18 +213,10 @@
 
 /obj/item/rogueweapon/huntingknife/idagger/steel/holysee
 	name = "eclipsum dagger"
-	desc = "A mutual effort of Noc and Astrata's followers, this dagger was forged with both Silver and Gold alike. Blessed to hold strength and bring hope. Whether dae or nite."
+	desc = "A mutual effort of Zira and Aeternus' followers, this dagger was forged with both Silver and Gold alike. Blessed to hold strength and bring hope. Whether dae or nite."
 	force = 25
 	max_integrity = 200
 	icon_state = "gsdagger"
-
-
-/obj/item/rogueweapon/huntingknife/idagger/steel/pestrasickle
-	name ="plaguebringer sickle"
-	desc = "A wicked edge brings feculent delights."
-	icon_state = "pestrasickle"
-	max_integrity = 200
-
 
 /obj/item/rogueweapon/huntingknife/idagger/dtace
 	name = "'De Tace'"

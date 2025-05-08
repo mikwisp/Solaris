@@ -144,17 +144,30 @@
 	/datum/species/demihuman,\
 	/datum/species/construct/metal,\
 )
-#define ALL_CLERIC_PATRONS list(/datum/patron/divine/astrata, /datum/patron/divine/noc, /datum/patron/divine/dendor, /datum/patron/divine/necra, /datum/patron/divine/pestra, /datum/patron/divine/ravox, /datum/patron/divine/malum, /datum/patron/divine/eora) // Currently unused.
 
-#define ALL_PALADIN_PATRONS list(/datum/patron/divine/astrata, /datum/patron/divine/noc, /datum/patron/divine/abyssor, /datum/patron/divine/dendor, /datum/patron/divine/necra, /datum/patron/divine/pestra, /datum/patron/divine/ravox, /datum/patron/divine/malum, /datum/patron/divine/eora, /datum/patron/divine/xylix, /datum/patron/old_god) // Currently unused.
+#define ALL_ORDER_PATRONS list(/datum/patron/order/zira, \
+	/datum/patron/order/tsoridys, \
+	/datum/patron/order/nunos, \
+	/datum/patron/order/carthus, \
+	/datum/patron/order/varielle, \
+	)
 
-#define ALL_ACOLYTE_PATRONS list(/datum/patron/divine/astrata, /datum/patron/divine/noc, /datum/patron/divine/dendor, /datum/patron/divine/pestra, /datum/patron/divine/ravox, /datum/patron/divine/eora, /datum/patron/divine/xylix, /datum/patron/divine/necra, /datum/patron/divine/abyssor, /datum/patron/divine/malum) // Currently unused.
+#define ALL_CHAOS_PATRONS list(\
+	/datum/patron/chaos/tamari, \
+	/datum/patron/chaos/cinella, \
+	/datum/patron/chaos/kasmidian, \
+	)
 
-#define ALL_DIVINE_PATRONS list(/datum/patron/divine/astrata, /datum/patron/divine/noc, /datum/patron/divine/dendor, /datum/patron/divine/abyssor, /datum/patron/divine/ravox, /datum/patron/divine/necra, /datum/patron/divine/xylix, /datum/patron/divine/pestra, /datum/patron/divine/malum, /datum/patron/divine/eora)
-
-#define ALL_INHUMEN_PATRONS list(/datum/patron/inhumen/zizo, /datum/patron/inhumen/graggar, /datum/patron/inhumen/matthios, /datum/patron/inhumen/baotha)
-
-#define ALL_PATRONS  list(/datum/patron/divine/astrata, /datum/patron/divine/noc, /datum/patron/divine/dendor, /datum/patron/divine/abyssor, /datum/patron/divine/ravox, /datum/patron/divine/necra, /datum/patron/divine/xylix, /datum/patron/divine/pestra, /datum/patron/divine/malum, /datum/patron/divine/eora, /datum/patron/old_god, /datum/patron/inhumen/zizo, /datum/patron/inhumen/graggar, /datum/patron/inhumen/matthios, /datum/patron/inhumen/baotha)
+#define ALL_PATRONS  list(\
+	/datum/patron/light/aeternus, \
+	/datum/patron/order/tsoridys, \
+	/datum/patron/order/nunos, \
+	/datum/patron/order/carthus, \
+	/datum/patron/order/varielle, \
+	/datum/patron/chaos/tamari, \
+	/datum/patron/chaos/cinella, \
+	/datum/patron/chaos/kasmidian, \
+	)
 
 #define PLATEHIT "plate"
 #define CHAINHIT "chain"

@@ -33,9 +33,9 @@
 	var/picked
 	var/overarmor = TRUE
 
-/obj/item/clothing/cloak/abyssortabard
-	name = "abyssorite tabard"
-	desc = "A tabard worn by Abyssorite devouts."
+/obj/item/clothing/cloak/cinellatabard
+	name = "cinellian tabard"
+	desc = "A tabard worn by Cinellian devouts."
 	color = null
 	icon_state = "abyssortabard"
 	item_state = "abyssortabard"
@@ -47,7 +47,7 @@
 	flags_inv = HIDECROTCH|HIDEBOOB
 	var/overarmor = TRUE
 
-/obj/item/clothing/cloak/abyssortabard/MiddleClick(mob/user)
+/obj/item/clothing/cloak/cinellatabard/MiddleClick(mob/user)
 	overarmor = !overarmor
 	to_chat(user, span_info("I [overarmor ? "wear the tabard over my armor" : "wear the tabard under my armor"]."))
 	if(overarmor)
@@ -262,33 +262,29 @@
 	color = CLOTHING_RED
 	detail_color = CLOTHING_WHITE
 
-/obj/item/clothing/cloak/tabard/crusader/astrata
+/obj/item/clothing/cloak/tabard/crusader/aeternus
 	color = "#9B7538"
 	detail_color = CLOTHING_WHITE
 
-/obj/item/clothing/cloak/tabard/crusader/ravox
+/obj/item/clothing/cloak/tabard/crusader/carthus
 	color = CLOTHING_RED
 	detail_color = CLOTHING_BLACK
 
-/obj/item/clothing/cloak/tabard/crusader/malum
+/obj/item/clothing/cloak/tabard/crusader/nunos
 	color = CLOTHING_RED
 	detail_color = CLOTHING_YELLOW
 
-/obj/item/clothing/cloak/tabard/crusader/abyssor
+/obj/item/clothing/cloak/tabard/crusader/cinella
 	color = "#373f69"
 	detail_color = "#974305"
 
-/obj/item/clothing/cloak/tabard/crusader/dendor
+/obj/item/clothing/cloak/tabard/crusader/tamari
 	color = "#4B5637"
 	detail_color = "#3D1D1C"
 
-/obj/item/clothing/cloak/tabard/crusader/necra
+/obj/item/clothing/cloak/tabard/crusader/tsoridys
 	color = "#222223"
 	detail_color = "#CACBC5"
-
-/obj/item/clothing/cloak/tabard/crusader/pestra
-	color = CLOTHING_WHITE
-	detail_color = CLOTHING_GREEN
 
 /obj/item/clothing/cloak/tabard/crusader/noc
 	color = "#2C2231"
@@ -298,9 +294,7 @@
 	color = CLOTHING_BLACK
 	detail_color = CLOTHING_WHITE
 
-//Eora content from Stonekeep
-
-/obj/item/clothing/cloak/tabard/crusader/eora
+/obj/item/clothing/cloak/tabard/crusader/varielle
 	color = "#4D1E49"
 	detail_color = "#A95650"
 
@@ -1195,9 +1189,9 @@
 	slot_flags = ITEM_SLOT_ARMOR|ITEM_SLOT_CLOAK
 	flags_inv = HIDECROTCH|HIDEBOOB
 
-/obj/item/clothing/cloak/templar/astrata
-	name = "astratan tabard"
-	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Astrata on it."
+/obj/item/clothing/cloak/templar/aeternus
+	name = "aeternian tabard"
+	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Aeternus on it."
 	icon_state = "tabard_astrata_alt"
 	alternate_worn_layer = TABARD_LAYER
 	body_parts_covered = CHEST|GROIN
@@ -1209,9 +1203,9 @@
 	slot_flags = ITEM_SLOT_ARMOR|ITEM_SLOT_CLOAK
 	flags_inv = HIDECROTCH|HIDEBOOB
 
-/obj/item/clothing/cloak/templar/noc
-	name = "noc tabard"
-	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Noc on it."
+/obj/item/clothing/cloak/templar/zira
+	name = "zira tabard"
+	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Zira on it."
 	icon_state = "tabard_noc"
 	alternate_worn_layer = TABARD_LAYER
 	body_parts_covered = CHEST|GROIN
@@ -1223,9 +1217,9 @@
 	slot_flags = ITEM_SLOT_ARMOR|ITEM_SLOT_CLOAK
 	flags_inv = HIDECROTCH|HIDEBOOB
 
-/obj/item/clothing/cloak/templar/dendor
-	name = "dendor tabard"
-	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Dendor on it."
+/obj/item/clothing/cloak/templar/tamari
+	name = "tamari tabard"
+	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Tamari on it."
 	icon_state = "tabard_dendor"
 	alternate_worn_layer = TABARD_LAYER
 	body_parts_covered = CHEST|GROIN
@@ -1237,9 +1231,9 @@
 	slot_flags = ITEM_SLOT_ARMOR|ITEM_SLOT_CLOAK
 	flags_inv = HIDECROTCH|HIDEBOOB
 
-/obj/item/clothing/cloak/templar/necra
-	name = "necra tabard"
-	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Necra on it."
+/obj/item/clothing/cloak/templar/tsoridys
+	name = "tsoridys tabard"
+	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Tsoridys on it."
 	icon_state = "tabard_necra"
 	alternate_worn_layer = TABARD_LAYER
 	body_parts_covered = CHEST|GROIN
@@ -1251,9 +1245,9 @@
 	slot_flags = ITEM_SLOT_ARMOR|ITEM_SLOT_CLOAK
 	flags_inv = HIDECROTCH|HIDEBOOB
 
-/obj/item/clothing/cloak/templar/abyssor
-	name = "abyssor tabard"
-	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Abyssor on it."
+/obj/item/clothing/cloak/templar/cinella
+	name = "cinella tabard"
+	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Cinella on it."
 	icon_state = "tabard_abyssor"
 	alternate_worn_layer = TABARD_LAYER
 	body_parts_covered = CHEST|GROIN
@@ -1265,9 +1259,9 @@
 	slot_flags = ITEM_SLOT_ARMOR|ITEM_SLOT_CLOAK
 	flags_inv = HIDECROTCH|HIDEBOOB
 
-/obj/item/clothing/cloak/templar/malum
-	name = "malum tabard"
-	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Malum on it."
+/obj/item/clothing/cloak/templar/nunos
+	name = "nunos tabard"
+	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Nunos on it."
 	icon_state = "tabard_malum"
 	alternate_worn_layer = TABARD_LAYER
 	body_parts_covered = CHEST|GROIN
@@ -1368,9 +1362,9 @@
 	user.update_inv_cloak()
 	user.update_inv_armor()
 
-/obj/item/clothing/cloak/templar/eora
-	name = "eora tabard"
-	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Eora on it."
+/obj/item/clothing/cloak/templar/varielle
+	name = "varielle tabard"
+	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Varielle on it."
 	icon_state = "tabard_eora"
 	alternate_worn_layer = TABARD_LAYER
 	body_parts_covered = CHEST|GROIN
@@ -1382,23 +1376,9 @@
 	slot_flags = ITEM_SLOT_ARMOR|ITEM_SLOT_CLOAK
 	flags_inv = HIDECROTCH|HIDEBOOB
 
-/obj/item/clothing/cloak/templar/pestra
-	name = "pestra tabard"
-	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Pestra on it."
-	icon_state = "tabard_pestra"
-	alternate_worn_layer = TABARD_LAYER
-	body_parts_covered = CHEST|GROIN
-	boobed = TRUE
-	mob_overlay_icon = 'icons/roguetown/clothing/onmob/detailed/tabards.dmi'
-	sleeved = 'icons/roguetown/clothing/onmob/detailed/tabards.dmi'
-	sleevetype = "shirt"
-	nodismemsleeves = TRUE
-	slot_flags = ITEM_SLOT_ARMOR|ITEM_SLOT_CLOAK
-	flags_inv = HIDECROTCH|HIDEBOOB
-
-/obj/item/clothing/cloak/templar/ravox
-	name = "ravox tabard"
-	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Ravox on it."
+/obj/item/clothing/cloak/templar/carthus
+	name = "carthus tabard"
+	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Carthus on it."
 	icon_state = "tabard_ravox"
 	alternate_worn_layer = TABARD_LAYER
 	body_parts_covered = CHEST|GROIN
@@ -1410,9 +1390,9 @@
 	slot_flags = ITEM_SLOT_ARMOR|ITEM_SLOT_CLOAK
 	flags_inv = HIDECROTCH|HIDEBOOB
 
-/obj/item/clothing/cloak/templar/xylix
-	name = "xylix tabard"
-	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Xylix on it."
+/obj/item/clothing/cloak/templar/kasmidian
+	name = "kasmidian tabard"
+	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Kasmidian on it."
 	icon_state = "tabard_xylix"
 	alternate_worn_layer = TABARD_LAYER
 	body_parts_covered = CHEST|GROIN
@@ -1481,7 +1461,7 @@
 	if(slot == SLOT_NECK)
 		active_item = TRUE
 		if(user.mind.special_role == "Bandit")
-			to_chat(user, span_notice("I feel bolstered by Matthios' Power!"))
+			to_chat(user, span_notice("I feel my focus shift inwards as the necklace is clasped."))
 			user.change_stat("strength", 2)
 			user.change_stat("perception", 2)
 			user.change_stat("intelligence", 2)
@@ -1499,7 +1479,7 @@
 		return
 	active_item = FALSE
 	if(user.mind.special_role == "Bandit")
-		to_chat(user, span_notice("I've removed the necklace of Matthios..."))
+		to_chat(user, span_notice("Something shifts as the necklace is removed."))
 		user.change_stat("strength", -2)
 		user.change_stat("perception", -2)
 		user.change_stat("intelligence", -2)
