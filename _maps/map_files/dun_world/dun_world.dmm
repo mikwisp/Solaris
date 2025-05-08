@@ -7125,7 +7125,6 @@
 /obj/item/reagent_containers/glass/bottle/rogue/manapot,
 /obj/item/book/rogue/bibble,
 /obj/machinery/light/rogue/wallfire/candle/directional/east,
-/obj/item/roguekey/psydonkey,
 /turf/open/floor/rogue/herringbone,
 /area/rogue/indoors/town/church/basement)
 "cYq" = (
@@ -7768,17 +7767,6 @@
 /obj/item/reagent_containers/glass/bottle/rogue/wine/sourwine,
 /turf/open/floor/rogue/hexstone,
 /area/rogue/under/town/basement)
-"dnV" = (
-/obj/structure/closet/crate/roguecloset,
-/obj/item/clothing/cloak/psydontabard,
-/obj/item/clothing/cloak/psydontabard,
-/obj/item/clothing/cloak/psydontabard,
-/obj/item/clothing/mask/rogue/facemask/psydonmask,
-/obj/item/clothing/mask/rogue/facemask/psydonmask,
-/obj/item/clothing/head/roguetown/roguehood/psydon,
-/obj/item/clothing/head/roguetown/roguehood/psydon,
-/turf/open/floor/rogue/blocks,
-/area/rogue/indoors/town/church/basement)
 "dof" = (
 /turf/open/floor/rogue/ruinedwood/turned,
 /area/rogue/indoors)
@@ -11354,7 +11342,6 @@
 /area/rogue/indoors/town/tavern)
 "eKA" = (
 /obj/structure/closet/crate/chest,
-/obj/item/paper/inquisition_poultice_info,
 /obj/item/reagent_containers/food/snacks/grown/rogue/fyritius,
 /obj/item/quicksilver,
 /turf/open/floor/rogue/hexstone,
@@ -13248,9 +13235,6 @@
 /turf/open/floor/rogue/grass,
 /area/rogue/indoors/town)
 "fxB" = (
-/obj/effect/landmark/start/puritan{
-	dir = 8
-	},
 /obj/structure/bed/rogue/inn/double,
 /obj/item/bedsheet/rogue/double_pelt,
 /turf/open/floor/rogue/herringbone,
@@ -13319,7 +13303,6 @@
 /obj/structure/closet/crate/roguecloset/crafted,
 /obj/item/clothing/suit/roguetown/shirt/dress/silkdress/princess,
 /obj/item/clothing/suit/roguetown/armor/silkcoat,
-/obj/item/clothing/suit/roguetown/shirt/undershirt/puritan,
 /obj/item/clothing/suit/roguetown/shirt/tunic/noblecoat,
 /turf/open/floor/carpet/red,
 /area/rogue/indoors/town)
@@ -13892,7 +13875,7 @@
 /turf/open/floor/rogue/churchbrick,
 /area/rogue/under/cavewet/bogcaves/sunkencity)
 "fMQ" = (
-/obj/effect/landmark/start/orphan,
+/obj/effect/landmark/start/vagabond,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/rtfield)
 "fNn" = (
@@ -16645,7 +16628,7 @@
 /obj/effect/decal/cleanable/blood/old,
 /obj/structure/mineral_door/bars{
 	locked = 1;
-	lockid = "inquisition"
+	lockid = "undercroft"
 	},
 /turf/open/floor/rogue/hexstone,
 /area/rogue/indoors/town/church/basement)
@@ -21637,7 +21620,6 @@
 /obj/item/clothing/suit/roguetown/shirt/dress/silkdress/princess,
 /obj/item/clothing/suit/roguetown/shirt/tunic/random,
 /obj/item/clothing/suit/roguetown/shirt/tunic/black,
-/obj/item/clothing/suit/roguetown/shirt/undershirt/puritan,
 /obj/item/storage/backpack/rogue/satchel,
 /obj/item/storage/backpack/rogue/satchel,
 /obj/item/clothing/suit/roguetown/armor/silkcoat,
@@ -22695,7 +22677,7 @@
 /turf/open/floor/rogue/ruinedwood/herringbone,
 /area/rogue/indoors/town)
 "jru" = (
-/obj/effect/landmark/start/orphan,
+/obj/effect/landmark/start/vagabond,
 /turf/open/floor/rogue/cobblerock,
 /area/rogue/outdoors/rtfield)
 "jrv" = (
@@ -25189,7 +25171,6 @@
 /obj/structure/table/wood{
 	icon_state = "longtable"
 	},
-/obj/item/clothing/head/roguetown/helmet/heavy/psydonbarbute,
 /obj/item/clothing/suit/roguetown/armor/plate/half/fluted,
 /turf/open/floor/rogue/tile,
 /area/rogue/indoors/town/church/basement)
@@ -26177,13 +26158,6 @@
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors/town)
-"kRS" = (
-/obj/structure/mineral_door/wood/donjon/stone{
-	locked = 1;
-	lockid = "puritan"
-	},
-/turf/open/floor/rogue/ruinedwood/spiral,
-/area/rogue/indoors/town/church/basement)
 "kRX" = (
 /obj/structure/fermenting_barrel,
 /turf/open/floor/rogue/ruinedwood/spiral,
@@ -33612,7 +33586,7 @@
 "nVe" = (
 /obj/structure/mineral_door/wood/donjon/stone{
 	locked = 1;
-	lockid = "inquisition";
+	lockid = "undercroft";
 	name = "Inquisition's Quarters"
 	},
 /turf/open/floor/rogue/hexstone,
@@ -35801,7 +35775,7 @@
 "oQY" = (
 /obj/structure/mineral_door/wood/donjon/stone{
 	locked = 1;
-	lockid = "inquisition"
+	lockid = "undercroft"
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/town/church/basement)
@@ -42158,7 +42132,6 @@
 "rvc" = (
 /obj/structure/bed/rogue/inn,
 /obj/item/bedsheet/rogue/pelt,
-/obj/effect/landmark/start/orthodoxist,
 /turf/open/floor/carpet/red,
 /area/rogue/indoors/town/church/basement)
 "rvj" = (
@@ -44997,7 +44970,7 @@
 "sCH" = (
 /obj/structure/mineral_door/wood/donjon/stone{
 	locked = 1;
-	lockid = "inquisition";
+	lockid = "undercroft";
 	name = "Inquisition Cell"
 	},
 /turf/open/floor/rogue/blocks,
@@ -47332,7 +47305,6 @@
 /obj/structure/closet/crate/roguecloset,
 /obj/item/clothing/suit/roguetown/shirt/dress/silkdress/princess,
 /obj/item/clothing/suit/roguetown/armor/silkcoat,
-/obj/item/clothing/suit/roguetown/shirt/undershirt/puritan,
 /obj/item/clothing/suit/roguetown/shirt/tunic,
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/town/manor)
@@ -52874,7 +52846,6 @@
 	dir = 1;
 	icon_state = "longtable"
 	},
-/obj/item/clothing/head/roguetown/helmet/heavy/psydonbarbute,
 /obj/item/clothing/suit/roguetown/armor/plate/half/fluted,
 /turf/open/floor/rogue/tile,
 /area/rogue/indoors/town/church/basement)
@@ -54741,10 +54712,6 @@
 /area/rogue/outdoors/beach)
 "wIq" = (
 /obj/structure/closet/crate/roguecloset,
-/obj/item/clothing/head/roguetown/helmet/heavy/psydonhelm,
-/obj/item/clothing/head/roguetown/helmet/heavy/psydonhelm,
-/obj/item/clothing/head/roguetown/roguehood/psydon,
-/obj/item/clothing/head/roguetown/roguehood/psydon,
 /turf/open/floor/rogue/blocks,
 /area/rogue/indoors/town/church/basement)
 "wIv" = (
@@ -55434,10 +55401,6 @@
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors/town)
-"xai" = (
-/obj/structure/reliquarybox,
-/turf/open/floor/rogue/herringbone,
-/area/rogue/indoors/town/church/basement)
 "xaj" = (
 /mob/living/simple_animal/hostile/retaliate/rogue/wolf,
 /turf/open/floor/rogue/naturalstone,
@@ -127293,7 +127256,7 @@ mRC
 uZk
 tvo
 kcq
-dnV
+wIq
 llO
 nwT
 gZJ
@@ -130913,7 +130876,7 @@ isn
 vpK
 llO
 llO
-kRS
+oQY
 llO
 llO
 gkB
@@ -131819,7 +131782,7 @@ llO
 iZd
 vrW
 vrW
-xai
+jCS
 pXp
 wYQ
 llO

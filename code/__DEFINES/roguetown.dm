@@ -145,28 +145,28 @@
 	/datum/species/construct/metal,\
 )
 
-#define ALL_ORDER_PATRONS list(/datum/patron/order/zira, \
-	/datum/patron/order/tsoridys, \
-	/datum/patron/order/nunos, \
-	/datum/patron/order/carthus, \
-	/datum/patron/order/varielle, \
+#define ALL_ORDER_PATRONS list(/datum/patron/balance/zira, \
+	/datum/patron/balance/tsoridys, \
+	/datum/patron/balance/nunos, \
+	/datum/patron/balance/carthus, \
+	/datum/patron/balance/varielle, \
 	)
 
 #define ALL_CHAOS_PATRONS list(\
-	/datum/patron/chaos/tamari, \
-	/datum/patron/chaos/cinella, \
-	/datum/patron/chaos/kasmidian, \
+	/datum/patron/change/tamari, \
+	/datum/patron/change/cinella, \
+	/datum/patron/change/kasmidian, \
 	)
 
 #define ALL_PATRONS  list(\
 	/datum/patron/light/aeternus, \
-	/datum/patron/order/tsoridys, \
-	/datum/patron/order/nunos, \
-	/datum/patron/order/carthus, \
-	/datum/patron/order/varielle, \
-	/datum/patron/chaos/tamari, \
-	/datum/patron/chaos/cinella, \
-	/datum/patron/chaos/kasmidian, \
+	/datum/patron/balance/tsoridys, \
+	/datum/patron/balance/nunos, \
+	/datum/patron/balance/carthus, \
+	/datum/patron/balance/varielle, \
+	/datum/patron/change/tamari, \
+	/datum/patron/change/cinella, \
+	/datum/patron/change/kasmidian, \
 	)
 
 #define PLATEHIT "plate"
@@ -237,8 +237,6 @@ GLOBAL_LIST_EMPTY(round_join_times)
 #define CTAG_BANDIT			"CAT_BANDIT"		// Bandit class - Tied to the bandit antag really
 #define CTAG_CHALLENGE 		"CAT_CHALLENGE"  	// Challenge class - Meant to be free for everyone
 #define CTAG_VAGABOND		"CAT_VAGABOND"		// Vagabond class - start with nothing and work your way up
-#define CTAG_INQUISITION	"CAT_INQUISITION"	// For Orthodoxist subclasses
-#define CTAG_PURITAN		"CAT_PURITAN"		// For Inquisitor subclasses
 #define CTAG_COURTAGENT		"CAT_COURTAGENT"	//Court agent classes
 #define CTAG_WRETCH			"CAT_WRETCH"		// Wretch classes untethered from adventurer
 
