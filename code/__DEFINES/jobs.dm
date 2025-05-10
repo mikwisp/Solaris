@@ -156,7 +156,6 @@
 #define COOK		(1<<6)
 #define KNAVEWENCH (1<<7)
 #define GRABBER		(1<<8)
-#define BATHMASTER	(1<<9)
 #define WENCH		(1<<10)
 #define BEGGAR		(1<<11)
 #define ADVENTURER	(1<<12)
@@ -181,7 +180,7 @@
 #define SHOPHAND	(1<<6)
 #define CLERK 		(1<<7)
 #define MAGEAPPRENTICE	(1<<8)
-#define APOTHECARY	(1<<9)
+#define APOTHICANT_APPRENTICE	(1<<9)
 
 #define MERCENARIES		(1<<7)
 
@@ -227,7 +226,7 @@
 #define JDO_MAGICIAN 5
 #define JDO_MAGEAPPRENTICE 5.1
 #define JDO_PHYSICIAN 6
-#define JDO_APOTHECARY 6.1
+#define JDO_APOTHICANT_APPRENTICE 6.1
 #define JDO_JESTER 7
 #define JDO_BUTLER 7.1
 #define JDO_SERVANT 7.2
@@ -268,7 +267,6 @@
 
 #define JDO_BARKEEP 26
 #define JDO_COOK 27
-#define JDO_BATHMASTER 27.1
 #define JDO_KNAVEWENCH 27.2
 #define JDO_WENCH 27.3
 
@@ -306,7 +304,7 @@
 	/datum/job/roguetown/servant,\
 	/datum/job/roguetown/squire,\
 	/datum/job/roguetown/butler,\
-	/datum/job/roguetown/apothecary,\
+	/datum/job/roguetown/apothicant_apprentice,\
 	/datum/job/roguetown/magician
 
 #define NOBLE_ROLES \
@@ -334,7 +332,6 @@
 
 #define PEASANT_ROLES \
 	/datum/job/roguetown/villager,\
-	/datum/job/roguetown/nightmaiden,\
 	/datum/job/roguetown/beggar,\
 	/datum/job/roguetown/butcher,\
 	/datum/job/roguetown/cook,\
@@ -344,13 +341,11 @@
 	/datum/job/roguetown/vagabond,\
 	/datum/job/roguetown/shophand,\
 	/datum/job/roguetown/bapprentice,\
-	/datum/job/roguetown/prisonerb,\
 	/datum/job/roguetown/hostage,\
 	/datum/job/roguetown/prisonerr
 
 #define YEOMEN_ROLES \
 	/datum/job/roguetown/woodsman,\
-	/datum/job/roguetown/bathmaster,\
 	/datum/job/roguetown/archivist,\
 	/datum/job/roguetown/barkeep,\
 	/datum/job/roguetown/armorsmith,\

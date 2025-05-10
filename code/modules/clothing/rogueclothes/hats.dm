@@ -284,12 +284,6 @@
 	icon_state = "strawhat"
 	sewrepair = TRUE
 
-/obj/item/clothing/head/roguetown/nightman
-	name = "teller's hat"
-	icon_state = "tophat"
-	color = CLOTHING_BLACK
-	sewrepair = TRUE
-
 /obj/item/clothing/head/roguetown/bardhat
 	name = "hat"
 	icon_state = "bardhat"
@@ -1625,8 +1619,8 @@
 	icon_state = pick("wizardhatred", "wizardhatyellow", "wizardhatgreen", "wizardhat")
 	..()
 
-/obj/item/clothing/head/roguetown/witchhat
-	name = "witch hat"
+/obj/item/clothing/head/roguetown/apothecaryhat
+	name = "apothecary hat"
 	desc = ""
 	icon_state = "witch"
 	item_state = "witch"
