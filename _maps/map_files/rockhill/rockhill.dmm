@@ -6419,7 +6419,7 @@
 /area/rogue/outdoors/bog)
 "fRC" = (
 /obj/structure/chair/wood/rogue/throne,
-/obj/effect/landmark/start/prince,
+/obj/effect/landmark/start/nobleman,
 /turf/open/floor/rogue/wood,
 /area/rogue/indoors/town/manor)
 "fRN" = (
@@ -7802,7 +7802,6 @@
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors)
 "hnl" = (
-/obj/item/book/rogue/xylix,
 /turf/open/water/cleanshallow,
 /area/rogue/under/cave)
 "hnC" = (

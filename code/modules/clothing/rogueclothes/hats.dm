@@ -781,45 +781,6 @@
 	item_state = "bascinet_novisor"
 	color = COLOR_ASSEMBLY_GOLD
 
-/obj/item/clothing/head/roguetown/helmet/otavan
-	name = "otavan helmet"
-	desc = ""
-	icon_state = "otavahelm"
-	item_state = "otavahelm"
-	adjustable = CAN_CADJUST
-	emote_environment = 3
-	body_parts_covered = FULL_HEAD
-	flags_inv = HIDEEARS|HIDEFACE|HIDEHAIR|HIDESNOUT
-	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
-	block2add = FOV_BEHIND
-	smeltresult = /obj/item/ingot/steel
-	smelt_bar_num = 2
-
-/obj/item/clothing/head/roguetown/helmet/otavan/AdjustClothes(mob/user)
-	if(loc == user)
-		playsound(user, "sound/items/visor.ogg", 100, TRUE, -1)
-		if(adjustable == CAN_CADJUST)
-			adjustable = CADJUSTED
-			icon_state = "otavahelm_raised"
-			body_parts_covered = HEAD|EARS|HAIR
-			flags_inv = HIDEEARS
-			flags_cover = null
-			emote_environment = 0
-			update_icon()
-			if(ishuman(user))
-				var/mob/living/carbon/H = user
-				H.update_inv_head()
-			block2add = null
-		else if(adjustable == CADJUSTED)
-			ResetAdjust(user)
-			emote_environment = 3
-			update_icon()
-			if(user)
-				if(ishuman(user))
-					var/mob/living/carbon/H = user
-					H.update_inv_head()
-		user.update_fov_angles()
-
 /obj/item/clothing/head/roguetown/helmet/heavy
 	name = "barbute"
 	desc = "A simple helmet with a visor in the shape of a Y."
@@ -936,7 +897,7 @@
 
 /obj/item/clothing/head/roguetown/helmet/heavy/knight/armet
 	name = "armet"
-	desc = "Holy lamb, sacrificial hero, blessed idiot - Psydon endures. Will you endure alongside Him, as a knight of humenity, or crumble before temptation?"
+	desc = "A heavy helm."
 	icon_state = "armet"
 
 /obj/item/clothing/head/roguetown/helmet/heavy/knight/armet/AdjustClothes(mob/user)
@@ -1425,7 +1386,7 @@
 
 /obj/item/clothing/head/roguetown/helmet/heavy/frogmouth
 	name = "froggemund helmet"
-	desc = "A tall and imposing frogmouth-style helm popular in the highest plateaus of the Solaris. Covers not just the head, but the neck as well. Add a cloth to show the colors of your family or allegiance."
+	desc = "A tall and imposing frogmouth-style helm popular in the highest plateaus of Sunmarch. Covers not just the head, but the neck as well. Add a cloth to show the colors of your family or allegiance."
 	icon_state = "frogmouth"
 	item_state = "frogmouth"
 	emote_environment = 3
@@ -1820,20 +1781,6 @@
 	max_integrity = 425
 	smeltresult = /obj/item/ingot/blacksteel
 	smelt_bar_num = 2
-
-/obj/item/clothing/head/roguetown/roguehood/hierophant
-	name = "hierophant's pashmina"
-	desc = "A thick hood that covers one's entire head, should they desire, or merely acts as a scarf otherwise."
-	icon_state = "deserthood"
-	item_state = "deserthood"
-	naledicolor = TRUE
-
-/obj/item/clothing/head/roguetown/roguehood/pontifex
-	name = "pontifex's pashmina"
-	desc = "A slim hood with thin, yet dense fabric. Stretchy and malleable, allowing for full flexibility and mobility."
-	icon_state = "monkhood"
-	item_state = "monkhood"
-	naledicolor = TRUE
 
 /obj/item/clothing/head/roguetown/bucklehat //lifeweb sprite
 	name = "folded hat"

@@ -1,9 +1,8 @@
-GLOBAL_VAR(lordsurname)
 GLOBAL_LIST_EMPTY(lord_titles)
 
 /datum/job/roguetown/lord
-	title = "Grand Duke"
-	f_title = "Grand Duchess"
+	title = "Marquis"
+	f_title = "Marquise"
 	flag = LORD
 	department_flag = NOBLEMEN
 	faction = "Station"
@@ -34,8 +33,8 @@ GLOBAL_LIST_EMPTY(lord_titles)
 	cmode_music = 'sound/music/combat_noble.ogg'
 
 /datum/job/roguetown/exlord //just used to change the lords title
-	title = "Duke Emeritus"
-	f_title = "Duchess Emeritus"
+	title = "Marquis Emeritus"
+	f_title = "Marquise Emeritus"
 	flag = LORD
 	department_flag = NOBLEMEN
 	faction = "Station"
@@ -48,18 +47,12 @@ GLOBAL_LIST_EMPTY(lord_titles)
 /datum/job/roguetown/lord/after_spawn(mob/living/L, mob/M, latejoin = TRUE)
 	..()
 	if(L)
-		var/list/chopped_name = splittext(L.real_name, " ")
-		if(length(chopped_name) > 1)
-			chopped_name -= chopped_name[1]
-			GLOB.lordsurname = jointext(chopped_name, " ")
-		else
-			GLOB.lordsurname = "of [L.real_name]"
 		SSticker.rulermob = L
 		if(should_wear_femme_clothes(L))
-			SSticker.rulertype = "Grand Duchess"
+			SSticker.rulertype = "Marquise"
 		else
-			SSticker.rulertype = "Grand Duke"
-		to_chat(world, "<b><span class='notice'><span class='big'>[L.real_name] is [SSticker.rulertype] of Solaris.</span></span></b>")
+			SSticker.rulertype = "Marquis"
+		to_chat(world, "<b><span class='notice'><span class='big'>[L.real_name] is [SSticker.rulertype] of Sunmarch.</span></span></b>")
 		if(STATION_TIME_PASSED() <= 10 MINUTES) //Late to the party? Stuck with default colors, sorry!
 			addtimer(CALLBACK(L, TYPE_PROC_REF(/mob, lord_color_choice)), 50)
 
@@ -101,7 +94,6 @@ GLOBAL_LIST_EMPTY(lord_titles)
 			H.change_stat("speed", 1)
 			H.change_stat("perception", 2)
 			H.change_stat("fortune", 5)
-		H.dna.species.soundpack_m = new /datum/voicepack/male/evil()
 	else if(should_wear_masc_clothes(H))
 		pants = /obj/item/clothing/under/roguetown/tights/black
 		shirt = /obj/item/clothing/suit/roguetown/shirt/undershirt/black
@@ -144,19 +136,6 @@ GLOBAL_LIST_EMPTY(lord_titles)
 /datum/outfit/job/roguetown/lord/visuals/pre_equip(mob/living/carbon/human/H)
 	..()
 	head = /obj/item/clothing/head/roguetown/crown/fakecrown //Prevents the crown of woe from happening again.
-
-/proc/give_lord_surname(mob/living/carbon/human/family_guy, preserve_original = FALSE)
-	if(!GLOB.lordsurname)
-		return
-	if(preserve_original)
-		family_guy.fully_replace_character_name(family_guy.real_name, family_guy.real_name + " " + GLOB.lordsurname)
-		return family_guy.real_name
-	var/list/chopped_name = splittext(family_guy.real_name, " ")
-	if(length(chopped_name) > 1)
-		family_guy.fully_replace_character_name(family_guy.real_name, chopped_name[1] + " " + GLOB.lordsurname)
-	else
-		family_guy.fully_replace_character_name(family_guy.real_name, family_guy.real_name + " " + GLOB.lordsurname)
-	return family_guy.real_name
 
 /obj/effect/proc_holder/spell/self/grant_title
 	name = "Grant Title"

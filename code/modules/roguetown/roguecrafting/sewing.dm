@@ -589,7 +589,7 @@
 
 /datum/crafting_recipe/roguetown/sewing/royaldress
 	name = "royal dress (2 fibers, 3 cloth, 2 silk)"
-	result = list(/obj/item/clothing/suit/roguetown/shirt/dress/royal/princess)
+	result = list(/obj/item/clothing/suit/roguetown/shirt/dress/royal/noblewoman)
 	reqs = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 2,
 				/obj/item/natural/silk = 2)
@@ -599,7 +599,7 @@
 
 /datum/crafting_recipe/roguetown/sewing/royalshirt
 	name = "royal shirt (2 fibers, 3 cloth, 2 silk)"
-	result = list(/obj/item/clothing/suit/roguetown/shirt/dress/royal/prince)
+	result = list(/obj/item/clothing/suit/roguetown/shirt/dress/royal/nobleman)
 	reqs = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 2,
 				/obj/item/natural/silk = 2)
@@ -800,15 +800,6 @@
 	craftdiff = 6
 	sellprice = 35
 
-/datum/crafting_recipe/roguetown/sewing/naledisash
-	name = "neck sash (2 fibers, 2 cloth)"
-	result = list(/obj/item/clothing/cloak/hierophant)
-	reqs = list(/obj/item/natural/cloth = 2,
-	            /obj/item/natural/fibers = 2)
-	tools = list(/obj/item/needle)
-	craftdiff = 4
-	sellprice = 15
-
 /datum/crafting_recipe/roguetown/sewing/ladycloak
 	name = "royal half-cloak (2 fibers, 2 cloth, 2 silk, 1 fur)"
 	result = list(/obj/item/clothing/cloak/lordcloak/ladycloak)
@@ -867,15 +858,6 @@
 	craftdiff = 4
 	sellprice = 17
 
-/datum/crafting_recipe/roguetown/sewing/halfrobe
-	name = "baggy half-robe (2 fibers, 3 cloth)"
-	result = list(/obj/item/clothing/suit/roguetown/armor/gambeson/hierophant)
-	reqs = list(/obj/item/natural/cloth = 3,
-	            /obj/item/natural/fibers = 2)
-	tools = list(/obj/item/needle)
-	craftdiff = 4
-	sellprice = 15
-
 /datum/crafting_recipe/roguetown/sewing/monkrobe
 	name = "monk robe (2 fibers, 2 cloth)"
 	result = list(/obj/item/clothing/suit/roguetown/shirt/robe/pointfex)
@@ -885,9 +867,9 @@
 	craftdiff = 4
 	sellprice = 15
 
-/datum/crafting_recipe/roguetown/sewing/otavangambeson
-	name = "otavan gambeson (5 fibers, 6 cloth)"
-	result = list(/obj/item/clothing/suit/roguetown/armor/gambeson/otavan)
+/datum/crafting_recipe/roguetown/sewing/fencergambeson
+	name = "fencer gambeson (5 fibers, 6 cloth)"
+	result = list(/obj/item/clothing/suit/roguetown/armor/gambeson/fencer)
 	reqs = list(/obj/item/natural/cloth = 6,
 	            /obj/item/natural/fibers = 5)
 	tools = list(/obj/item/needle)

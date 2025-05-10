@@ -509,7 +509,7 @@
 
 /obj/item/rogueweapon/halberd/holysee
 	name = "eclipsum halberd"
-	desc = "A mutual effort of Zira and Aeternus's followers, this halberd was forged with both Silver and Gold alike. Blessed to hold strength and bring hope. Whether dae or nite. The reinforced shaft provides greater durability."
+	desc = "A mutual effort of Zira and Aeternus' followers, this halberd was forged with both Silver and Gold alike. Blessed to hold strength and bring hope. Whether day or night. The reinforced shaft provides greater durability."
 	icon_state = "gsspear"
 	max_integrity = 600
 	force = 20
@@ -767,11 +767,3 @@
 					"wflip" = 8,
 					"eflip" = 0,
 					)
-
-/obj/item/rogueweapon/woodstaff/naledi
-	name = "naledian warstaff"
-	desc = "A staff carrying the crescent moon of Psydon's knowledge, as well as the black and gold insignia of the war scholars."
-	icon_state = "naledistaff"
-	force = 18
-	force_wielded = 22
-	max_integrity = 250

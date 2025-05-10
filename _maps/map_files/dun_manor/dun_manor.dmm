@@ -11191,7 +11191,6 @@
 /area/rogue/indoors/town/manor)
 "hVY" = (
 /obj/structure/bookcase,
-/obj/item/book/rogue/xylix,
 /obj/item/book/rogue/robber,
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/town/sewer)
@@ -11311,7 +11310,6 @@
 /area/rogue/under/town/sewer)
 "hYy" = (
 /obj/structure/table/wood,
-/obj/item/book/rogue/xylix,
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/town/sewer)
 "hYC" = (
@@ -14138,7 +14136,7 @@
 /area/rogue/outdoors/town/roofs/keep)
 "jZh" = (
 /obj/structure/bookcase,
-/obj/item/book/rogue/arcyne,
+/obj/item/book/rogue/arcane,
 /obj/item/book/rogue/tales3,
 /turf/open/floor/rogue/hexstone,
 /area/rogue/indoors/town/magician)
@@ -18145,7 +18143,7 @@
 "mIE" = (
 /obj/structure/bed/rogue/inn/double,
 /obj/item/bedsheet/rogue/fabric_double,
-/obj/effect/landmark/start/prince{
+/obj/effect/landmark/start/nobleman{
 	dir = 8
 	},
 /obj/machinery/light/rogue/wallfire/candle/directional/east,
@@ -34203,7 +34201,7 @@
 "xRc" = (
 /obj/structure/bed/rogue/inn/double,
 /obj/item/bedsheet/rogue/fabric_double,
-/obj/effect/landmark/start/prince{
+/obj/effect/landmark/start/nobleman{
 	dir = 1
 	},
 /obj/machinery/light/rogue/wallfire/candle/directional/east,
@@ -34280,7 +34278,7 @@
 /area/rogue/indoors/town/garrison)
 "xSF" = (
 /obj/machinery/light/rogue/wallfire/candle/blue/directional/north,
-/obj/item/book/rogue/arcyne,
+/obj/item/book/rogue/arcane,
 /obj/structure/bookcase,
 /turf/open/floor/rogue/ruinedwood{
 	icon_state = "weird1"

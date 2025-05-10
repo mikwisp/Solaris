@@ -5,17 +5,15 @@
 
 /datum/patron/balance/zira
 	name = "Zira"
-	domain = "Goddess of the Moon"
-	desc = "Placeholder"
-	worshippers = "Placeholder"
+	domain = "Balance; The Moon, Masks, Secrets, Alteration, Nighttime, and Yearning"
+	desc = "The Moonmaiden, the Lady of Night, Zira is one half of the two Prime Deities alongside her Brother, Aeternus. \
+			Her domain is night, her voice moonlight, and her influence is that compassion and firmness, decorum and \
+			self-actualization, has guided the hands of wizard, priest, ruler, and commoner alike, teaching that gentility \
+			is just as necessary as might."
+	worshippers = "Children of the Night, the Gentle, Caretakers, Secretkeepers, and Lovers"
 	mob_traits = list(TRAIT_NIGHT_OWL, TRAIT_ZIRASIGHT)
 	t1 = /obj/effect/proc_holder/spell/invoked/blindness/miracle
 	t2 = /obj/effect/proc_holder/spell/invoked/invisibility/miracle
-	confess_lines = list(
-		"IN ZIRA'S GAZE!",
-		"ZIRA HOLDS ALL!",
-		"I SEEK THE MYSTERIES OF THE MOON!",
-	)
 
 /datum/patron/balance/tsoridys
 	name = "Tsoridys"
@@ -27,11 +25,6 @@
 	t2 = /obj/effect/proc_holder/spell/targeted/abrogation
 	t3 = /obj/effect/proc_holder/spell/targeted/churn
 	extra_spell = /obj/effect/proc_holder/spell/targeted/soulspeak
-	confess_lines = list(
-		"ALL SOULS FIND THEIR WAY TO TSORIDYS' GRACE!",
-		"I FEAR NOT THE GRASP OF DEATH!",
-		"TSORIDYS WATCH ME ON THIS DAY!",
-	)
 
 /datum/patron/balance/nunos
 	name = "Nunos"
@@ -44,11 +37,6 @@
 	t3 = /obj/effect/proc_holder/spell/invoked/hammerfall
 	t4 = /obj/effect/proc_holder/spell/invoked/craftercovenant
 	extra_spell = /obj/effect/proc_holder/spell/invoked/nunos_flame_rogue
-	confess_lines = list(
-		"MY WORK IS MY LIFE!",
-		"TRUE VALUE IS IN THE TOIL!",
-		"I AM AN INSTRUMENT OF CREATION!",
-	)
 
 /datum/patron/balance/carthus
 	name = "Carthus"
@@ -59,11 +47,6 @@
 	t1 = /obj/effect/proc_holder/spell/self/divine_strike
 	t2 = /obj/effect/proc_holder/spell/self/call_to_arms
 	t3 = /obj/effect/proc_holder/spell/invoked/persistence
-	confess_lines = list(
-		"CARTHUS IS JUSTICE!",
-		"THROUGH STRIFE, GRACE!",
-		"THROUGH PERSISTENCE, GLORY!",
-	)
 
 /datum/patron/balance/varielle
 	name = "Varielle"
@@ -74,8 +57,3 @@
 	t1 = /obj/effect/proc_holder/spell/invoked/bud
 	t2 = /obj/effect/proc_holder/spell/invoked/variellecurse
 	t3 = null
-	confess_lines = list(
-		"VARIELLE BRINGS US TOGETHER!",
-		"HER BEAUTY IS EVEN IN THIS TORMENT!",
-		"I LOVE YOU, EVEN AS YOU TRESPASS AGAINST ME!",
-	)

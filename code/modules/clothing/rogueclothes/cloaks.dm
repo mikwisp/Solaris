@@ -1001,19 +1001,6 @@
 	nodismemsleeves = TRUE
 	salvage_result = /obj/item/natural/fur
 
-/obj/item/clothing/cloak/heartfelt
-	name = "red cloak"
-	desc = ""
-	icon_state = "heartfelt_cloak"
-	body_parts_covered = CHEST|GROIN|VITALS|ARMS
-	sleeved = 'icons/roguetown/clothing/onmob/cloaks.dmi'
-	sleevetype = "shirt"
-	slot_flags = ITEM_SLOT_CLOAK
-	allowed_sex = list(MALE, FEMALE)
-	allowed_race = NON_DWARVEN_RACE_TYPES
-	sellprice = 50
-	nodismemsleeves = TRUE
-
 /obj/item/clothing/cloak/half
 	name = "halfcloak"
 	desc = ""
@@ -1485,12 +1472,6 @@
 /obj/item/clothing/cloak/stabard/guardhood/Destroy()
 	GLOB.lordcolor -= src
 	return ..()
-
-/obj/item/clothing/cloak/hierophant
-	name = "hierophant's sash"
-	icon_state = "naledisash"
-	item_state = "naledisash"
-	desc = "A limp piece of fabric traditionally used to fasten bags that are too baggy, but in modern days has become more of a fashion statement than anything."
 
 /obj/item/clothing/cloak/wardencloak
 	name = "warden cloak"

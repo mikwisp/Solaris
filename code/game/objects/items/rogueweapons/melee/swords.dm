@@ -307,8 +307,8 @@
 	item_state = "judgement"
 	lefthand_file = 'icons/mob/inhands/weapons/roguebig_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/roguebig_righthand.dmi'
-	name = "Psydonia Redentor"
-	desc = "...for the LORD is my tower, and HE gives me the power to tear down the works of the enemy..."
+	name = "Godsblood Striker"
+	desc = "Damnation upon them."
 	parrysound = "bladedmedium"
 	swingsound = BLADEWOOSH_LARGE
 	pickup_sound = 'sound/foley/equip/swordlarge2.ogg'
@@ -996,7 +996,7 @@
 	gripped_intents = list(/datum/intent/sword/cut, /datum/intent/sword/thrust, /datum/intent/sword/strike, /datum/intent/sword/chop)
 	icon_state = "eclipsum"
 	name = "eclipsum sword"
-	desc = "A mutual effort of Zira and Aeternus' followers, this blade was forged with both Silver and Gold alike. Blessed to hold strength and bring hope. Whether dae or nite."
+	desc = "A mutual effort of Zira and Aeternus' followers, this blade was forged with both Silver and Gold alike. Blessed to hold strength and bring hope. Whether day or night."
 	is_silver = TRUE
 	smeltresult = /obj/item/ingot/silver
 	smelt_bar_num = 2
