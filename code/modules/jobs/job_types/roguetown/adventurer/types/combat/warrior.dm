@@ -34,7 +34,6 @@
 			H.mind.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE)
 			H.mind.adjust_skillrank(/datum/skill/misc/climbing, 3, TRUE)
 			H.mind.adjust_skillrank(/datum/skill/misc/reading, 1, TRUE)
-			H.dna.species.soundpack_m = new /datum/voicepack/male/warrior()
 			H.set_blindness(0)
 			ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 			var/weapons = list("Bastard Sword","Mace","Billhook","Battle Axe")
@@ -120,7 +119,6 @@
 			H.mind.adjust_skillrank(/datum/skill/misc/swimming, 3, TRUE)
 			H.mind.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE)
 			H.mind.adjust_skillrank(/datum/skill/misc/climbing, 3, TRUE)
-			H.dna.species.soundpack_m = new /datum/voicepack/male/warrior()
 			ADD_TRAIT(H, TRAIT_CRITICAL_RESISTANCE, TRAIT_GENERIC)
 			ADD_TRAIT(H, TRAIT_NOPAINSTUN, TRAIT_GENERIC)
 			H.cmode_music = 'sound/music/combat_gronn.ogg'
@@ -142,7 +140,6 @@
 			H.change_stat("constitution", 2)
 			H.change_stat("intelligence", -2)
 			if(should_wear_masc_clothes(H))
-				H.dna.species.soundpack_m = new /datum/voicepack/male/warrior()
 				head = /obj/item/clothing/head/roguetown/helmet/leather/volfhelm
 				wrists = /obj/item/clothing/wrists/roguetown/bracers/leather
 				pants = /obj/item/clothing/under/roguetown/heavy_leather_pants
@@ -188,12 +185,12 @@
 			backr = /obj/item/rogueweapon/sword
 			backl = /obj/item/storage/backpack/rogue/satchel/black
 			wrists = /obj/item/clothing/neck/roguetown/psicross/silver
-			armor = /obj/item/clothing/suit/roguetown/shirt/undershirt/puritan
+			armor = /obj/item/clothing/suit/roguetown/shirt/undershirt
 			shirt = /obj/item/clothing/suit/roguetown/armor/chainmail
 			belt = /obj/item/storage/belt/rogue/leather/knifebelt/black/steel
 			shoes = /obj/item/clothing/shoes/roguetown/boots
 			pants = /obj/item/clothing/under/roguetown/tights/black
-			cloak = /obj/item/clothing/cloak/cape/puritan
+			cloak = /obj/item/clothing/cloak/cape
 			neck = /obj/item/storage/belt/rogue/pouch/coins/poor
 			head = /obj/item/clothing/head/roguetown/bucklehat
 			gloves = /obj/item/clothing/gloves/roguetown/angle
