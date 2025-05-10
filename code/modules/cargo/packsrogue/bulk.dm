@@ -10,7 +10,7 @@
 
 
 /datum/supply_pack/rogue/bulk/sour
-	name = "Barrel of Grenzelhoft Sour"
+	name = "Barrel of Sour Wine"
 	cost = 150
 	contains = list(/obj/structure/fermenting_barrel/sourwine)
 
@@ -40,9 +40,9 @@
 
 
 /datum/supply_pack/rogue/bulk/avarrice
-	name = "Barrel of Avarian Wine"
+	name = "Barrel of White Wine"
 	cost = 100
-	contains = list(/obj/structure/fermenting_barrel/avarrice)
+	contains = list(/obj/structure/fermenting_barrel/whitericewine)
 
 /datum/supply_pack/rogue/bulk/gronmead
 	name = "Barrel of Gron Mead"

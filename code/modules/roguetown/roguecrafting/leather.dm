@@ -420,15 +420,6 @@
 	craftdiff = 3
 	sellprice = 12
 
-/datum/crafting_recipe/roguetown/leather/grenzelboots
-	name = "grenzelhoftian boots (2 fibers, 2 leather)"
-	result = list(/obj/item/clothing/shoes/roguetown/grenzelhoft)
-	reqs = list(/obj/item/natural/hide/cured = 2,
-	            /obj/item/natural/fibers = 2)
-	tools = list(/obj/item/needle)
-	craftdiff = 4
-	sellprice = 15
-
 /datum/crafting_recipe/roguetown/leather/buckleshoes
 	name = "buckled shoes (2 fibers, 2 leather)"
 	result = list(/obj/item/clothing/shoes/roguetown/simpleshoes/buckle)
@@ -467,14 +458,3 @@
 	tools = list(/obj/item/needle)
 	craftdiff = 5
 	sellprice = 24
-
-/datum/crafting_recipe/roguetown/leather/openrobes
-	name = "open robe (1 fibers, 1 cloth, 2 leather)"
-	result = list(/obj/item/clothing/suit/roguetown/armor/leather/heavy/atgervi)
-	reqs = list(/obj/item/natural/hide/cured = 2,
-	            /obj/item/natural/fibers = 1,
-	            /obj/item/natural/cloth = 1)
-	tools = list(/obj/item/needle)
-	craftdiff = 5
-	sellprice = 20
-	
