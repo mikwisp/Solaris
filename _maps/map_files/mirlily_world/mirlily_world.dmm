@@ -1051,6 +1051,10 @@
 /obj/structure/closet/crate/drawer/random,
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/town/manor)
+"kJ" = (
+/obj/structure/bookcase,
+/turf/open/floor/rogue/carpet,
+/area/rogue/indoors/town/manor)
 "kO" = (
 /turf/open/floor/rogue/rooftop/green/corner1{
 	dir = 1
@@ -1870,11 +1874,8 @@
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/outdoors/town/roofs/keep)
 "tR" = (
-/obj/structure/bookcase,
-/turf/open/floor/rogue/ruinedwood{
-	icon_state = "weird1"
-	},
-/area/rogue/indoors/town/manor)
+/turf/open/floor/rogue/blocks,
+/area/rogue/outdoors/town/roofs/keep)
 "tV" = (
 /obj/structure/closet/crate/roguecloset,
 /obj/item/flashlight/flare/torch/metal,
@@ -2421,6 +2422,7 @@
 /area/rogue/indoors/town/manor)
 "yP" = (
 /obj/structure/bookcase,
+/obj/item/book/rogue/axian_my_sweet,
 /turf/open/floor/rogue/carpet,
 /area/rogue/indoors/town/manor)
 "yT" = (
@@ -3006,6 +3008,12 @@
 	},
 /turf/open/floor/rogue/grass,
 /area/rogue/outdoors/town/roofs/keep)
+"Fa" = (
+/obj/structure/bookcase,
+/turf/open/floor/rogue/ruinedwood{
+	icon_state = "weird1"
+	},
+/area/rogue/indoors/town/manor)
 "Ff" = (
 /obj/structure/fluff/railing/border{
 	dir = 1
@@ -4413,9 +4421,6 @@
 	},
 /turf/open/floor/rogue/churchmarble,
 /area/rogue/indoors/town/manor)
-"Up" = (
-/turf/open/floor/rogue/blocks,
-/area/rogue/outdoors/town/roofs/keep)
 "Uu" = (
 /obj/structure/mineral_door/wood{
 	locked = 1;
@@ -166889,7 +166894,7 @@ po
 po
 gR
 vS
-tR
+Fa
 BF
 vb
 kF
@@ -170229,8 +170234,8 @@ xH
 xH
 II
 yP
-yP
-yP
+kJ
+kJ
 II
 xF
 tj
@@ -171258,7 +171263,7 @@ MF
 YL
 CW
 CW
-yP
+kJ
 II
 xF
 Pt
@@ -171515,7 +171520,7 @@ gS
 gS
 uf
 CW
-yP
+kJ
 II
 xF
 KP
@@ -171772,7 +171777,7 @@ xH
 II
 ii
 ML
-yP
+kJ
 II
 xF
 KP
@@ -231669,7 +231674,7 @@ ca
 eY
 xH
 xH
-Up
+tR
 wB
 wB
 wB
@@ -234224,10 +234229,10 @@ pG
 tY
 az
 bp
-tR
+Fa
 tY
-tR
-tR
+Fa
+Fa
 az
 wB
 wB
