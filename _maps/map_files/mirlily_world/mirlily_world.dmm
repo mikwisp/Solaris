@@ -651,6 +651,16 @@
 	dir = 4
 	},
 /area/rogue/outdoors/town/roofs/keep)
+"fd" = (
+/obj/structure/rack/rogue,
+/obj/item/reagent_containers/glass/cup/wooden,
+/obj/item/reagent_containers/glass/cup/wooden,
+/obj/item/reagent_containers/glass/cup/wooden,
+/obj/item/reagent_containers/glass/cup/wooden,
+/obj/item/reagent_containers/glass/cup/wooden,
+/obj/item/reagent_containers/glass/cup/wooden,
+/turf/open/floor/rogue/cobble,
+/area/rogue/under/town/basement/keep)
 "fg" = (
 /turf/open/floor/rogue/tile/masonic,
 /area/rogue/indoors/town/manor)
@@ -834,6 +844,10 @@
 	},
 /turf/open/floor/rogue/carpet/lord/right,
 /area/rogue/indoors/town/manor)
+"gq" = (
+/obj/machinery/light/rogue/wallfire/candle/directional/north,
+/turf/open/floor/rogue/cobble,
+/area/rogue/under/town/basement/keep)
 "gu" = (
 /obj/structure/roguemachine/scomm/directional/west,
 /turf/open/floor/rogue/herringbone,
@@ -1023,6 +1037,10 @@
 /obj/machinery/light/rogue/wallfire/candle/directional/south,
 /turf/open/floor/rogue/blocks/stonered/tiny,
 /area/rogue/indoors/town/manor)
+"hF" = (
+/obj/machinery/light/rogue/wallfire/candle/directional/west,
+/turf/open/floor/rogue/cobble,
+/area/rogue/under/town/basement/keep)
 "hH" = (
 /obj/structure/table/wood{
 	icon_state = "tablewood1"
@@ -1586,6 +1604,15 @@
 	},
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/outdoors/town/roofs/keep)
+"lM" = (
+/obj/structure/mineral_door/wood/donjon{
+	dir = 8;
+	locked = 1;
+	lockid = "vault";
+	name = "Vault Door"
+	},
+/turf/open/floor/rogue/tile,
+/area/rogue/under/town/basement/keep)
 "lN" = (
 /obj/structure/toilet,
 /turf/open/floor/rogue/herringbone,
@@ -3164,6 +3191,17 @@
 	},
 /turf/open/floor/rogue/ruinedwood/turned,
 /area/rogue/outdoors/town/roofs/keep)
+"xe" = (
+/obj/structure/mineral_door/bars{
+	locked = 1;
+	lockid = "vault"
+	},
+/obj/structure/fluff/walldeco/alarm{
+	pixel_y = 0;
+	pixel_x = 32
+	},
+/turf/open/floor/rogue/concrete,
+/area/rogue/under/town/basement/keep)
 "xj" = (
 /obj/effect/decal/wood/herringbone2{
 	dir = 9
@@ -4047,6 +4085,16 @@
 "Ef" = (
 /obj/structure/roguemachine/scomm/directional/west,
 /turf/open/floor/rogue/tile/bfloorz,
+/area/rogue/under/town/basement/keep)
+"Eg" = (
+/obj/structure/mineral_door/bars{
+	locked = 1;
+	lockid = "vault"
+	},
+/obj/structure/fluff/walldeco/alarm{
+	pixel_y = -32
+	},
+/turf/open/floor/rogue/concrete,
 /area/rogue/under/town/basement/keep)
 "Eo" = (
 /obj/structure/chair/bench/coucha/r,
@@ -4990,6 +5038,10 @@
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors/town/cell)
+"Kx" = (
+/obj/machinery/light/rogue/torchholder/directional/south,
+/turf/open/floor/rogue/tile,
+/area/rogue/under/town/basement/keep)
 "Ky" = (
 /obj/structure/fermenting_barrel/water,
 /turf/open/floor/rogue/churchmarble,
@@ -5583,6 +5635,9 @@
 	},
 /turf/open/floor/rogue/blocks/stonered/tiny,
 /area/rogue/indoors/town/manor)
+"Pz" = (
+/turf/open/floor/rogue/tile,
+/area/rogue/under/town/basement/keep)
 "PA" = (
 /obj/structure/mirror,
 /turf/open/floor/rogue/ruinedwood{
@@ -5757,9 +5812,9 @@
 /area/rogue/indoors/town/manor)
 "QL" = (
 /obj/structure/rack/rogue,
-/obj/item/reagent_containers/glass/cup/wooden,
-/obj/item/reagent_containers/glass/cup/wooden,
-/obj/item/reagent_containers/glass/cup/wooden,
+/obj/item/clothing/under/roguetown/heavy_leather_pants/shorts,
+/obj/item/clothing/under/roguetown/heavy_leather_pants/shorts,
+/obj/item/clothing/under/roguetown/heavy_leather_pants/shorts,
 /turf/open/floor/rogue/cobble,
 /area/rogue/under/town/basement/keep)
 "QP" = (
@@ -42391,17 +42446,17 @@ HT
 HT
 HT
 HT
+fi
 HT
 HT
 HT
 HT
 HT
 HT
-pR
-pR
-pR
-pR
-pR
+HT
+lM
+HT
+HT
 HT
 HT
 HT
@@ -42648,17 +42703,17 @@ kt
 kt
 kt
 kt
+hF
 kt
 kt
 kt
 kt
-kt
-HT
-pR
-pR
-pR
-pR
-pR
+uO
+Pz
+Pz
+Pz
+Pz
+Pz
 HT
 ch
 Tg
@@ -42899,7 +42954,8 @@ pR
 pR
 pR
 pR
-HT
+fi
+gq
 kt
 kt
 kt
@@ -42909,13 +42965,12 @@ kt
 kt
 kt
 kt
-kt
-HT
-pR
-pR
-pR
-pR
-pR
+xe
+Pz
+Pz
+Pz
+Pz
+Kx
 HT
 UC
 HD
@@ -43170,9 +43225,9 @@ kt
 HT
 HT
 HT
-pR
-pR
-pR
+Pz
+Pz
+Pz
 HT
 lQ
 iw
@@ -43427,8 +43482,8 @@ UG
 HT
 Jb
 HT
-HT
-HT
+uO
+Eg
 HT
 HT
 HT
@@ -45482,7 +45537,7 @@ or
 kt
 Ua
 HT
-QL
+fd
 Xt
 Df
 Df
