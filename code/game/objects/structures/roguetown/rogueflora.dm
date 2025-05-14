@@ -162,7 +162,6 @@
 /obj/structure/flora/roguetree/lush/Initialize()
 	. = ..()
 	icon_state = "[icon_state][rand(1, 6)]"
-	. = ..()
 
 /obj/structure/flora/roguetree/stump
 	name = "tree stump"

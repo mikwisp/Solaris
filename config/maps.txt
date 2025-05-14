@@ -20,3 +20,8 @@ map dun_world
 	default
 	votable
 endmap
+
+map mirlily_world
+	default
+	votable
+endmap
