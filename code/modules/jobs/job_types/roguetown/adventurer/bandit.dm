@@ -7,7 +7,7 @@
 	spawn_positions = 0
 	antag_job = TRUE
 	allowed_races = RACES_ALL_KINDS
-	tutorial = "Long ago, you did a crime worthy of your bounty being hung on the wall outside of the local inn. And it's haunted you. You now live with your fellow freemen, and generally get up to no good."
+	tutorial = "Long ago, you did a crime worthy of your bounty being hung on the wall outside of the local inn. And it's haunted you. Work together with your fellow freemen to establish a camp and rob the locals blind!"
 
 	outfit = null
 	outfit_female = null
