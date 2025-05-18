@@ -53,4 +53,5 @@
 	H.mind.adjust_skillrank(/datum/skill/craft/blacksmithing, 2, TRUE)
 	H.mind.adjust_skillrank(/datum/skill/misc/sewing, 2, TRUE)
 	H.mind.adjust_skillrank(/datum/skill/craft/tanning, 2, TRUE)
+	H.mind.adjust_skillrank(/datum/skill/craft/cooking, 2, TRUE)
 	addtimer(CALLBACK(H, TYPE_PROC_REF(/mob/living/carbon/human, choose_name_popup), "BANDIT"), 5 SECONDS)
