@@ -30126,6 +30126,12 @@
 /obj/machinery/light/rogue/torchholder/directional/east,
 /turf/open/floor/rogue/hexstone,
 /area/rogue/indoors/town/manor)
+"mQI" = (
+/obj/effect/landmark/start/bandit{
+	dir = 1
+	},
+/turf/open/floor/rogue/cobblerock,
+/area/rogue/outdoors/mountains)
 "mQP" = (
 /turf/closed/wall/mineral/rogue/stonebrick,
 /area/rogue/under/cave/goblinfort)
@@ -31810,12 +31816,11 @@
 /turf/open/floor/rogue/woodturned/nosmooth,
 /area/rogue/indoors/shelter)
 "nzs" = (
-/obj/structure/fluff/traveltile/bandit{
-	aportalid = "banditexit";
-	aportalgoesto = "banditin"
+/obj/effect/landmark/start/bandit{
+	dir = 1
 	},
-/turf/open/floor/rogue/dirt/road,
-/area/rogue/under/cave)
+/turf/open/floor/rogue/naturalstone,
+/area/rogue/outdoors/mountains)
 "nzy" = (
 /obj/structure/stairs{
 	dir = 1
@@ -50722,12 +50727,11 @@
 /turf/open/floor/rogue/carpet/lord/center,
 /area/rogue/under/cave/dukecourt)
 "vAu" = (
-/obj/structure/fluff/traveltile/bandit{
-	aportalid = "banditexit2";
-	aportalgoesto = "banditin2"
+/obj/effect/landmark/start/banditlate{
+	dir = 1
 	},
-/turf/open/floor/rogue/dirt/road,
-/area/rogue/indoors/cave)
+/turf/open/floor/rogue/cobblerock,
+/area/rogue/outdoors/mountains)
 "vAw" = (
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/exposed/town/keep)
@@ -291066,10 +291070,10 @@ cxA
 ogs
 ogs
 ogs
-nzs
-nzs
-nzs
-nzs
+htN
+htN
+htN
+htN
 ogs
 ogs
 ogs
@@ -410486,7 +410490,7 @@ rnW
 bhJ
 vBH
 lZK
-fZN
+nzs
 ogs
 ogs
 ogs
@@ -410938,7 +410942,7 @@ bSX
 lZK
 lZK
 lZK
-lZK
+vAu
 aTU
 ogs
 ogs
@@ -411390,7 +411394,7 @@ lZK
 lZK
 lZK
 lZK
-lZK
+mQI
 aTU
 ogs
 ogs
@@ -411842,7 +411846,7 @@ lZK
 lZK
 lZK
 lZK
-lZK
+vAu
 aTU
 ogs
 ogs
@@ -412294,7 +412298,7 @@ hJB
 lZK
 lZK
 fZN
-fZN
+nzs
 ogs
 ogs
 ogs
@@ -478382,7 +478386,7 @@ tsB
 tsB
 qPv
 ujm
-vAu
+tIH
 tIH
 tIH
 tIH
@@ -478834,7 +478838,7 @@ tsB
 qPv
 qPv
 ujm
-vAu
+tIH
 tIH
 tIH
 tIH
@@ -479286,7 +479290,7 @@ tsB
 qPv
 qPv
 ujm
-vAu
+tIH
 tIH
 tIH
 tIH
