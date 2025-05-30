@@ -12367,12 +12367,6 @@
 "fii" = (
 /turf/closed/mineral/random/rogue/med,
 /area/rogue/outdoors/rtfield)
-"fiE" = (
-/obj/effect/landmark/start/wardenlate{
-	dir = 4
-	},
-/turf/open/floor/rogue/dirt/road,
-/area/rogue/under/cave)
 "fiK" = (
 /obj/structure/stairs{
 	dir = 8
@@ -17072,10 +17066,6 @@
 	},
 /turf/open/transparent/openspace,
 /area/rogue/outdoors/mountains)
-"hiI" = (
-/obj/machinery/light/rogue/firebowl/stump,
-/turf/open/floor/rogue/dirt/road,
-/area/rogue/under/cave)
 "hiM" = (
 /obj/machinery/light/rogue/wallfire/candle/directional/west,
 /obj/structure/bed/rogue/inn,
@@ -37156,9 +37146,9 @@
 /obj/structure/mineral_door/swing_door{
 	keylock = 1;
 	locked = 1;
-	lockid = "adventurersguild";
-	name = "Mercenaries stable"
+	name = "stables"
 	},
+/obj/effect/mapping_helpers/access/peasant/adventurers_guild,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/indoors/town)
 "pFh" = (
@@ -42750,7 +42740,6 @@
 /turf/open/floor/rogue/tile,
 /area/rogue/indoors/town/church/chapel)
 "rYX" = (
-/obj/machinery/light/rogue/wallfire/candle/directional/east,
 /obj/structure/bed/rogue,
 /obj/item/bedsheet/rogue/cloth,
 /obj/machinery/light/rogue/wallfire/candle/directional/north,
@@ -46610,6 +46599,9 @@
 	dir = 1
 	},
 /obj/effect/landmark/start/adventurerlate{
+	dir = 1
+	},
+/obj/effect/landmark/start/wardenlate{
 	dir = 1
 	},
 /turf/open/floor/rogue/cobblerock,
@@ -52843,9 +52835,9 @@
 /obj/structure/mineral_door/swing_door{
 	keylock = 1;
 	locked = 1;
-	lockid = "manor";
 	name = "stables"
 	},
+/obj/effect/mapping_helpers/access/noble,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/indoors/town/garrison)
 "wtn" = (
@@ -290585,16 +290577,16 @@ cxA
 cxA
 cxA
 cxA
-ogs
-ogs
-ogs
-ogs
-ogs
-ogs
-ogs
-ogs
-ogs
-ogs
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
 cxA
 cxA
 cxA
@@ -291037,16 +291029,16 @@ cxA
 cxA
 cxA
 cxA
-ogs
-ogs
-ogs
-fiE
-fiE
-fiE
-fiE
-ogs
-ogs
-ogs
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
 cxA
 cxA
 cxA
@@ -291489,16 +291481,16 @@ cxA
 cxA
 cxA
 cxA
-ogs
-ogs
-htN
-htN
-htN
-htN
-htN
-htN
-ogs
-ogs
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
 cxA
 cxA
 cxA
@@ -291941,16 +291933,16 @@ cxA
 cxA
 cxA
 cxA
-ogs
-ogs
-htN
-htN
-htN
-htN
-htN
-htN
-htN
-ogs
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
 cxA
 cxA
 cxA
@@ -292393,16 +292385,16 @@ cxA
 cxA
 cxA
 cxA
-ogs
-ogs
-htN
-htN
-htN
-htN
-htN
-htN
-htN
-ogs
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
 cxA
 cxA
 cxA
@@ -292845,16 +292837,16 @@ cxA
 cxA
 cxA
 cxA
-ogs
-htN
-htN
-htN
-htN
-htN
-htN
-htN
-htN
-ogs
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
 cxA
 cxA
 cxA
@@ -293297,16 +293289,16 @@ cxA
 cxA
 cxA
 cxA
-ogs
-htN
-htN
-htN
-htN
-htN
-htN
-htN
-htN
-ogs
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
 cxA
 cxA
 cxA
@@ -293749,16 +293741,16 @@ cxA
 cxA
 cxA
 cxA
-ogs
-htN
-htN
-htN
-htN
-htN
-htN
-htN
-htN
-ogs
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
 cxA
 cxA
 cxA
@@ -294200,18 +294192,18 @@ aBB
 aBB
 aBB
 cxA
-ogs
-ogs
-htN
-htN
-htN
-htN
-htN
-htN
-htN
-htN
-ogs
-ogs
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
 cxA
 cxA
 cxA
@@ -294652,18 +294644,18 @@ aBB
 aBB
 aBB
 aBB
-etx
-etx
-etx
-etx
-htN
-htN
-htN
-htN
-hiI
-htN
-ogs
-ogs
+aBB
+aBB
+aBB
+aBB
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
 cxA
 cxA
 cxA
@@ -295104,18 +295096,18 @@ aBB
 aBB
 aBB
 aBB
-etx
-etx
-etx
-etx
-etx
-etx
-htN
-htN
-htN
-htN
-ogs
-ogs
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+cxA
+cxA
+cxA
+cxA
+cxA
+cxA
 cxA
 cxA
 aBB
@@ -295559,15 +295551,15 @@ aBB
 aBB
 aBB
 aBB
-etx
-etx
-etx
-etx
-etx
-etx
-etx
-etx
-etx
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
 aBB
 aBB
 aBB
@@ -296013,13 +296005,13 @@ aBB
 aBB
 aBB
 aBB
-etx
-etx
-etx
-etx
-etx
-etx
-etx
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
+aBB
 aBB
 aBB
 aBB
