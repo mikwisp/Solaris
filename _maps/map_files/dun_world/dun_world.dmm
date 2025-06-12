@@ -9176,7 +9176,7 @@
 	pixel_y = 32
 	},
 /obj/structure/flora/ausbushes/brflowers,
-/turf/open/floor/rogue/grass,
+/turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/town)
 "dAx" = (
 /obj/structure/flora/roguegrass,
@@ -34233,7 +34233,7 @@
 /obj/effect/decal/cobbleedge{
 	dir = 5
 	},
-/turf/open/floor/rogue/grass,
+/turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/town)
 "mZH" = (
 /obj/structure/stairs{
@@ -35154,6 +35154,12 @@
 "noW" = (
 /turf/open/floor/rogue/cobble/mossy,
 /area/rogue/outdoors/exposed/town/keep)
+"noZ" = (
+/obj/effect/decal/cobbleedge{
+	dir = 1
+	},
+/turf/open/floor/rogue/dirt/road,
+/area/rogue/outdoors/town)
 "npb" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/rogue/concrete,
@@ -46870,7 +46876,7 @@
 	pixel_y = 32
 	},
 /obj/structure/flora/roguegrass/herb/random,
-/turf/open/floor/rogue/grass,
+/turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/town)
 "rNp" = (
 /obj/structure/chair/stool/rogue,
@@ -50731,6 +50737,9 @@
 /obj/machinery/light/rogue/firebowl/standing/blue,
 /turf/open/floor/rogue/churchrough,
 /area/rogue/under/town/basement)
+"tpx" = (
+/turf/open/floor/rogue/grassyel,
+/area/rogue/outdoors/beach/forest)
 "tpE" = (
 /turf/open/floor/rogue/ruinedwood{
 	icon_state = "horzw"
@@ -51164,7 +51173,7 @@
 	dir = 1
 	},
 /obj/effect/landmark/events/haunts,
-/turf/open/floor/rogue/grass,
+/turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/town)
 "tzy" = (
 /obj/structure/chair/stool/rogue,
@@ -59148,6 +59157,10 @@
 /obj/item/candle/skull,
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/town/manor)
+"wGc" = (
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/open/floor/rogue/dirt/road,
+/area/rogue/outdoors/town)
 "wGh" = (
 /obj/structure/flora/roguegrass,
 /obj/structure/flora/newleaf,
@@ -61961,6 +61974,12 @@
 /obj/item/storage/roguebag,
 /turf/open/floor/rogue/churchbrick,
 /area/rogue/indoors/town/church/chapel)
+"xNg" = (
+/obj/structure/fluff/railing/wood{
+	layer = 4.51
+	},
+/turf/open/floor/rogue/grassyel,
+/area/rogue/outdoors/beach/forest)
 "xNv" = (
 /obj/machinery/light/rogue/firebowl/stump,
 /turf/open/floor/rogue/blocks/green,
@@ -242904,7 +242923,7 @@ izK
 dtu
 oKc
 dAf
-hRO
+bMf
 sns
 fmy
 oYq
@@ -243356,8 +243375,8 @@ jvO
 jvO
 pip
 mWD
-njB
-ffQ
+rcz
+noZ
 sns
 oYq
 cns
@@ -243809,7 +243828,7 @@ jQa
 tmh
 pMG
 cMU
-ffQ
+noZ
 sns
 oYq
 tYE
@@ -244712,8 +244731,8 @@ jQa
 jQa
 tmh
 tyI
-pWT
-ffQ
+fpx
+noZ
 sns
 oYq
 ePn
@@ -245164,7 +245183,7 @@ uCt
 uCt
 pip
 mWD
-oPJ
+wGc
 sns
 sns
 oYq
@@ -245616,7 +245635,7 @@ izK
 dtu
 oKc
 rNj
-jlj
+nJH
 sns
 qfA
 oYq
@@ -246067,7 +246086,7 @@ lML
 sns
 xYz
 wHC
-jlj
+nJH
 sns
 qfA
 rUQ
@@ -252851,7 +252870,7 @@ akl
 cjr
 sns
 sns
-dmL
+sZS
 hrc
 dec
 dyE
@@ -253303,7 +253322,7 @@ ocX
 dfR
 sns
 sns
-dmL
+sZS
 cDX
 hrc
 cDX
@@ -253755,8 +253774,8 @@ gAp
 dfR
 sns
 sns
-dmL
-pWT
+sZS
+fpx
 qgd
 sns
 sns
@@ -369388,7 +369407,7 @@ lpq
 lpq
 lpq
 lpq
-lpq
+tpx
 dCq
 dCq
 lpq
@@ -369407,7 +369426,7 @@ lpq
 lpq
 lpq
 lpq
-mYj
+xNg
 aBB
 aBB
 aBB
@@ -370305,8 +370324,8 @@ tqx
 sJx
 sJx
 tqx
-sJx
-sJx
+tpx
+tpx
 tqx
 tqx
 tqx
@@ -370752,12 +370771,12 @@ sJx
 sJx
 sJx
 tqx
+tpx
 sJx
 sJx
 sJx
 sJx
-sJx
-sJx
+tpx
 sJx
 tqx
 sJx
@@ -371195,24 +371214,24 @@ sJx
 sJx
 sJx
 sJx
-sJx
+tpx
+tpx
 lpq
 lpq
-lpq
-sJx
-sJx
-sJx
-tqx
-tqx
+tpx
 sJx
 sJx
 tqx
 tqx
 sJx
 sJx
+tqx
+tqx
+tpx
 sJx
+tpx
 sJx
-sJx
+tpx
 tqx
 tqx
 qSm
@@ -372562,8 +372581,8 @@ lpq
 dCq
 dCq
 lpq
-lpq
-lpq
+tpx
+tpx
 vvB
 vvB
 lpq
@@ -373461,7 +373480,7 @@ dCq
 lYK
 lpq
 lpq
-lpq
+tpx
 dCq
 qPv
 qPv
