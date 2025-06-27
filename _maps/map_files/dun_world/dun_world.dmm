@@ -6195,6 +6195,9 @@
 /obj/effect/decal/cleanable/blood{
 	icon_state = "floor5-old"
 	},
+/obj/effect/decal/wood/herringbone2{
+	dir = 10
+	},
 /turf/open/floor/rogue/blocks/stonered,
 /area/provincial/underground/dungeon/gargoyles_rest)
 "cdR" = (
@@ -15662,15 +15665,6 @@
 /obj/effect/spawner/lootdrop/roguetown/dungeon,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/provincial/underground/dungeon/old_ruin)
-"foV" = (
-/obj/effect/decal/wood/herringbone2{
-	dir = 8
-	},
-/obj/effect/decal/wood/herringbone2{
-	dir = 1
-	},
-/turf/open/floor/rogue/wood/herringbone,
-/area/provincial/underground/dungeon/gargoyles_rest)
 "foX" = (
 /obj/structure/roguewindow/openclose{
 	dir = 4
@@ -18641,7 +18635,7 @@
 	butcher_results = list(/obj/item/reagent_containers/food/snacks/rogue/meat/steak = 4, /obj/item/natural/hide = 4, /obj/item/natural/bundle/bone/full = 3, /obj/item/alch/sinew = 7, /obj/item/alch/horn = 1, /obj/item/alch/viscera = 2);
 	name = "Lesser bog troll"
 	},
-/turf/open/floor/rogue/blocks/stonered/tiny,
+/turf/open/floor/rogue/wood/herringbone,
 /area/provincial/underground/dungeon/gargoyles_rest)
 "gme" = (
 /obj/item/rogueweapon/pitchfork,
@@ -22680,9 +22674,6 @@
 /obj/effect/decal/wood/herringbone2{
 	dir = 1
 	},
-/obj/effect/decal/wood/herringbone2{
-	dir = 8
-	},
 /turf/open/floor/rogue/wood/herringbone,
 /area/provincial/underground/dungeon/gargoyles_rest)
 "hCk" = (
@@ -25825,7 +25816,6 @@
 /obj/effect/decal/wood/herringbone2{
 	dir = 4
 	},
-/obj/effect/decal/wood/herringbone2,
 /obj/structure/table/wood{
 	dir = 2;
 	icon_state = "longtable"
@@ -26494,12 +26484,6 @@
 /turf/open/floor/rogue/dirt,
 /area/provincial/outdoors/mountains/underkings_maw/deeper_within)
 "iNQ" = (
-/obj/effect/decal/wood/herringbone2{
-	dir = 1
-	},
-/obj/effect/decal/wood/herringbone2{
-	dir = 8
-	},
 /obj/structure/mineral_door/swing_door{
 	broken = 1;
 	brokenstate = 1
@@ -28758,6 +28742,9 @@
 /obj/effect/decal/remains/bigrat,
 /obj/effect/decal/cleanable/blood/old,
 /obj/effect/decal/wood/herringbone2,
+/obj/effect/decal/wood/herringbone2{
+	dir = 4
+	},
 /turf/open/floor/rogue/blocks/stonered,
 /area/provincial/underground/dungeon/gargoyles_rest)
 "jzP" = (
@@ -43892,15 +43879,15 @@
 /turf/open/floor/rogue/ruinedwood,
 /area/provincial/outdoors/dungeon/riverbrook)
 "ozp" = (
-/obj/effect/decal/wood/herringbone2{
-	dir = 8
-	},
 /obj/item/chair/rogue{
 	dir = 1
 	},
 /mob/living/simple_animal/hostile/retaliate/rogue/trollbog{
 	butcher_results = list(/obj/item/reagent_containers/food/snacks/rogue/meat/steak = 4, /obj/item/natural/hide = 4, /obj/item/natural/bundle/bone/full = 3, /obj/item/alch/sinew = 7, /obj/item/alch/horn = 1, /obj/item/alch/viscera = 2);
 	name = "Lesser bog troll"
+	},
+/obj/effect/decal/wood/herringbone2{
+	dir = 8
 	},
 /turf/open/floor/rogue/blocks/stonered,
 /area/provincial/underground/dungeon/gargoyles_rest)
@@ -48913,6 +48900,9 @@
 /area/provincial/underground/dungeon/forsaken_bastille)
 "qkW" = (
 /obj/effect/decal/cleanable/blood,
+/obj/effect/decal/wood/herringbone2{
+	dir = 6
+	},
 /turf/open/floor/rogue/blocks/stonered,
 /area/provincial/underground/dungeon/gargoyles_rest)
 "qkX" = (
@@ -67851,13 +67841,13 @@
 /turf/open/floor/rogue/grassred,
 /area/provincial/underground/dungeon/forsaken_bastille)
 "wKf" = (
-/obj/effect/decal/wood/herringbone2{
-	dir = 4
-	},
 /obj/item/chair/rogue,
 /mob/living/simple_animal/hostile/retaliate/rogue/trollbog{
 	butcher_results = list(/obj/item/reagent_containers/food/snacks/rogue/meat/steak = 4, /obj/item/natural/hide = 4, /obj/item/natural/bundle/bone/full = 3, /obj/item/alch/sinew = 7, /obj/item/alch/horn = 1, /obj/item/alch/viscera = 2);
 	name = "Lesser bog troll"
+	},
+/obj/effect/decal/wood/herringbone2{
+	dir = 4
 	},
 /turf/open/floor/rogue/blocks/stonered,
 /area/provincial/underground/dungeon/gargoyles_rest)
@@ -68201,13 +68191,6 @@
 	},
 /turf/open/floor/rogue/wood,
 /area/provincial/indoors/town/province_keep)
-"wPM" = (
-/obj/effect/decal/wood/herringbone2{
-	dir = 4
-	},
-/obj/effect/decal/wood/herringbone2,
-/turf/open/floor/rogue/wood/herringbone,
-/area/provincial/underground/dungeon/gargoyles_rest)
 "wPS" = (
 /obj/structure/table/wood,
 /turf/open/floor/rogue/cobble/mossy,
@@ -131564,7 +131547,7 @@ wKf
 mXB
 alw
 iDq
-wPM
+hIE
 pqm
 hOW
 dOQ
@@ -132020,7 +132003,7 @@ hIE
 hIE
 aGD
 hIE
-foV
+hIE
 tWs
 edV
 exV
@@ -135179,7 +135162,7 @@ dOm
 api
 mSM
 bvp
-lLu
+xMx
 hIE
 nRt
 hIE
