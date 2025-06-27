@@ -15,3 +15,4 @@
 	droning_sound = 'sound/music/area/towngenold.ogg'
 	droning_sound_dusk = 'sound/music/area/forestnightold.ogg'
 	droning_sound_night = 'sound/music/area/fieldold.ogg'
+
