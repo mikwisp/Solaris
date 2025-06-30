@@ -35582,10 +35582,6 @@
 	},
 /turf/open/floor/rogue/carpet/lord/left,
 /area/provincial/underground/dungeon/licharena)
-"lVR" = (
-/obj/structure/fluff/walldeco/med,
-/turf/open/floor/rogue/cobble,
-/area/provincial/outdoors/town)
 "lVS" = (
 /obj/structure/flora/roguetree/stump/log,
 /turf/open/floor/rogue/dirt/road,
@@ -281956,7 +281952,7 @@ pXX
 pXX
 gcA
 abk
-lVR
+tZh
 tZh
 mLT
 mLT
