@@ -723,6 +723,7 @@
 #include "code\game\area\provincial.dm"
 #include "code\game\area\areas\_indoors.dm"
 #include "code\game\area\areas\_outdoors.dm"
+#include "code\game\area\areas\_rasurian_heartland.dm"
 #include "code\game\area\areas\_underground.dm"
 #include "code\game\area\areas\misc.dm"
 #include "code\game\area\areas\overworld\dungeons\giuseppes_toybox.dm"
