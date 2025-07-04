@@ -146,19 +146,31 @@
 /obj/structure/roguemachine/questgiver/proc/turn_in_quest(mob/user)
 	var/reward = 0
 	var/original_reward = 0
+	var/total_deposit_return = 0
 
 	for(var/atom/movable/pawnable_loot in input_point)
 		if(istype(pawnable_loot, /obj/item/paper/scroll/quest))
 			var/obj/item/paper/scroll/quest/turned_in_scroll = pawnable_loot
-			if(turned_in_scroll.assigned_quest.complete)
-				reward += turned_in_scroll.assigned_quest.reward_amount
-				original_reward = reward
+			if(turned_in_scroll.assigned_quest?.complete)
+				// Calculate base reward
+				var/base_reward = turned_in_scroll.assigned_quest.reward_amount
+				original_reward += base_reward
+				
+				// Calculate deposit return based on difficulty
+				var/deposit_return = turned_in_scroll.assigned_quest.quest_difficulty == "Easy" ? 5 : \
+									turned_in_scroll.assigned_quest.quest_difficulty == "Medium" ? 10 : 20
+				total_deposit_return += deposit_return
+				
+				// Apply guild handler bonus if applicable (only to the base reward)
 				if(guild && user.job == "Guild Handler")
-					reward *= 2
-				reward += turned_in_scroll.assigned_quest.quest_difficulty == "Easy" ? 5 : \
-						turned_in_scroll.assigned_quest.quest_difficulty == "Medium" ? 10 : 20
-				original_reward += turned_in_scroll.assigned_quest.quest_difficulty == "Easy" ? 5 : \
-						turned_in_scroll.assigned_quest.quest_difficulty == "Medium" ? 10 : 20
+					reward += base_reward * 2
+				else
+					reward += base_reward
+				
+				// Add deposit return to both reward totals
+				reward += deposit_return
+				original_reward += deposit_return
+				
 				qdel(turned_in_scroll.assigned_quest)
 				qdel(turned_in_scroll)
 				continue
