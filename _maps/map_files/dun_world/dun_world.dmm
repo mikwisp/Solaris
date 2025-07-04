@@ -2972,7 +2972,7 @@
 	},
 /area/provincial/indoors/town/province_keep/quarters/marquis)
 "aYi" = (
-/obj/item/roguecoin/silver/pile,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
 /obj/structure/table/wood{
 	icon_state = "tablewood1";
 	dir = 1
@@ -3278,8 +3278,7 @@
 /area/provincial/outdoors/town)
 "ben" = (
 /obj/structure/table/wood{
-	icon_state = "tablewood1";
-	pixel_y = -4
+	icon_state = "tablewood1"
 	},
 /turf/open/floor/rogue/wood,
 /area/provincial/outdoors/town)
@@ -3345,8 +3344,7 @@
 /area/provincial/indoors/town/adventurers_guild)
 "bgj" = (
 /obj/structure/table/wood{
-	icon_state = "tablewood1";
-	pixel_y = -4
+	icon_state = "tablewood1"
 	},
 /turf/open/floor/rogue/wood,
 /area/provincial/outdoors/field)
@@ -5351,6 +5349,10 @@
 /obj/item/storage/belt/rogue/pouch/coins/mid,
 /turf/open/floor/rogue/grassred,
 /area/provincial/underground/dungeon/old_university)
+"bNs" = (
+/obj/structure/table/wood/fancy/black,
+/turf/open/floor/rogue/church,
+/area/provincial/underground/forest/brightway)
 "bNt" = (
 /obj/structure/chair/wood/rogue/fancy{
 	dir = 8
@@ -7038,6 +7040,10 @@
 /obj/effect/mapping_helpers/autoname,
 /turf/open/floor/rogue/ruinedwood/herringbone,
 /area/provincial/indoors/town/province_keep/deacon)
+"coo" = (
+/obj/item/bedsheet/rogue/pelt,
+/turf/open/floor/rogue/dirt,
+/area/provincial/underground/forest/brightway)
 "cos" = (
 /obj/effect/spawner/lootdrop/roguetown/dungeon/armor,
 /turf/open/floor/rogue/cobblerock,
@@ -9131,8 +9137,7 @@
 /area/provincial/indoors/dungeon/lost_homestead)
 "dbe" = (
 /obj/structure/table/wood{
-	icon_state = "tablewood1";
-	pixel_y = -4
+	icon_state = "tablewood1"
 	},
 /turf/open/floor/rogue/wood,
 /area/provincial/outdoors/dungeon/riverbrook)
@@ -11813,6 +11818,10 @@
 	},
 /turf/open/floor/rogue/cobble,
 /area/provincial/indoors/town/farm/barn)
+"dUM" = (
+/mob/living/simple_animal/hostile/rogue/dragger,
+/turf/open/floor/rogue/woodturned,
+/area/provincial/indoors/dungeon/riverbrook)
 "dUP" = (
 /obj/effect/decal/cobbleedge{
 	dir = 1;
@@ -14938,6 +14947,13 @@
 	},
 /turf/open/floor/rogue/cobblerock,
 /area/provincial/outdoors/town)
+"eVz" = (
+/obj/structure/mineral_door/wood/deadbolt{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/lock_door,
+/turf/open/floor/rogue/wood,
+/area/provincial/indoors/dungeon/riverbrook)
 "eVD" = (
 /obj/structure/mineral_door/wood/deadbolt{
 	dir = 4
@@ -24622,6 +24638,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 6
 	},
+/obj/structure/flora/roguegrass,
 /turf/open/floor/rogue/dirt/road,
 /area/provincial/outdoors/dungeon/riverbrook)
 "ibk" = (
@@ -30119,6 +30136,10 @@
 /obj/structure/flora/roguetree/burnt,
 /turf/open/floor/rogue/naturalstone,
 /area/provincial/underground/underdark)
+"jNc" = (
+/obj/structure/bed/rogue/inn,
+/turf/open/floor/rogue/woodturned,
+/area/provincial/underground/forest/brightway)
 "jNg" = (
 /turf/closed/wall/mineral/rogue/decowood/vert,
 /area/provincial/indoors/town/stables/rented)
@@ -32353,6 +32374,10 @@
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/provincial/outdoors/town/keep)
+"kwF" = (
+/mob/living/simple_animal/hostile/rogue/dragger,
+/turf/open/floor/carpet/royalblack,
+/area/provincial/indoors/dungeon/riverbrook)
 "kwG" = (
 /turf/open/floor/rogue/cobble/mossy,
 /area/provincial/indoors/town/province_keep/garrison/gate/west)
@@ -33151,6 +33176,10 @@
 /obj/effect/landmark/quest_spawner/medium,
 /turf/open/floor/rogue/blocks/stonered/tiny,
 /area/provincial/underground/forest/brightway)
+"kIJ" = (
+/obj/structure/closet/crate/roguecloset/inn,
+/turf/open/floor/rogue/wood,
+/area/provincial/indoors/dungeon/riverbrook)
 "kJd" = (
 /obj/effect/decal/cobbleedge,
 /turf/open/floor/rogue/dirt/road,
@@ -35856,8 +35885,8 @@
 "lFD" = (
 /obj/structure/roguemachine/teleport_beacon/wilderness{
 	custom_name = "Riverbrook";
-	arrival_price = 5;
-	departure_price = 10;
+	arrival_price = 10;
+	departure_price = 15;
 	fringe = 1;
 	quest_difficulty = "Medium"
 	},
@@ -37264,6 +37293,10 @@
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/open/floor/rogue/naturalstone,
 /area/provincial/underground/dungeon/old_ruin)
+"mds" = (
+/mob/living/carbon/human/species/skeleton/npc/ambush,
+/turf/open/floor/rogue/grass,
+/area/provincial/outdoors/dungeon/riverbrook)
 "mdw" = (
 /turf/open/floor/rogue/ruinedwood{
 	icon_state = "horzw"
@@ -38247,8 +38280,7 @@
 /area/provincial/indoors/town/tavern)
 "msd" = (
 /obj/structure/table/wood{
-	icon_state = "tablewood1";
-	pixel_y = -4
+	icon_state = "tablewood1"
 	},
 /turf/open/floor/rogue/cobble,
 /area/provincial/underground/dungeon/old_ruin)
@@ -38924,6 +38956,10 @@
 "mEb" = (
 /turf/open/floor/rogue/cobble,
 /area/provincial/outdoors/town/garrison/ramparts)
+"mEg" = (
+/obj/item/grown/log/tree/small,
+/turf/open/floor/rogue/church,
+/area/provincial/underground/forest/brightway)
 "mEh" = (
 /obj/structure/closet/dirthole/closed,
 /turf/open/floor/rogue/dirt,
@@ -41504,6 +41540,7 @@
 /area/provincial/indoors/town/house)
 "nyf" = (
 /obj/machinery/light/rogue/wallfire/candle/weak/directional/west,
+/mob/living/carbon/human/species/skeleton/npc/ambush,
 /turf/open/floor/rogue/wood,
 /area/provincial/indoors/dungeon/riverbrook)
 "nyi" = (
@@ -41982,6 +42019,10 @@
 /obj/effect/mapping_helpers/lock_door,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/provincial/underground/underdark/undersea)
+"nHn" = (
+/obj/item/grown/log/tree/stick,
+/turf/open/floor/rogue/church,
+/area/provincial/underground/forest/brightway)
 "nHp" = (
 /mob/living/simple_animal/hostile/retaliate/rogue/bigrat,
 /turf/open/floor/rogue/wood,
@@ -45235,6 +45276,10 @@
 /obj/item/clothing/mask/rogue/wildguard,
 /turf/open/floor/rogue/blocks,
 /area/provincial/indoors/town/province_keep/garrison/armory/secure)
+"oHd" = (
+/obj/effect/spawner/lootdrop/roguetown/dungeon/misc,
+/turf/open/floor/rogue/blocks/stonered/tiny,
+/area/provincial/underground/forest/brightway)
 "oHm" = (
 /obj/machinery/light/rogue/wallfire/candle/directional/north,
 /turf/open/floor/rogue/blocks,
@@ -47134,6 +47179,10 @@
 /obj/structure/flora/roguegrass/bush/red,
 /turf/open/floor/rogue/grassyel,
 /area/provincial/outdoors/field)
+"pon" = (
+/obj/structure/flora/roguegrass,
+/turf/open/floor/rogue/dirt/road,
+/area/provincial/outdoors/dungeon/riverbrook)
 "pox" = (
 /obj/structure/rack/rogue,
 /obj/item/clothing/suit/roguetown/armor/plate/scale,
@@ -51754,6 +51803,14 @@
 /obj/item/reagent_containers/glass/cup/wooden,
 /turf/open/floor/carpet/red,
 /area/provincial/indoors/town/house)
+"qLA" = (
+/obj/effect/decal/cobbleedge{
+	dir = 10;
+	icon_state = "cobbleedge-e"
+	},
+/mob/living/simple_animal/hostile/rogue/dragger,
+/turf/open/floor/rogue/wood/herringbone,
+/area/provincial/indoors/dungeon/riverbrook)
 "qLF" = (
 /obj/structure/rack/rogue,
 /obj/item/clothing/mask/cigarette/rollie/nicotine,
@@ -52681,6 +52738,10 @@
 /obj/item/bedsheet/rogue/fabric_double,
 /turf/open/floor/rogue/ruinedwood,
 /area/provincial/indoors)
+"rbr" = (
+/mob/living/simple_animal/hostile/rogue/dragger,
+/turf/open/floor/rogue/ruinedwood,
+/area/provincial/indoors/dungeon/riverbrook)
 "rbs" = (
 /obj/item/paper,
 /obj/item/natural/feather,
@@ -53926,6 +53987,10 @@
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/rogue/grassyel,
 /area/provincial/outdoors/field)
+"rzk" = (
+/mob/living/simple_animal/hostile/rogue/skeleton/bow,
+/turf/open/floor/rogue/wood/herringbone,
+/area/provincial/indoors/dungeon/riverbrook)
 "rzn" = (
 /obj/effect/decal/cleanable/blood,
 /obj/item/ingot/blacksteel,
@@ -56157,6 +56222,10 @@
 	dir = 1
 	},
 /area/provincial/underground/dungeon/vulnafir)
+"snY" = (
+/obj/structure/flora/roguegrass,
+/turf/open/floor/rogue/dirt,
+/area/provincial/outdoors/dungeon/riverbrook)
 "sof" = (
 /obj/item/roguegem/yellow,
 /turf/open/floor/rogue/dirt,
@@ -56831,12 +56900,8 @@
 /turf/open/floor/rogue/cobble,
 /area/provincial/indoors/town/province_keep/councillor)
 "szE" = (
-/obj/structure/table/wood/fancy/black,
-/obj/item/candle/skull/lit{
-	pixel_x = 3;
-	pixel_y = 7
-	},
-/turf/open/floor/rogue/church,
+/obj/item/candle/skull,
+/turf/open/floor/rogue/blocks/stonered/tiny,
 /area/provincial/underground/forest/brightway)
 "szF" = (
 /obj/structure/fluff/clockwork/clockgolem_remains,
@@ -58389,6 +58454,10 @@
 /obj/item/candle/skull/lit,
 /turf/open/floor/rogue/church,
 /area/provincial/underground/dungeon/old_university)
+"sZp" = (
+/obj/structure/flora/roguegrass,
+/turf/open/floor/rogue/dirt/road,
+/area/provincial/outdoors/forest/brightway)
 "sZs" = (
 /obj/structure/mineral_door/wood,
 /obj/effect/mapping_helpers/access/noble,
@@ -59102,8 +59171,7 @@
 /area/provincial/underground/dungeon/hordes_hoard)
 "tmf" = (
 /obj/structure/table/wood{
-	icon_state = "tablewood1";
-	pixel_y = -4
+	icon_state = "tablewood1"
 	},
 /turf/open/floor/rogue/wood,
 /area/provincial/outdoors/forest)
@@ -63157,6 +63225,7 @@
 /area/provincial/underground/dungeon/gethsmane)
 "uEx" = (
 /obj/machinery/light/rogue/wallfire/candle/weak/directional/east,
+/mob/living/carbon/human/species/skeleton/npc/ambush,
 /turf/open/floor/rogue/wood,
 /area/provincial/indoors/dungeon/riverbrook)
 "uEy" = (
@@ -64937,6 +65006,10 @@
 /obj/structure/table/wood,
 /turf/open/floor/rogue/cobble,
 /area/provincial/indoors/town/province_keep)
+"vmg" = (
+/obj/item/grown/log/tree/small,
+/turf/open/floor/rogue/woodturned,
+/area/provincial/underground/forest/brightway)
 "vmj" = (
 /obj/structure/roguewindow/openclose/reinforced{
 	dir = 8
@@ -68913,6 +68986,10 @@
 /obj/structure/mineral_door/wood/towner/generic,
 /turf/open/floor/rogue/ruinedwood/turned,
 /area/provincial/indoors/town/house)
+"wEl" = (
+/obj/item/grown/log/tree/stick,
+/turf/open/floor/rogue/dirt,
+/area/provincial/underground/forest/brightway)
 "wEx" = (
 /obj/structure/roguewindow,
 /turf/open/floor/rogue/blocks/stonered/tiny,
@@ -270432,7 +270509,7 @@ nYt
 tsp
 btL
 btL
-btL
+nHn
 btL
 hhQ
 hhQ
@@ -270883,10 +270960,10 @@ hhQ
 ubu
 tsp
 kII
+oHd
 tsp
 tsp
-tsp
-raA
+coo
 hhQ
 hhQ
 hhQ
@@ -271333,12 +271410,12 @@ hhQ
 hhQ
 hhQ
 vsg
-tsp
+szE
 btL
+vmg
+jNc
 btL
-btL
-btL
-raA
+wEl
 hhQ
 hhQ
 hhQ
@@ -271786,9 +271863,9 @@ hhQ
 hhQ
 nuQ
 btL
-btL
-szE
-btL
+bNs
+qLI
+nHn
 raA
 raA
 raA
@@ -272237,8 +272314,8 @@ hhQ
 hhQ
 hhQ
 hPM
-btL
-btL
+mEg
+qLI
 btL
 btL
 raA
@@ -272694,7 +272771,7 @@ btL
 hPM
 btL
 raA
-raA
+wEl
 dxX
 raA
 hhQ
@@ -380727,7 +380804,7 @@ nWt
 nWt
 nWt
 aAc
-mHh
+mJs
 aAc
 mHh
 aAc
@@ -381180,7 +381257,7 @@ mPt
 rkm
 mHh
 pqk
-mHh
+pon
 aAc
 aAc
 aAc
@@ -382984,7 +383061,7 @@ avh
 avh
 pqk
 pcL
-thB
+ilJ
 thB
 uoA
 pqk
@@ -383895,7 +383972,7 @@ pqk
 pqk
 cVW
 mHh
-mHh
+pon
 fxZ
 fxZ
 tJW
@@ -384343,17 +384420,17 @@ pqk
 pqk
 eMD
 mHh
-mHh
+pon
 pqk
 avh
-mHh
+pon
 pqk
 unp
 vRO
 qcW
 qcW
 qcW
-qcW
+rzk
 xMT
 wal
 aAc
@@ -384796,7 +384873,7 @@ wal
 wal
 fxZ
 pqk
-mHh
+pon
 mHh
 pqk
 pqk
@@ -384808,10 +384885,10 @@ ktN
 qcW
 enQ
 wal
-mHh
+pon
 pqk
 mHh
-mHh
+pon
 pap
 bvM
 uBx
@@ -385244,7 +385321,7 @@ mHh
 mHh
 pqk
 wal
-dXQ
+kIJ
 nyf
 wal
 kkG
@@ -385703,7 +385780,7 @@ eZc
 oGN
 eZc
 mHh
-mHh
+pon
 pqk
 pqk
 mHh
@@ -386160,12 +386237,12 @@ avh
 pqk
 pqk
 mHh
-mHh
+pon
 avh
 mHh
 mHh
 mHh
-mHh
+pon
 mHh
 avh
 fxZ
@@ -386596,8 +386673,8 @@ aAc
 pqk
 gnk
 wal
-dXQ
-thB
+tQh
+tQh
 wal
 avQ
 svu
@@ -387048,9 +387125,9 @@ pqk
 pqk
 mlW
 wal
-lay
+tQh
 thB
-wBv
+eVz
 svu
 svu
 svu
@@ -387058,7 +387135,7 @@ wal
 thB
 dXQ
 wal
-mHh
+pon
 pqk
 onR
 kAX
@@ -387067,7 +387144,7 @@ vmH
 eSz
 jWO
 sUy
-mHh
+pon
 pqk
 gRN
 wCW
@@ -387504,7 +387581,7 @@ fxZ
 wal
 fxZ
 hNX
-svu
+dUM
 svu
 gPY
 uEx
@@ -387977,7 +388054,7 @@ ekd
 eZc
 eZc
 khe
-avh
+snY
 aAc
 vrl
 vrl
@@ -388401,7 +388478,7 @@ ifl
 byT
 vRO
 qcW
-sHr
+qLA
 sHr
 qcW
 uaK
@@ -388867,7 +388944,7 @@ qcW
 aAV
 qwh
 tCO
-mHh
+pon
 onR
 wSy
 eZN
@@ -389770,7 +389847,7 @@ uAk
 hMH
 qcW
 qcW
-mHh
+pon
 pqk
 onR
 kAX
@@ -389780,12 +389857,12 @@ sNF
 jWO
 sUy
 mHh
-mHh
+pon
 gRN
 oho
 fYd
 pqk
-mHh
+pon
 avh
 iLK
 iLK
@@ -390238,7 +390315,7 @@ pqk
 pqk
 mHh
 avh
-avh
+snY
 iLK
 iLK
 wLr
@@ -390667,7 +390744,7 @@ beY
 wal
 idi
 iGj
-thB
+ilJ
 wal
 jrJ
 mHh
@@ -390678,15 +390755,15 @@ mHh
 mHh
 pqk
 pqk
-mHh
-mHh
-pqk
-mHh
-mHh
+pon
 mHh
 pqk
 mHh
+pon
 mHh
+pqk
+mHh
+pon
 mHh
 avh
 vrl
@@ -391125,7 +391202,7 @@ mHh
 wHg
 aAc
 aAc
-mHh
+pon
 mJs
 pqk
 pqk
@@ -391566,7 +391643,7 @@ ifl
 byT
 wal
 eoi
-eoi
+kwF
 gFM
 wal
 plX
@@ -391579,7 +391656,7 @@ rHj
 pqk
 mHh
 pqk
-mHh
+pon
 fxZ
 sjl
 ftm
@@ -392481,7 +392558,7 @@ aAc
 cIb
 pqk
 pqk
-mHh
+pon
 mHh
 pqk
 phj
@@ -392495,7 +392572,7 @@ fij
 fxZ
 aAc
 aAc
-avh
+snY
 vrl
 iLK
 wLr
@@ -392930,7 +393007,7 @@ aAc
 aAc
 rHj
 pqk
-mHh
+pon
 pqk
 mHh
 pqk
@@ -393380,7 +393457,7 @@ avh
 aZh
 eaF
 eaF
-mHh
+pon
 pqk
 pqk
 pqk
@@ -393827,7 +393904,7 @@ smC
 wgq
 aAc
 avh
-aAc
+mds
 aAc
 kBg
 kFa
@@ -393835,7 +393912,7 @@ uhB
 pqk
 pqk
 avh
-mHh
+pon
 aAc
 mXM
 avh
@@ -393845,7 +393922,7 @@ kOp
 thB
 hDw
 thB
-vQk
+rbr
 vQk
 vQk
 pap
@@ -395194,7 +395271,7 @@ pqk
 wHg
 aAc
 avh
-avh
+snY
 avh
 lKk
 avh
@@ -395640,7 +395717,7 @@ bmy
 fxZ
 raq
 fxZ
-avh
+snY
 mHh
 mHh
 pqk
@@ -396546,7 +396623,7 @@ raq
 fxZ
 mHh
 mHh
-mHh
+pon
 mHh
 bmy
 bmy
@@ -397000,7 +397077,7 @@ bSt
 bSt
 bSt
 bSt
-bSt
+sZp
 bmy
 bmy
 btR
@@ -397902,7 +397979,7 @@ ipG
 wgq
 bmy
 bSt
-bSt
+sZp
 bSt
 bSt
 bSt
@@ -398356,7 +398433,7 @@ bmy
 bmy
 bSt
 bSt
-bSt
+sZp
 bSt
 bSt
 bSt
@@ -398807,11 +398884,11 @@ wgq
 wgq
 bmy
 bmy
+sZp
 bSt
 bSt
 bSt
-bSt
-bSt
+sZp
 bSt
 bmy
 bmy
