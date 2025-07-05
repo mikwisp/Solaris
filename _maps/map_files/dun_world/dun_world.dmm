@@ -1912,6 +1912,13 @@
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/open/floor/rogue/grass,
 /area/provincial/outdoors/town)
+"aGq" = (
+/obj/machinery/light/rogue/wallfire/candle/directional/north,
+/obj/structure/roguewindow/openclose/reinforced{
+	dir = 8
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "aGv" = (
 /obj/structure/fluff/railing/border{
 	dir = 9
@@ -2559,6 +2566,22 @@
 /mob/living/simple_animal/hostile/retaliate/rogue/spider/mutated,
 /turf/open/water/swamp/deep,
 /area/provincial/underground/dungeon/vulnafir)
+"aQK" = (
+/obj/structure/fluff/railing/border,
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/obj/structure/fluff/railing/border{
+	dir = 6
+	},
+/obj/structure/chair/wood/rogue/chair3{
+	dir = 4
+	},
+/obj/effect/landmark/start/wardenlate{
+	dir = 1
+	},
+/turf/open/floor/rogue/woodturned,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "aQL" = (
 /mob/living/carbon/human/species/elf/dark/drowraider,
 /turf/open/floor/rogue/blocks,
@@ -4062,6 +4085,18 @@
 /obj/machinery/light/rogue/wallfire/candle/blue/directional/east,
 /turf/open/transparent/openspace,
 /area/provincial/outdoors/mountains/underkings_maw/deeper_within)
+"btb" = (
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/obj/structure/fluff/railing/border{
+	dir = 5
+	},
+/turf/open/floor/rogue/woodturned,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "btn" = (
 /obj/structure/fluff/railing/border{
 	dir = 1
@@ -4365,6 +4400,12 @@
 	},
 /turf/open/floor/rogue/churchrough,
 /area/provincial/indoors/town/church)
+"bxV" = (
+/obj/effect/decal/wood/herringbone2,
+/obj/structure/bed/rogue,
+/obj/item/bedsheet/rogue/wool,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "bxW" = (
 /obj/structure/fluff/railing/border{
 	dir = 6
@@ -4631,6 +4672,23 @@
 /obj/item/roguegem/yellow,
 /turf/open/floor/rogue/dirt,
 /area/provincial/underground)
+"bCe" = (
+/obj/effect/decal/wood/herringbone2{
+	dir = 1
+	},
+/obj/effect/decal/wood/herringbone2{
+	dir = 4
+	},
+/obj/structure/closet/crate/roguecloset/dark{
+	locked = 1;
+	lockid = "warden";
+	keylock = 1
+	},
+/obj/item/roguekey/warden,
+/obj/item/clothing/suit/roguetown/armor/leather/hide/warden,
+/obj/item/rogueweapon/stoneaxe/woodcut/wardenpick,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "bCq" = (
 /obj/structure/closet/crate/chest/old_crate,
 /obj/effect/spawner/lootdrop/roguetown/sewers,
@@ -6180,6 +6238,17 @@
 /obj/effect/mapping_helpers/autoname,
 /turf/open/floor/rogue/wood,
 /area/provincial/indoors/town/tavern/room/eight)
+"cdg" = (
+/obj/effect/decal/wood/herringbone2{
+	dir = 8
+	},
+/obj/structure/rack/rogue/shelf/biggest,
+/obj/item/rogueweapon/stoneaxe/woodcut/wardenpick,
+/obj/item/rogueweapon/stoneaxe/woodcut/wardenpick,
+/obj/item/rogueweapon/huntingknife,
+/obj/item/rogueweapon/huntingknife,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "cdh" = (
 /obj/structure/fluff/railing/border{
 	dir = 8
@@ -7228,6 +7297,14 @@
 /obj/structure/closet/crate/chest,
 /turf/open/floor/rogue/ruinedwood,
 /area/provincial/indoors/town/mages_university/library)
+"cwH" = (
+/obj/structure/table/wood{
+	icon_state = "largetable";
+	dir = 2
+	},
+/obj/item/candle/yellow/lit,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "cwM" = (
 /obj/machinery/light/rogue/oven/north,
 /turf/closed/wall/mineral/rogue/decowood,
@@ -7572,6 +7649,17 @@
 "cCt" = (
 /turf/closed/wall/mineral/rogue/wooddark,
 /area/provincial/outdoors/town/ramparts)
+"cCw" = (
+/obj/structure/fluff/railing/border,
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/obj/structure/fluff/railing/border{
+	dir = 10
+	},
+/obj/structure/chair/wood/rogue/chair3,
+/turf/open/floor/rogue/woodturned,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "cCx" = (
 /obj/structure/spacevine{
 	dir = 1
@@ -8151,6 +8239,12 @@
 /obj/effect/spawner/lootdrop/roguetown/sewers,
 /turf/open/floor/rogue/blocks/stonered/tiny,
 /area/provincial/underground/dungeon/old_university)
+"cMQ" = (
+/obj/effect/decal/wood/herringbone2{
+	dir = 4
+	},
+/turf/closed/wall/mineral/rogue/stone,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "cMW" = (
 /obj/effect/decal/cobbleedge{
 	dir = 10
@@ -9929,6 +10023,13 @@
 	},
 /turf/open/floor/carpet/royalblack,
 /area/provincial/indoors/town/farm/secondary)
+"drQ" = (
+/obj/effect/decal/cobbleedge{
+	dir = 6
+	},
+/obj/structure/rack/rogue/shelf,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "dsk" = (
 /turf/open/floor/rogue/blocks,
 /area/provincial/indoors/town/province_keep/magician)
@@ -13288,6 +13389,12 @@
 	},
 /turf/open/floor/rogue/herringbone,
 /area/provincial/indoors/town/mages_university)
+"exi" = (
+/obj/structure/roguewindow/openclose/reinforced{
+	dir = 8
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "ext" = (
 /turf/closed/wall/mineral/rogue/decostone/cand,
 /area/provincial/indoors/town/mages_university)
@@ -13934,10 +14041,15 @@
 	},
 /area/provincial/indoors/town/province_keep)
 "eIu" = (
-/obj/structure/closet/crate/chest/old_crate,
-/obj/effect/spawner/lootdrop/roguetown/dungeon/misc,
-/turf/open/floor/rogue/blocks,
-/area/provincial/outdoors/beach/forest)
+/obj/effect/decal/wood/herringbone2{
+	dir = 1
+	},
+/obj/effect/decal/wood/herringbone2{
+	dir = 4
+	},
+/obj/structure/fermenting_barrel/water,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "eIx" = (
 /turf/open/floor/rogue/volcanic,
 /area/provincial/outdoors/mountains/underkings_maw/deeper_within)
@@ -15786,6 +15898,23 @@
 /obj/item/reagent_containers/powder/salt,
 /turf/open/floor/rogue/cobble,
 /area/provincial/indoors/town/province_keep/wine_cellar)
+"fox" = (
+/obj/effect/decal/wood/herringbone2{
+	dir = 1
+	},
+/obj/effect/decal/wood/herringbone2{
+	dir = 8
+	},
+/obj/structure/closet/crate/roguecloset/dark{
+	locked = 1;
+	lockid = "warden";
+	keylock = 1
+	},
+/obj/item/roguekey/warden,
+/obj/item/clothing/suit/roguetown/armor/leather/hide/warden,
+/obj/item/rogueweapon/stoneaxe/woodcut/wardenpick,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "foD" = (
 /obj/structure/fluff/walldeco/customflag/directional/north,
 /obj/structure/fluff/railing/wood{
@@ -17173,6 +17302,13 @@
 "fKX" = (
 /turf/closed/wall/mineral/rogue/craftstone,
 /area/provincial/underground/dungeon/winding_halls)
+"fLb" = (
+/obj/effect/decal/cobbleedge{
+	dir = 10
+	},
+/obj/structure/rack/rogue/shelf,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "fLc" = (
 /obj/effect/decal/cobble/mossy{
 	dir = 4
@@ -19518,6 +19654,13 @@
 /obj/structure/chair/wood/rogue/throne,
 /turf/open/floor/rogue/dirt/road,
 /area/provincial/outdoors/beach/forest)
+"gAd" = (
+/obj/structure/table/wood{
+	dir = 5;
+	icon_state = "largetable"
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "gAh" = (
 /obj/structure/fluff/statue/knight/r,
 /turf/open/floor/rogue/blocks,
@@ -20204,6 +20347,10 @@
 	},
 /turf/open/floor/rogue/wood,
 /area/provincial/outdoors/town/roofs)
+"gLT" = (
+/obj/machinery/light/rogue/wallfire/candle/directional/north,
+/turf/open/floor/rogue/dirt,
+/area/provincial/outdoors/beach/forest)
 "gMf" = (
 /obj/structure/table/wood{
 	icon_state = "longtable"
@@ -20643,6 +20790,12 @@
 	},
 /turf/open/water/sewer,
 /area/provincial/underground/dungeon/gethsmane/inner)
+"gSt" = (
+/obj/structure/roguewindow/openclose/reinforced{
+	dir = 1
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "gSx" = (
 /obj/structure/rack/rogue/shelf/biggest,
 /obj/item/reagent_containers/glass/alchemical{
@@ -23364,6 +23517,12 @@
 	},
 /turf/open/floor/carpet/royalblack,
 /area/provincial/indoors/town/church/quarters/priest)
+"hLn" = (
+/obj/structure/fluff/railing/border{
+	dir = 9
+	},
+/turf/open/floor/rogue/woodturned,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "hLu" = (
 /obj/item/bedsheet/rogue/pelt,
 /obj/structure/bed/rogue/inn/wool,
@@ -23592,6 +23751,17 @@
 /obj/effect/spawner/lootdrop/roguetown/dungeon/money,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/provincial/underground/dungeon/old_university)
+"hPs" = (
+/obj/structure/fluff/railing/border,
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/obj/structure/fluff/railing/border{
+	dir = 6
+	},
+/obj/structure/chair/wood/rogue/chair3,
+/turf/open/floor/rogue/woodturned,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "hPA" = (
 /obj/structure/closet/crate/roguecloset/lord,
 /obj/item/clothing/suit/roguetown/armor/brigandine/coatplates,
@@ -24257,6 +24427,13 @@
 /obj/effect/spawner/lootdrop/roguetown/dungeon/money,
 /turf/open/floor/rogue/churchmarble,
 /area/provincial/underground/dungeon/licharena)
+"ibC" = (
+/obj/effect/decal/wood/herringbone2{
+	dir = 1
+	},
+/obj/machinery/light/rogue/wallfire/candle/directional/north,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "ibI" = (
 /obj/structure/chair/wood/rogue,
 /turf/open/floor/rogue/cobble,
@@ -24906,6 +25083,14 @@
 	icon_state = "weird1"
 	},
 /area/provincial/indoors/town/mages_university/established_mage_hall)
+"ini" = (
+/obj/effect/decal/wood/herringbone2{
+	dir = 1
+	},
+/obj/structure/bed/rogue,
+/obj/item/bedsheet/rogue/wool,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "ink" = (
 /turf/open/floor/rogue/dirt/ambush,
 /area/provincial/underground)
@@ -24981,6 +25166,13 @@
 /obj/structure/fluff/railing/border,
 /turf/open/floor/carpet/inn,
 /area/provincial/indoors/town/province_keep/quarters/councillor)
+"ioH" = (
+/obj/structure/mineral_door/wood,
+/obj/effect/mapping_helpers/lock_door,
+/obj/effect/mapping_helpers/access/garrison/warden,
+/obj/effect/mapping_helpers/autoname,
+/turf/closed/wall/mineral/rogue/roofwall/middle,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "ioJ" = (
 /obj/structure/table/church{
 	icon_state = "churchtable_end"
@@ -25061,6 +25253,21 @@
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/provincial/outdoors/town)
+"iqa" = (
+/obj/effect/decal/wood/herringbone2{
+	dir = 4
+	},
+/obj/effect/decal/wood/herringbone2,
+/obj/structure/closet/crate/roguecloset/dark{
+	locked = 1;
+	lockid = "warden";
+	keylock = 1
+	},
+/obj/item/roguekey/warden,
+/obj/item/clothing/suit/roguetown/armor/leather/hide/warden,
+/obj/item/rogueweapon/stoneaxe/woodcut/wardenpick,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "iqb" = (
 /turf/closed/wall/mineral/rogue/stone/red_moss,
 /area/provincial/outdoors/mountains/underkings_maw/deeper_within)
@@ -25265,6 +25472,10 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/rogue/grass,
 /area/provincial/outdoors/town)
+"iuz" = (
+/obj/effect/decal/cobbleedge,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "iuG" = (
 /obj/structure/mineral_door/wood/deadbolt,
 /turf/open/floor/rogue/wood/herringbone,
@@ -25389,6 +25600,18 @@
 	icon_state = "plating2"
 	},
 /area/provincial/indoors/dungeon/giuseppes_toybox)
+"iwB" = (
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/obj/structure/fluff/railing/border{
+	dir = 9
+	},
+/turf/open/floor/rogue/woodturned,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "iwC" = (
 /obj/structure/fluff/railing/border,
 /turf/open/floor/rogue/grass,
@@ -27086,9 +27309,8 @@
 /turf/open/floor/rogue/tile/masonic/inverted,
 /area/provincial/indoors/town/province_keep/quarters/councillor)
 "iYd" = (
-/obj/structure/closet/crate/chest/wicker,
-/turf/open/floor/rogue/grass,
-/area/provincial/outdoors/beach/forest)
+/turf/open/floor/rogue/naturalstone,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "iYk" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/rogue/twig,
@@ -30070,6 +30292,12 @@
 /obj/machinery/light/rogue/torchholder/directional/east,
 /turf/open/floor/rogue/dirt/road,
 /area/provincial/underground/dungeon/hordes_hoard)
+"jXd" = (
+/obj/effect/decal/wood/herringbone2{
+	dir = 8
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "jXl" = (
 /obj/machinery/light/rogue/wallfire/candle/directional/west,
 /turf/open/floor/rogue/wood,
@@ -31354,6 +31582,14 @@
 	},
 /turf/open/floor/rogue/hay,
 /area/provincial/indoors/town/farm/barn)
+"krj" = (
+/obj/effect/decal/wood/herringbone2{
+	dir = 1
+	},
+/obj/item/reagent_containers/glass/cup/wooden,
+/obj/item/reagent_containers/glass/cup/wooden,
+/turf/closed/wall/mineral/rogue/craftstone,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "krk" = (
 /turf/open/floor/carpet/royalblack,
 /area/provincial/indoors/town/province_keep/quarters/marquis)
@@ -32115,6 +32351,12 @@
 "kDP" = (
 /turf/closed/wall/mineral/rogue/wooddark/horizontal,
 /area/provincial/indoors/town/province_keep/garrison/gate/south)
+"kDS" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/turf/open/floor/rogue/woodturned,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "kDU" = (
 /obj/structure/fluff/railing/border{
 	dir = 8
@@ -32813,6 +33055,11 @@
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/provincial/indoors/town)
+"kPW" = (
+/obj/structure/chair/stool/rogue,
+/obj/structure/chair/stool/rogue,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "kQa" = (
 /turf/closed/mineral/rogue/bedrock,
 /area/provincial/outdoors/forest)
@@ -34284,10 +34531,31 @@
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/provincial/indoors/town)
+"lsY" = (
+/obj/machinery/light/rogue/wallfire/candle/directional/north,
+/turf/open/floor/rogue/naturalstone,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "ltc" = (
 /obj/machinery/light/rogue/cauldron,
 /turf/open/floor/rogue/blocks,
 /area/provincial/indoors/town/province_keep/deacon/alchemylab)
+"lti" = (
+/obj/effect/decal/wood/herringbone2{
+	dir = 4
+	},
+/obj/structure/rack/rogue/shelf/biggest,
+/obj/item/gun/ballistic/revolver/grenadelauncher/bow/recurve,
+/obj/item/gun/ballistic/revolver/grenadelauncher/bow/recurve,
+/obj/item/quiver/arrows,
+/obj/item/quiver/arrows,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
+"ltp" = (
+/obj/structure/fluff/railing/border{
+	dir = 10
+	},
+/turf/open/transparent/openspace,
+/area/provincial/outdoors/beach/forest)
 "lts" = (
 /turf/open/floor/rogue/ruinedwood/turned,
 /area/provincial/indoors/town/farm)
@@ -34997,6 +35265,12 @@
 	},
 /turf/open/floor/rogue/cobble/mossy,
 /area/provincial/outdoors/dungeon/riverbrook)
+"lFE" = (
+/obj/structure/fluff/railing/border{
+	dir = 6
+	},
+/turf/open/floor/rogue/woodturned,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "lFH" = (
 /mob/living/simple_animal/hostile/retaliate/rogue/mudcrab,
 /turf/open/water/cleanshallow,
@@ -35621,6 +35895,12 @@
 	dir = 4
 	},
 /area/provincial/outdoors/mountains/underkings_maw)
+"lQw" = (
+/obj/machinery/light/rogue/oven/south,
+/obj/machinery/light/rogue/hearth,
+/obj/item/reagent_containers/glass/bucket/pot,
+/turf/open/floor/rogue/cobble,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "lQA" = (
 /obj/structure/fluff/statue/tdummy,
 /turf/open/floor/rogue/dirt/road,
@@ -36057,6 +36337,15 @@
 /obj/item/clothing/gloves/roguetown/chain/iron,
 /turf/open/floor/rogue/blocks,
 /area/provincial/indoors/town/province_keep/garrison/armory/secure)
+"lZC" = (
+/obj/structure/table/wood{
+	dir = 9;
+	icon_state = "largetable"
+	},
+/obj/item/rogueweapon/huntingknife/chefknife,
+/obj/item/clothing/cloak/apron,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "lZN" = (
 /obj/structure/table/wood/fancy/black,
 /obj/item/candle/skull/lit,
@@ -36328,6 +36617,15 @@
 /obj/structure/fluff/railing/border,
 /turf/open/transparent/openspace,
 /area/provincial/indoors/town/province_keep)
+"mdY" = (
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/obj/structure/chair/wood/rogue/chair3{
+	dir = 1
+	},
+/turf/open/floor/rogue/woodturned,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "meo" = (
 /obj/effect/decal/remains/mole,
 /turf/open/floor/rogue/dirt/road,
@@ -39423,6 +39721,16 @@
 /obj/item/reagent_containers/glass/bottle/waterskin,
 /turf/open/floor/rogue/hexstone,
 /area/provincial/indoors/town/shop)
+"nfL" = (
+/obj/structure/fluff/railing/border,
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/obj/structure/fluff/railing/border{
+	dir = 6
+	},
+/turf/open/floor/rogue/woodturned,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "nfN" = (
 /obj/structure/fluff/psycross/copper,
 /turf/open/floor/rogue/metal/barograte,
@@ -39904,6 +40212,13 @@
 /obj/item/cooking/platter,
 /turf/open/floor/carpet/red,
 /area/provincial/indoors/town/sewer/rogues_den)
+"nmX" = (
+/obj/structure/table/wood{
+	icon_state = "largetable";
+	dir = 10
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "nnb" = (
 /obj/structure/mineral_door/wood/window,
 /obj/effect/mapping_helpers/access/yeomen/tavern/innkeeper,
@@ -41290,6 +41605,24 @@
 	icon_state = "plating2"
 	},
 /area/provincial/underground/dungeon/gethsmane/inner)
+"nLQ" = (
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/obj/structure/fluff/railing/border{
+	dir = 5
+	},
+/obj/structure/chair/wood/rogue/chair3{
+	dir = 4
+	},
+/obj/effect/landmark/start/wardenlate{
+	dir = 1
+	},
+/turf/open/floor/rogue/woodturned,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "nLZ" = (
 /obj/structure/fluff/walldeco/chains,
 /turf/open/floor/rogue/blocks,
@@ -42197,6 +42530,12 @@
 /mob/living/simple_animal/hostile/rogue/dragger,
 /turf/open/floor/rogue/dirt/ambush,
 /area/provincial/underground/dungeon/vulnafir)
+"oaN" = (
+/obj/structure/fluff/railing/border{
+	dir = 6
+	},
+/turf/open/transparent/openspace,
+/area/provincial/outdoors/beach/forest)
 "oaO" = (
 /obj/structure/chair/bench,
 /turf/open/floor/rogue/grassred,
@@ -42402,6 +42741,18 @@
 /obj/item/trash/applecore,
 /turf/open/floor/rogue/wood,
 /area/provincial/underground/dungeon/old_university)
+"oet" = (
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/obj/structure/fluff/railing/border{
+	dir = 5
+	},
+/turf/open/floor/rogue/woodturned,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "oew" = (
 /obj/structure/fluff/railing/border{
 	dir = 1
@@ -42996,6 +43347,11 @@
 /obj/structure/bed/rogue/inn/pileofshit,
 /turf/open/floor/rogue/blocks,
 /area/provincial/underground/underkings_maw)
+"omh" = (
+/obj/structure/fluff/railing/border,
+/obj/machinery/light/rogue/wallfire/candle/directional/north,
+/turf/open/floor/rogue/woodturned,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "omj" = (
 /obj/structure/bars/passage/shutter{
 	redstone_id = "scary_manor2"
@@ -44157,6 +44513,10 @@
 	dir = 5
 	},
 /area/provincial/outdoors/town/roofs)
+"oGB" = (
+/obj/structure/chair/stool/rogue,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "oGC" = (
 /obj/machinery/light/rogue/torchholder/directional/east,
 /turf/open/floor/rogue/dirt,
@@ -44185,6 +44545,12 @@
 /obj/machinery/light/rogue/wallfire/candle/directional/north,
 /turf/open/floor/rogue/blocks,
 /area/provincial/indoors/dungeon/giuseppes_toybox)
+"oHp" = (
+/obj/effect/decal/wood/herringbone2{
+	dir = 1
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "oHG" = (
 /obj/item/reagent_containers/food/snacks/smallrat,
 /turf/open/floor/rogue/ruinedwood{
@@ -46224,6 +46590,14 @@
 /obj/structure/fluff/railing/border,
 /turf/open/floor/rogue/tile/masonic/spiral,
 /area/provincial/indoors/town/church)
+"pua" = (
+/obj/structure/table/wood{
+	icon_state = "largetable";
+	dir = 1
+	},
+/obj/item/cooking/pan,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "pui" = (
 /obj/item/grown/log/tree/stick,
 /turf/open/floor/rogue/twig,
@@ -46380,6 +46754,12 @@
 /obj/structure/fluff/statue/gargoyle,
 /turf/open/floor/rogue/blocks,
 /area/provincial/underground/dungeon/fogotten_church)
+"pwY" = (
+/obj/effect/decal/wood/herringbone2{
+	dir = 4
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "pxb" = (
 /obj/item/reagent_containers/glass/bucket/wooden,
 /turf/open/floor/rogue/dirt/road,
@@ -46405,11 +46785,25 @@
 	icon_state = "plating2"
 	},
 /area/provincial/indoors/dungeon/giuseppes_toybox)
+"pxE" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/obj/structure/fluff/railing/border,
+/obj/structure/fluff/railing/border{
+	dir = 10
+	},
+/turf/open/floor/rogue/woodturned,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "pxK" = (
 /obj/machinery/light/rogue/hearth,
 /obj/item/reagent_containers/glass/bucket/pot,
 /turf/open/floor/rogue/blocks,
 /area/provincial/indoors/town/province_keep/kitchen)
+"pxL" = (
+/obj/machinery/light/rogue/wallfire/candle/directional/north,
+/turf/open/floor/rogue/grass,
+/area/provincial/outdoors/beach/forest)
 "pxM" = (
 /obj/structure/fluff/railing/border{
 	dir = 10
@@ -46659,6 +47053,9 @@
 /obj/effect/decal/church_line/directional/west,
 /turf/open/floor/rogue/church,
 /area/provincial/indoors/town/church)
+"pBF" = (
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "pBM" = (
 /obj/structure/roguewindow/openclose/reinforced,
 /turf/open/floor/rogue/rooftop{
@@ -47799,6 +48196,18 @@
 /obj/structure/closet/crate/chest,
 /turf/open/floor/rogue/dirt/road,
 /area/provincial/underground/underkings_maw)
+"pTU" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/obj/structure/fluff/railing/border{
+	dir = 9
+	},
+/turf/open/floor/rogue/woodturned,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "pTW" = (
 /obj/effect/decal/church_line/directional/west,
 /turf/open/floor/rogue/blocks/green,
@@ -48039,6 +48448,10 @@
 	},
 /turf/open/floor/rogue/tile,
 /area/provincial/indoors/town/province_keep/garrison)
+"pXB" = (
+/obj/structure/ladder/unbreakable,
+/turf/open/floor/rogue/naturalstone,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "pXL" = (
 /turf/closed/wall/mineral/rogue/decostone/cand,
 /area/provincial/indoors/town/province_keep/throneroom)
@@ -48413,7 +48826,17 @@
 /obj/structure/chair/wood/rogue/chair3{
 	dir = 4
 	},
+/obj/effect/landmark/start/wardenlate{
+	dir = 1
+	},
 /turf/open/floor/rogue/woodturned,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
+"qeZ" = (
+/obj/structure/table/wood{
+	icon_state = "largetable";
+	dir = 6
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
 /area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "qfe" = (
 /obj/structure/table/wood{
@@ -49305,6 +49728,10 @@
 /obj/structure/chair/wood/rogue/chair3,
 /turf/open/floor/rogue/cobble/mossy,
 /area/provincial/indoors/town/tavern/arena/spectator)
+"qtm" = (
+/obj/structure/ladder/unbreakable,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "qtp" = (
 /obj/item/natural/stone{
 	pixel_x = 6;
@@ -52478,6 +52905,13 @@
 "rwl" = (
 /turf/open/water/ocean/deep,
 /area/provincial/outdoors/beach)
+"rws" = (
+/obj/structure/mineral_door/wood,
+/obj/effect/mapping_helpers/lock_door,
+/obj/effect/mapping_helpers/access/garrison/warden,
+/obj/effect/mapping_helpers/autoname,
+/turf/closed/wall/mineral/rogue/stone,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "rwt" = (
 /obj/structure/bed/rogue/inn/wool,
 /obj/item/bedsheet/rogue/wool,
@@ -52848,6 +53282,12 @@
 	},
 /turf/open/floor/rogue/ruinedwood,
 /area/provincial/indoors/town/steward)
+"rEQ" = (
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/turf/open/floor/rogue/woodturned,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "rES" = (
 /obj/structure/flora/roguegrass,
 /obj/structure/flora/newbranch/leafless{
@@ -52859,6 +53299,10 @@
 /obj/effect/decal/cobbleedge,
 /turf/open/floor/rogue/hexstone,
 /area/provincial/indoors/dungeon/lost_homestead)
+"rFa" = (
+/obj/structure/fluff/railing/border,
+/turf/open/floor/rogue/woodturned,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "rFh" = (
 /turf/open/water/cleanshallow,
 /area/provincial/indoors/town/province_keep/deacon)
@@ -53508,6 +53952,12 @@
 /obj/item/rope/chain,
 /turf/open/floor/rogue/tile,
 /area/provincial/indoors/town/province_keep/garrison)
+"rQk" = (
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/turf/open/floor/rogue/woodturned,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "rQA" = (
 /obj/structure/mineral_door/wood/deadbolt{
 	dir = 8
@@ -54381,6 +54831,21 @@
 /obj/machinery/light/rogue/torchholder/directional/north,
 /turf/open/floor/rogue/tile,
 /area/provincial/indoors/town/province_keep/garrison)
+"sgS" = (
+/obj/effect/decal/wood/herringbone2{
+	dir = 8
+	},
+/obj/effect/decal/wood/herringbone2,
+/obj/structure/closet/crate/roguecloset/dark{
+	locked = 1;
+	lockid = "warden";
+	keylock = 1
+	},
+/obj/item/roguekey/warden,
+/obj/item/clothing/suit/roguetown/armor/leather/hide/warden,
+/obj/item/rogueweapon/stoneaxe/woodcut/wardenpick,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "sgV" = (
 /turf/open/transparent/openspace,
 /area/provincial/indoors/town/province_keep/garrison/gate/south)
@@ -54891,6 +55356,15 @@
 	dir = 1
 	},
 /area/provincial/outdoors/town/roofs/keep)
+"sqq" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/obj/structure/chair/wood/rogue/chair3{
+	dir = 8
+	},
+/turf/open/floor/rogue/woodturned,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "sqx" = (
 /obj/structure/chair/stool/rogue,
 /turf/open/floor/rogue/ruinedwood{
@@ -55343,6 +55817,10 @@
 /obj/structure/spacevine,
 /turf/open/water/swamp/deep,
 /area/provincial/underground/dungeon/gethsmane/inner)
+"syJ" = (
+/obj/machinery/light/rogue/wallfire/candle/directional/north,
+/turf/closed/wall/mineral/rogue/stone,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "syL" = (
 /obj/effect/decal/remains/human,
 /obj/structure/stairs/stone,
@@ -58627,6 +59105,12 @@
 	dir = 4
 	},
 /area/provincial/underground/dungeon/gethsmane/inner)
+"tGM" = (
+/obj/machinery/light/rogue/wallfire/candle/directional/north,
+/turf/closed/wall/mineral/rogue/roofwall/middle{
+	dir = 4
+	},
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "tGO" = (
 /turf/open/floor/rogue/blocks,
 /area/provincial/indoors/town/sewer/rogues_den)
@@ -61885,6 +62369,12 @@
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/provincial/indoors/town/church/basement/crypt)
+"uNq" = (
+/obj/effect/decal/wood/herringbone2{
+	dir = 4
+	},
+/turf/closed/wall/mineral/rogue/roofwall/middle,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "uNv" = (
 /turf/closed/mineral/rogue/bedrock,
 /area/provincial/outdoors/field)
@@ -62705,6 +63195,12 @@
 /obj/item/reagent_containers/food/snacks/grown/potato/rogue,
 /turf/open/floor/rogue/tile,
 /area/provincial/indoors/town/church/canteen)
+"vcF" = (
+/obj/effect/decal/wood/herringbone2{
+	dir = 8
+	},
+/turf/closed/wall/mineral/rogue/roofwall/middle,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "vcK" = (
 /turf/open/floor/rogue/blocks/green{
 	dir = 8
@@ -62840,6 +63336,16 @@
 "veS" = (
 /turf/open/floor/rogue/churchrough,
 /area/provincial/indoors/town/church)
+"vfd" = (
+/obj/effect/decal/wood/herringbone2{
+	dir = 1
+	},
+/obj/item/reagent_containers/glass/bowl,
+/obj/item/reagent_containers/glass/bowl,
+/obj/item/kitchen/spoon,
+/obj/item/kitchen/spoon,
+/turf/closed/wall/mineral/rogue/craftstone,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "vfi" = (
 /turf/open/floor/carpet/royalblack,
 /area/provincial/indoors/town/province_keep/garrison/quarters)
@@ -63232,6 +63738,12 @@
 /obj/structure/roguemachine/scomm/directional/west,
 /turf/open/floor/rogue/wood,
 /area/provincial/indoors/town/province_keep/garrison/quarters/marshal)
+"vnv" = (
+/obj/structure/fluff/railing/border{
+	dir = 10
+	},
+/turf/open/floor/rogue/woodturned,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "vnw" = (
 /obj/structure/fluff/statue/gargoyle/moss,
 /obj/effect/decal/cobble/mossy{
@@ -64487,6 +64999,15 @@
 /obj/effect/mapping_helpers/autoname,
 /turf/open/floor/rogue/blocks,
 /area/provincial/indoors/town/sewer/rogues_den)
+"vHo" = (
+/obj/machinery/light/rogue/wallfire/candle/directional/north,
+/obj/effect/decal/wood/herringbone2{
+	dir = 1
+	},
+/obj/structure/table/wood,
+/obj/item/reagent_containers/glass/bottle/rogue/healthpot,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "vHu" = (
 /obj/structure/fluff/walldeco/customflag/directional/north,
 /obj/machinery/light/rogue/firebowl,
@@ -64731,6 +65252,12 @@
 	},
 /turf/open/floor/rogue/blocks,
 /area/provincial/underground/dungeon/forsaken_bastille)
+"vMp" = (
+/obj/structure/roguewindow/openclose/reinforced{
+	dir = 4
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "vMs" = (
 /obj/item/cooking/pan,
 /obj/structure/table/wood{
@@ -65634,6 +66161,10 @@
 	icon_state = "weird1"
 	},
 /area/provincial/indoors/town/house/veteran)
+"wcX" = (
+/obj/effect/decal/wood/herringbone2,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "wcY" = (
 /obj/structure/chair/wood/rogue/throne,
 /obj/structure/fluff/walldeco/painting/seraphina/directional/north,
@@ -66847,6 +67378,12 @@
 /obj/structure/flora/roguegrass/water/reeds,
 /turf/open/water/swamp/deep,
 /area/provincial/underground/dungeon/gethsmane/inner)
+"wyQ" = (
+/obj/effect/decal/wood/herringbone2{
+	dir = 8
+	},
+/turf/closed/wall/mineral/rogue/stone,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "wyR" = (
 /obj/effect/decal/cobbleedge{
 	dir = 8
@@ -67060,6 +67597,13 @@
 "wBZ" = (
 /turf/open/floor/rogue/dirt,
 /area/provincial/underground/dungeon/gethsmane)
+"wCi" = (
+/obj/structure/mineral_door/wood,
+/obj/effect/mapping_helpers/lock_door,
+/obj/effect/mapping_helpers/access/garrison/warden,
+/obj/effect/mapping_helpers/autoname,
+/turf/open/floor/rogue/naturalstone,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "wCn" = (
 /obj/effect/spawner/roguemap/stump,
 /turf/open/floor/rogue/grass,
@@ -67925,6 +68469,24 @@
 /obj/structure/bookcase,
 /turf/open/floor/rogue/hexstone,
 /area/provincial/indoors/town/province_keep/magician)
+"wRC" = (
+/obj/structure/fluff/railing/border{
+	dir = 5
+	},
+/obj/structure/fluff/railing/border{
+	dir = 10
+	},
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/obj/structure/fluff/railing/border{
+	dir = 9
+	},
+/turf/open/floor/rogue/woodturned,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "wRQ" = (
 /turf/closed/wall/mineral/rogue/pipe{
 	icon_state = "iron_line"
@@ -68832,6 +69394,12 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/rogue/blocks,
 /area/provincial/underground/dungeon/hordes_hoard)
+"xhy" = (
+/obj/machinery/light/rogue/wallfire/candle/directional/north,
+/turf/closed/wall/mineral/rogue/roofwall/middle{
+	dir = 8
+	},
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "xhJ" = (
 /obj/machinery/light/rogue/torchholder/directional/north,
 /turf/open/transparent/openspace,
@@ -69439,10 +70007,21 @@
 /turf/open/floor/rogue/concrete,
 /area/provincial/underground/underdark/sunkencity)
 "xrQ" = (
-/mob/living/simple_animal/hostile/retaliate/rogue/bigrat,
-/obj/structure/closet/crate/chest/old_crate,
-/turf/open/floor/rogue/blocks,
-/area/provincial/outdoors/beach/forest)
+/obj/effect/decal/wood/herringbone2{
+	dir = 8
+	},
+/obj/effect/decal/wood/herringbone2{
+	dir = 1
+	},
+/obj/structure/closet/crate/chest/crate,
+/obj/item/reagent_containers/food/snacks/grown/cabbage/rogue,
+/obj/item/reagent_containers/food/snacks/grown/cabbage/rogue,
+/obj/item/reagent_containers/food/snacks/grown/apple,
+/obj/item/reagent_containers/food/snacks/grown/apple,
+/obj/item/reagent_containers/food/snacks/grown/wheat,
+/obj/item/reagent_containers/food/snacks/grown/wheat,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "xrR" = (
 /obj/structure/fluff/railing/border{
 	dir = 8
@@ -71055,6 +71634,12 @@
 	},
 /turf/open/floor/rogue/cobblerock,
 /area/provincial/indoors/town/church/basement)
+"xTh" = (
+/obj/structure/fluff/railing/border{
+	dir = 5
+	},
+/turf/open/floor/rogue/woodturned,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "xTi" = (
 /obj/structure/fermenting_barrel/random/water,
 /turf/open/floor/rogue/cobble,
@@ -71666,6 +72251,13 @@
 /obj/machinery/light/rogue/torchholder/directional/east,
 /turf/open/floor/rogue/blocks,
 /area/provincial/indoors/town/province_keep/garrison/armory)
+"ydL" = (
+/obj/machinery/light/rogue/wallfire/candle/directional/north,
+/obj/structure/roguewindow/openclose/reinforced{
+	dir = 4
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/provincial/indoors/town/province_keep/garrison/warden_watchtower)
 "ydO" = (
 /obj/structure/closet/crate/roguecloset/inn,
 /obj/item/paper/scroll,
@@ -278289,11 +278881,11 @@ pUX
 pUX
 vPq
 vPq
-mQh
-mQh
-mQh
-mQh
-mQh
+vpB
+vpB
+vpB
+vpB
+vpB
 mQh
 mQh
 mQh
@@ -278740,13 +279332,13 @@ pUX
 pUX
 vPq
 vPq
-mQh
-mQh
-mQh
-mQh
-mQh
-mQh
-mQh
+vpB
+oAt
+lsY
+iYd
+iYd
+oAt
+syJ
 mQh
 mQh
 vPq
@@ -279192,13 +279784,13 @@ pUX
 pUX
 vPq
 vPq
-mQh
-mQh
-mQh
-mQh
-mQh
-mQh
-mQh
+vpB
+iYd
+iYd
+iYd
+iYd
+iYd
+vpB
 vPq
 vPq
 vPq
@@ -279644,13 +280236,13 @@ pUX
 pUX
 vPq
 vPq
-mQh
-mQh
-mQh
-mQh
-mQh
-vPq
-vPq
+vpB
+iYd
+iYd
+iYd
+pXB
+iYd
+vpB
 vPq
 pUX
 pUX
@@ -280096,13 +280688,13 @@ pUX
 pUX
 pUX
 vPq
-mQh
-mQh
-mQh
-vPq
-vPq
-pUX
-pUX
+vpB
+iYd
+iYd
+iYd
+iYd
+iYd
+vpB
 pUX
 pUX
 pUX
@@ -280548,13 +281140,13 @@ pUX
 pUX
 pUX
 vPq
-vPq
-mQh
-mQh
-vPq
-pUX
-pUX
-pUX
+vpB
+iYd
+iYd
+iYd
+iYd
+iYd
+vpB
 pUX
 pUX
 pUX
@@ -281000,13 +281592,13 @@ pUX
 pUX
 pUX
 pUX
-vPq
-vPq
-vPq
-vPq
-pUX
-pUX
-pUX
+vpB
+iYd
+iYd
+iYd
+iYd
+iYd
+vpB
 afX
 vJV
 auq
@@ -281452,13 +282044,13 @@ pUX
 pUX
 pUX
 pUX
-vPq
-vPq
-vPq
-pUX
-pUX
-pUX
-pUX
+vpB
+iYd
+iYd
+iYd
+iYd
+iYd
+vpB
 vJV
 wil
 dCy
@@ -281904,13 +282496,13 @@ pUX
 pUX
 pUX
 pUX
-pUX
-pUX
-pUX
-pUX
-pUX
-pUX
-pUX
+vpB
+oAt
+lsY
+iYd
+iYd
+oAt
+syJ
 cld
 cld
 auq
@@ -282357,11 +282949,11 @@ pUX
 pUX
 pUX
 pUX
-pUX
-pUX
-pUX
-pUX
-pUX
+vpB
+vpB
+wCi
+vpB
+vpB
 pUX
 pUX
 cld
@@ -282810,9 +283402,9 @@ vPq
 pUX
 vPq
 pUX
-pUX
-pUX
-pUX
+vpB
+iYd
+vpB
 pUX
 pUX
 pUX
@@ -283262,9 +283854,9 @@ vPq
 vPq
 vPq
 pUX
-pUX
-pUX
-pUX
+wdD
+nnC
+wdD
 pUX
 pUX
 pUX
@@ -283714,8 +284306,8 @@ vPq
 vPq
 pUX
 osc
-osc
-osc
+wdD
+wdD
 pUX
 pUX
 pUX
@@ -284167,7 +284759,7 @@ pUX
 pUX
 pUX
 osc
-osc
+wdD
 osc
 pUX
 pUX
@@ -392651,7 +393243,7 @@ sQN
 sQN
 sQN
 mxb
-kOO
+mxb
 mxb
 sQN
 sQN
@@ -393097,17 +393689,17 @@ mxb
 sQN
 sQN
 sQN
-mxb
+sQN
 mLl
 sQN
-mxb
 sQN
 sQN
-ybb
-ybb
-ezF
-ybb
-ybb
+sQN
+sQN
+sQN
+sQN
+sQN
+sQN
 mxb
 mxb
 sQN
@@ -393550,16 +394142,16 @@ mxb
 mxb
 mxb
 sQN
-mLl
-mxb
+sxt
+pxL
 sQN
-ybb
-ybb
-ybb
-ezF
-ezF
-ezF
-ybb
+sQN
+mxb
+mxb
+mxb
+mxb
+sxt
+pxL
 mxb
 mxb
 mxb
@@ -394003,15 +394595,15 @@ mxb
 sQN
 sQN
 sQN
-sQN
-sQN
-ybb
-xrQ
-ezF
-ezF
-ezF
-ezF
-ybb
+oAt
+vpB
+vpB
+vpB
+syJ
+vpB
+oAt
+mxb
+mxb
 mxb
 mxb
 mxb
@@ -394455,15 +395047,15 @@ sQN
 sQN
 sQN
 sQN
-sQN
-sQN
-ybb
-ezF
-ezF
-sQN
-sQN
-ezF
-ezF
+vpB
+xrQ
+jXd
+jXd
+jXd
+jXd
+wyQ
+mxb
+mxb
 sQN
 sQN
 sQN
@@ -394907,16 +395499,16 @@ sQN
 sQN
 mxb
 sQN
-sQN
-sQN
-sQN
-sQN
-sQN
-sQN
-sQN
-sQN
-sQN
-sQN
+vpB
+ibC
+qtm
+oGB
+oGB
+pBF
+vpB
+gLT
+mxb
+mxb
 sQN
 sQN
 kOO
@@ -395359,16 +395951,16 @@ sQN
 mxb
 mxb
 mxb
+gnV
+vfd
+fLb
+lZC
+nmX
+pBF
+vpB
 mxb
-ezF
-sQN
 mxb
-sQN
-sQN
-ezF
-sQN
-kOO
-sQN
+mxb
 mxb
 sQN
 sQN
@@ -395811,15 +396403,15 @@ sQN
 sQN
 sQN
 mxb
-sQN
-ezF
-sQN
-sQN
-sQN
-ezF
-ezF
-sQN
-sQN
+gnV
+lQw
+iuz
+pua
+cwH
+pBF
+rws
+mxb
+mxb
 mxb
 sQN
 mxb
@@ -396263,16 +396855,16 @@ mxb
 mxb
 mLl
 sQN
-ybb
-ezF
-sQN
-sQN
-sQN
-ezF
-ezF
-sQN
+gnV
+krj
+drQ
+gAd
+qeZ
+pBF
+vpB
 mxb
-ybb
+mxb
+mxb
 mxb
 sQN
 sQN
@@ -396715,16 +397307,16 @@ sQN
 mxb
 sQN
 sQN
-ybb
-ezF
-sQN
-ezF
-ezF
-ezF
-sQN
-sQN
-sQN
-ybb
+vpB
+ibC
+qtm
+oGB
+kPW
+pBF
+vpB
+gLT
+mxb
+mxb
 sQN
 sQN
 sQN
@@ -397167,14 +397759,14 @@ sQN
 sQN
 sQN
 sQN
-ybb
+vpB
 eIu
-ezF
-ezF
-sQN
-sQN
-sQN
-iYd
+pwY
+pwY
+pwY
+pwY
+cMQ
+mxb
 mxb
 mxb
 sQN
@@ -397619,14 +398211,14 @@ sQN
 mxb
 sQN
 sQN
-ybb
-ybb
-sQN
+oAt
+vpB
+vpB
+vpB
+syJ
+vpB
+oAt
 mxb
-mxb
-mxb
-ybb
-ybb
 mxb
 mxb
 sQN
@@ -398069,19 +398661,19 @@ sQN
 mxb
 sQN
 mxb
+sQN
+sxt
+pxL
 mxb
 mxb
 sQN
-mxb
-mxb
-sQN
 sQN
 sQN
 mxb
+sxt
+gLT
 mxb
 mxb
-mxb
-kOO
 muZ
 mxb
 sQN
@@ -508362,9 +508954,9 @@ diF
 diF
 diF
 diF
-diF
-diF
-diF
+pTU
+sqq
+pxE
 diF
 diF
 diF
@@ -508811,17 +509403,17 @@ diF
 diF
 diF
 diF
+wRC
+kDS
+kDS
+hLn
+eiB
+vnv
+kDS
+kDS
+pxE
 diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
+oaN
 diF
 diF
 diF
@@ -509263,15 +509855,15 @@ diF
 diF
 diF
 diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
+rEQ
+lzu
+xhy
+exi
+fnM
+aGq
+fnM
+hkr
+omh
 diF
 diF
 diF
@@ -509715,15 +510307,15 @@ diF
 diF
 diF
 diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
+rEQ
+lqA
+fox
+jXd
+cdg
+jXd
+sgS
+vcF
+rFa
 diF
 diF
 diF
@@ -510167,15 +510759,15 @@ diF
 diF
 diF
 diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
+rEQ
+gSt
+oHp
+pBF
+pBF
+pBF
+bxV
+gSt
+rFa
 diF
 diF
 diF
@@ -510618,17 +511210,17 @@ diF
 diF
 diF
 diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
+iwB
+hLn
+lqA
+ini
+pBF
+pBF
+pBF
+wcX
+mio
+vnv
+cCw
 diF
 diF
 diF
@@ -511070,17 +511662,17 @@ diF
 diF
 diF
 diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
+mdY
+eiB
+lqA
+vHo
+pBF
+pBF
+pBF
+wcX
+ioH
+eiB
+rFa
 diF
 diF
 diF
@@ -511522,17 +512114,17 @@ diF
 diF
 diF
 diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
+btb
+xTh
+lqA
+ini
+pBF
+pBF
+pBF
+wcX
+mio
+lFE
+hPs
 diF
 diF
 diF
@@ -511975,15 +512567,15 @@ diF
 diF
 diF
 diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
+rEQ
+gSt
+oHp
+qtm
+pBF
+pBF
+bxV
+gSt
+rFa
 diF
 diF
 diF
@@ -512427,15 +513019,15 @@ diF
 diF
 diF
 diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
+rEQ
+lqA
+bCe
+pwY
+lti
+pwY
+iqa
+uNq
+rFa
 diF
 diF
 diF
@@ -512879,15 +513471,15 @@ diF
 diF
 diF
 diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
+rEQ
+wxC
+tGM
+vMp
+jIO
+ydL
+jIO
+fZv
+omh
 diF
 diF
 diF
@@ -513331,17 +513923,17 @@ diF
 diF
 diF
 diF
+oet
+rQk
+rQk
+xTh
+eiB
+lFE
+rQk
+rQk
+nfL
 diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
-diF
+ltp
 diF
 diF
 diF
@@ -513786,9 +514378,9 @@ diF
 diF
 diF
 diF
-diF
-diF
-diF
+nLQ
+rQk
+aQK
 diF
 diF
 diF

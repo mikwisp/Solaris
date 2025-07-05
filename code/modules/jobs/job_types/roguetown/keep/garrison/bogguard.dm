@@ -4,8 +4,8 @@
 	department_flag = GARRISON
 	selection_color = JCOLOR_SOLDIER
 	faction = "Station"
-	total_positions = 4
-	spawn_positions = 4
+	total_positions = 6
+	spawn_positions = 8
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_ALL_KINDS
 	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD)
@@ -60,7 +60,7 @@
 	beltr = /obj/item/rogueweapon/stoneaxe/woodcut/wardenpick
 	backr = /obj/item/storage/backpack/rogue/satchel
 	r_hand = /obj/item/rogueweapon/spear
-	backpack_contents = list(/obj/item/rogueweapon/surgery/cautery/purging, /obj/item/flashlight/flare/torch/lantern = 1)
+	backpack_contents = list(/obj/item/rogueweapon/surgery/cautery/purging, /obj/item/needle = 1, /obj/item/flashlight/flare/torch/lantern = 1)
 	if(H.mind)
 		H.mind.adjust_skillrank(/datum/skill/combat/bows, 2, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/combat/wrestling, 4, TRUE) //Melee subclass and also garrison cannot have <4 wrestling/unarmed or we default to lethality
@@ -103,6 +103,7 @@
 	head = /obj/item/clothing/head/roguetown/helmet/kettle
 	armor = /obj/item/clothing/suit/roguetown/armor/leather/hide/warden
 	cloak = /obj/item/clothing/cloak/raincloak/furcloak/woad
+	neck = /obj/item/clothing/neck/roguetown/coif
 	neck = /obj/item/storage/keyring/guard
 	gloves = /obj/item/clothing/gloves/roguetown/leather
 	wrists = /obj/item/clothing/wrists/roguetown/bracers/leather
@@ -116,7 +117,7 @@
 	backr = /obj/item/rogueweapon/stoneaxe/woodcut/wardenpick
 	backl = /obj/item/storage/backpack/rogue/satchel
 	r_hand = /obj/item/gun/ballistic/revolver/grenadelauncher/bow/recurve
-	backpack_contents = list(/obj/item/rogueweapon/surgery/cautery/purging, /obj/item/flashlight/flare/torch/lantern = 1)
+	backpack_contents = list(/obj/item/rogueweapon/surgery/cautery/purging, /obj/item/needle = 1, /obj/item/flashlight/flare/torch/lantern = 1)
 	if(H.mind)
 		H.mind.adjust_skillrank(/datum/skill/combat/bows, 4, TRUE) 
 		H.mind.adjust_skillrank(/datum/skill/combat/crossbows, 3, TRUE) 
@@ -156,18 +157,19 @@
 	head = /obj/item/clothing/head/roguetown/helmet/leather/saiga
 	armor = /obj/item/clothing/suit/roguetown/armor/leather/hide/warden
 	cloak = /obj/item/clothing/cloak/raincloak/furcloak/woad
-	neck = /obj/item/storage/keyring/guard
+	neck = /obj/item/clothing/neck/roguetown/coif
 	gloves = /obj/item/clothing/gloves/roguetown/leather
 	wrists = /obj/item/clothing/wrists/roguetown/bracers/leather
 	shirt = /obj/item/clothing/suit/roguetown/armor/gambeson
 	pants = /obj/item/clothing/under/roguetown/trou/leather
 	id = /obj/item/scomstone/bad/garrison
 	shoes = /obj/item/clothing/shoes/roguetown/sandals
+	beltl = /obj/item/storage/keyring/guard
 	belt = /obj/item/storage/belt/rogue/leather
 	beltr = /obj/item/rogueweapon/stoneaxe/woodcut/wardenpick
 	backl = /obj/item/storage/backpack/rogue/satchel
 	l_hand = /obj/item/rogueweapon/shield/wood
-	backpack_contents = list(/obj/item/rogueweapon/surgery/cautery/purging = 1, /obj/item/flashlight/flare/torch/lantern = 1, /obj/item/ritechalk = 1)
+	backpack_contents = list(/obj/item/rogueweapon/surgery/cautery/purging = 1, /obj/item/flashlight/flare/torch/lantern = 1, /obj/item/needle = 1, /obj/item/ritechalk = 1)
 	if(H.mind)
 		H.mind.adjust_skillrank(/datum/skill/combat/bows, 2, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/combat/wrestling, 4, TRUE) //Garrison cannot have <4 wrestling or we default to lethality
@@ -219,7 +221,7 @@
 	. = ..()
 	head = /obj/item/clothing/head/roguetown/helmet/kettle
 	armor = /obj/item/clothing/suit/roguetown/armor/leather/hide/warden
-	cloak = /obj/item/clothing/cloak/wardencloak
+	cloak = /obj/item/clothing/cloak/wardencloak //no blue cloak for the apprentice, you gotta earn it.
 	neck = /obj/item/clothing/neck/roguetown/coif
 	gloves = /obj/item/clothing/gloves/roguetown/leather
 	wrists = /obj/item/clothing/wrists/roguetown/bracers/leather
@@ -233,7 +235,7 @@
 	backr = /obj/item/storage/backpack/rogue/satchel
 	backl = /obj/item/rogueweapon/stoneaxe/woodcut/wardenpick
 	r_hand = /obj/item/rogueweapon/spear
-	backpack_contents = list(/obj/item/rogueweapon/surgery/cautery/purging, /obj/item/flashlight/flare/torch/lantern = 1, obj/item/needle = 1)
+	backpack_contents = list(/obj/item/rogueweapon/surgery/cautery/purging, /obj/item/flashlight/flare/torch/lantern = 1, /obj/item/needle = 1)
 	if(H.mind)
 		H.mind.adjust_skillrank(/datum/skill/combat/bows, 2, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/combat/wrestling, 3, TRUE) //Melee subclass and also garrison cannot have <4 wrestling/unarmed or we default to lethality, in this case it's a squire so 2.
