@@ -104,20 +104,19 @@
 	armor = /obj/item/clothing/suit/roguetown/armor/leather/hide/warden
 	cloak = /obj/item/clothing/cloak/raincloak/furcloak/woad
 	neck = /obj/item/clothing/neck/roguetown/coif
-	neck = /obj/item/storage/keyring/guard
 	gloves = /obj/item/clothing/gloves/roguetown/leather
 	wrists = /obj/item/clothing/wrists/roguetown/bracers/leather
 	shirt = /obj/item/clothing/suit/roguetown/armor/gambeson/light
 	pants = /obj/item/clothing/under/roguetown/trou/leather
 	id = /obj/item/scomstone/bad/garrison
 	shoes = /obj/item/clothing/shoes/roguetown/boots/leather
-	beltl = /obj/item/quiver/arrows
+	beltl = /obj/item/storage/keyring/guard
 	belt = /obj/item/storage/belt/rogue/leather
-	beltr = /obj/item/rogueweapon/huntingknife/idagger/navaja
+	beltr = /obj/item/quiver/arrows
 	backr = /obj/item/rogueweapon/stoneaxe/woodcut/wardenpick
 	backl = /obj/item/storage/backpack/rogue/satchel
 	r_hand = /obj/item/gun/ballistic/revolver/grenadelauncher/bow/recurve
-	backpack_contents = list(/obj/item/rogueweapon/surgery/cautery/purging, /obj/item/needle = 1, /obj/item/flashlight/flare/torch/lantern = 1)
+	backpack_contents = list(/obj/item/rogueweapon/surgery/cautery/purging, /obj/item/needle = 1, /obj/item/flashlight/flare/torch/lantern = 1, /obj/item/rogueweapon/huntingknife/idagger/navaja = 1)
 	if(H.mind)
 		H.mind.adjust_skillrank(/datum/skill/combat/bows, 4, TRUE) 
 		H.mind.adjust_skillrank(/datum/skill/combat/crossbows, 3, TRUE) 
