@@ -882,7 +882,7 @@
 
 /obj/item/clothing/cloak/raincloak/furcloak/woad
 	name = "Warden's fur cloak"
-	desc = "The stark blue cloak worn by the Wardens of Rasura. When Old Sunmarch fell, a Warden bearing the flag of the Skymark could be seen leading the charge to find survivors amongst the ruins. The Wardens of Rasura now dye their furs in the old heraldry in remembrance of their sacrifice. Leave the honor for the knights- There is work to be done.
+	desc = "The stark blue cloak worn by the Wardens of Rasura. When Old Sunmarch fell, a Warden bearing the flag of the Skymark could be seen leading the charge to find survivors amongst the ruins. The Wardens of Rasura now dye their furs in the old heraldry in remembrance of their sacrifice. Leave the honor for the knights- There is work to be done."
 	color = "#597fb9"
 
 /obj/item/clothing/head/hooded/rainhood/furhood
